@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        PAGINA WEB
+    </title>
+</head>
+<body>
+
+<!-- LISTAS -->
+    <!-- ul es lista no ordenada (no esta numerada son simplemente puntos)  la etiquieta li espara 
+        listar los elementos osea agregarlos a la lista ol y ul.-->
+
+        <H2>Triangulos</H2>
+        <p>Resuelva los siguientes ejercicios considerando α, β, γ ángulos de un triangulo de catetos A, B, C </p>
+        <img src="img/Triangulo2.png" width="400"/>
+    <ul style="list-style: upper-roman;">
+        <li>Encuentre la medida del angulo que falte en el ΔABC <ol style="list-style:lower-alpha"><br>  <li><br><ol style="list-style: lower-greek;"><li>23º</li><li>80º</li><li></li>  </ol></li>     <li><br><ol style="list-style:lower-greek"> <li>37º</li> <li></li> <li>19</li></ol></li>    <li><ol style="list-style:lower-greek"><br> <li></li><li>47</li><li>70</li> </ol></li>  </ol></li>
+        <br>
+        <li>Encuentre la medida del lado que falte en el ΔABC<ol style="list-style: lower-alpha;"><br><li>  <ol style="list-style: upper-alpha"><br><li>3 cm</li><li>4 cm</li><li>¿? cm</li></ol></li>    <li><br><ol style="list-style: upper-alpha"><li>¿? cm</li><li>12 cm</li><li>13 cm</li></ol></li>   <li><br><ol style="list-style:upper-alpha"><li>8 cm</li><li>¿? cm</li><li>17 cm</li></ol></li>   </ol></li>
+
+    </ul>
+<!--  -->
+
+
+<hr>
+    <!-- ol es lista ordenada (esta enumerada dependiendo desde el primero hasta el ultimo) -->
+    <h3>CLASIFICADOS DEL GRUPO A PARA LA 2DA RONDA</h3>
+    <p> El numero indica el puesto que quedo el jugador tras la primera ronda</p>
+    <oL>
+        <li>Pedro <span style="color: green;">(Clasificado)</span>
+            <ul>
+                <li >Edad: 17</li>
+                <li >Sexo: Masculino</li>
+                <li >Main: Snake</li>
+                <li >Sponsor/Team: FUA!</li>
+            </ul>
+        </li>
+
+        <li>Juan <span style="color: green;">(Clasificado)</span></li>
+        <li>Matias <span style="color: green;">(Clasificado)</span></li>
+        <li>Jilberto <span style="color: green;">(Clasificado)</span></li>
+        <li value="20">Diego<span style="color:red;"> (No Clasificado)</span> </li>
+        <!-- los elememtos partiran desde el numero 1 osea el primer elemento tendra un 1 delante
+             el de la siguiente linea tendra un 2 etec, pero si quieres modificar el numero que va 
+             por delante del elemento tienes que hacerlo con la etiqueta value dentro de <li>--> 
+    </oL>
+
+
+<hr>
+
+
+
+    <form action="/formulario" method="post">
+        <label for="Nombres">Nombres:</label>
+        <input type="text" value= "Ferran" id="Nombres" name="Nombres" placeholder="Introduce tus Nombres" size="16"/>
+        <!-- como puedes ver la etiqueta input tiene solamente el start tag (<input/>) por lo tanto uno no puede colocar etiquetas dentro de esta
+             pero puedes tener muchos más tipos como el radio que la etiqueta button no la tiene, aunque no se puedan colocar más etiquetas no
+             que no puedas alterar sus valores, esto obvio que se puede y es dentro de los corchetes de <input/> -->
+        <br>
+        <label for="PrimerApellido">Primer Apellido:</label>
+        <input  type="text" value="Rojas" id="PrimerApellido" name="apellidos" placeholder="Introduce tu apellido Paterno (primero)" size="29" />
+        <br>
+        <label for="SegundoApelllido">Segundo Apelllido:</label>
+        <input type= "text" value = "Andreu" id="SegundoApelllido" name="apellidos" placeholder="Introduce tu apellido Materno (segundo)" size="30"/>
+        <br>
+        <label for="comentario">Comentario: </label>
+        <br>
+        <textarea id="comentario" name="Comentarios" placeholder="Comenta algo" cols="48" rows="10"> Nah bruh da shi basin</textarea>
+        <!-- recuerda que la etiqueta <textarea></textarea> para poner un valor por defecto no hay que ocupar la etiqueta 
+            value dentro del primer <> como si lo hace la etiqueta <input/> de type "text" osea que text area no tiene la caracteristica value 
+            para eso si queremos dejar un valor por defecto en la etiqueta <textarea></textarea> hay que colocar el texto entre los dos corchetes osea = <> aqui va el texto por defecto <> -->
+        <br>
+        <button type="submit"> Este es el nombre de la etiqueta button <br> <img src="img/A.jpg" width="60"/></button>
+        <!-- button type submit (envia los datos de formulario)
+             button type button (un boton el cual puede ser programada su accion por js)
+             button type reset  (devuelve los valores por defecto de las etiquetas de form)
+             como se puede ver, la etiqueta button tiene un start tag y un end tag lo cual 
+             le permite que dentro de ella, por lo tanto es más personalizable.
+
+         -->
+        <br>
+        <!--The name attribute is used when sending data in a form submission. Different controls respond differently.
+            For example, you may have several radio buttons with different id attributes, but the same name. When 
+            submitted, there is just the one value in the response - the radio button you selected.
+            Of course, there's more to it than that, but it will definitely get you thinking in the right direction.-->
+
+    </form>
+
+
+
+
+    <h1> Oli </h1>
+    <hr>
+    <h2> Oli 2</h2>
+    <hr>
+    <h3> Oli 3</h3>
+    <hr>
+    <h4> Oli 4</h4>
+    <hr>
+    <h5> Oli 5</h5>
+    <hr>
+    <h6> Oli 6</h6>
+    <hr>
+    <p>
+        Este texto sera <span style= "color: cadetblue;">mucho más largo</span> para poder explicar la etiqueta de span 
+        y ademas la etiqueta paragraph ! 
+    </p>
+    <!--Este texto es un comentario y aparecera en el 
+    contenido de la pagina-->
+   
+    <a target="_blank" href="https://metacritic.com"><span style="color: green;"> ir a metacritic</span> </a>
+    <br>
+    <img src="img/A.jpg" width="500" />
+    
+</body>
+</html>

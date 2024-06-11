@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <script src="index.js" defer></script>
+    <style>
+        
+        
+        h1{
+            margin-bottom: 0px;
+        }
+        p{
+            margin: 0px;
+        }
+        body{
+            font-family: myFont;
+        }
+        img{
+            width: 220px;
+            height: 200px;
+        }
+
+        button{
+            background-color: transparent;
+            border: none;
+        }
+       /*  button{
+            width: 5vh;
+            font-size: 4vh;
+            font-family: 'Courier New', Courier, monospace;
+        } */
+        body{
+            background-color: rgb(49,87,100);
+            text-align: center;
+        }
+        #characters{
+            width: auto;
+            text-align: center;
+            
+        }
+        #characters img{
+            width: 150px;
+            height: 150px;
+            margin-bottom: 10px;
+        }
+        
+        p, label{
+            text-align: center;
+            font-size: 30px;
+
+        } 
+
+        #box1{
+            height: auto;
+            display: flex;
+            
+            justify-content: space-around;
+            margin: 0 10%;
+            
+        }
+        @media(max-width:768px){
+            
+            #characters img, img{
+                margin-top: 10px;
+                width:200px;
+                height: 200px;
+                
+                
+            }
+          
+            body{
+                display: flex;
+                flex-direction: column;
+            }
+            p{
+                font-size: 4vh;
+                margin-bottom: 2vh;
+            }
+            h1{
+                
+                color: black;
+                flex-wrap: wrap;
+                font-size: 5vh;
+                
+
+            }
+            #box1{
+                margin-top: 2vh;
+                display: flex;
+                flex-direction: column;
+            }
+            #vehicles, #glider, #wheels, #characters{
+                margin: auto  ;
+                border: 10px solid rgb(50,40,60);
+                border-radius: 20%;
+                padding-top: 1vh;
+                padding-bottom: 10% ;
+                width: 250px;
+                height: 250px;
+                text-align: center;
+            }
+            
+
+            
+           
+        }
+    </style>
+    <title>Document</title>
+</head>
+<h1>mario mart 8 deluxe random picker</h1>
+<p style="font-size: 90%;"> by ferran & antonio </p>
+
+<body>
+    
+    <div id="characters">
+        <label for=""> characters </label><br>
+        <button id="characterButton"> <img src="default.png" id="frame4">   </button> 
+    </div>
+    <div id="box1">
+        <div id="vehicles">
+            <label for=""> vehicles </label>
+            <br>
+            <button id="mybutton"> <img src="default.png" id="frame1" > </button>
+        </div>
+    
+        <br>
+        <div id="wheels">
+            <label for=""> tires </label>
+            <br>
+            <button id="mybutton2"> <img src="default.png" id="frame2" > </button>
+        </div>
+    
+        <br>
+    
+        <div id="glider">
+            <label for=""> gliders </label> 
+            <br>
+            <button id="mybutton3"><img src="default.png" id="frame3" ></button>
+        </div>
+       
+
+    </div>
+    
+    
+</body>
+</html>

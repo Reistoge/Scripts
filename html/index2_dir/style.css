@@ -1,0 +1,1027 @@
+/* 
+css syntax:
+in html:
+
+<link href="style.css" type="text/css" rel="stylesheet">
+
+
+selector{property: value;}
+p {font-family: Arial;}
+
+    "p" is a selector, and the text inside of {} is the "declaration", "font-family" is the property, and "Arial" is the "value" of the declaration.
+
+
+h1, h2, h3 {color: yellow;}
+
+    h1, h2, h3 is a selector, the text inside of{} is the declaration, inside of declaration there is the "color" property and his "yellow" value"
+
+As you can see there always be a : after the property and a ; at the end of the value inside the {} gaps declaration.
+
+SELECTORS: indicates which(cual) elements the rule applies to.
+
+name:                  syntax example:              meaning:
+Universal selector:         *{}                 Targets all elements on the page.
+
+Type selector:          h1, h2, h3 {}           Targets all the h1, h2, h3 elements on the page.
+
+Class selector:     .note {} || p.note {}       Targets all the elements with the "note" class || targts all the "p" elements with the "note" class. 
+
+Id selector:            #introduction {}        targets the element who id is "introduction"
+
+Child selector:             li>a {}             Targets any child <a> elements that are CHILDREN of an <li> element BUT not other <a> elements in the page.(just target the child)
+
+Descendant selector:       p a {}               Targets any <a> elements that sit inside a <p> element, even if there are other elements nested between them.(could be childs of the childs, targets all of those elements inside of him )
+
+Adjacent sibling            h1+p{}              Targets the first <p> element above any <h1> element but not oher <p> elements.(just the first p above of h1)   
+selector:
+
+General sibling             img~p               Targets all the <p> elements that are siblings of <img>.
+(hermano)selector:                        
+
+
+
+
+
+RULES CASCADE: the last selector will take precedence or effect, if one selector is more specific than the others, the more specific rule will take precedence/effect.
+Specifity examples: h1 is more specific than * (h1 is one element and * is all), p b is more specific than p, p#intro is more specific than p and so on.
+
+
+
+DECLARATIONS: indicate how the elements referred to in the selector (mencionado en el selector) should be styled, declarations are split into two parts ("property" and a "value"):
+PROPERTIES: indicate the aspects of the element you want to change.     (color, font, width, heigth, and border)
+VALUE: specify the settings you want to use for the chosen properties.  (blue,  serif, 23px, 1.5ems, 2px solid black)
+
+selector {property: value;}
+
+
+COLOR (property): this property allows you to specify the color of text inside an element, you can specify colors in css in one of three ways:
+value type:          syntax example                      meaning:
+rgb values:     h1 {color: rgb(100, 100, 90); }          These express in color terms how much red, green and blue "are used to make it up" (se usan para componerlo)         
+hex code:       h2 {color: #ee3e80:}                     Six digits code that represent the amount of red, green and blue preceded by a #. 
+color name:     h3 {color: darkcyan;}                    there are 147 predifined color names that are recognized by browsers.
+
+Background-color(property): css treats each html element as if it appears in a a box, the background-color property sets the color of the bakcground of that box.
+you can specify the "background-color" values the same way as the "color" property, when picking foregroun color and background color its important to ensure that
+there is enough contrast for the text to be legible, high contrast to shorts texts and medium contrast for large texts, 
+there is a handyonline tool to see colors contrast https://coolors.co/contrast-checker/112a46-acc8e5
+
+OPACITY(rgba): you can specify the opacity of elements with the rgba value, the first 3 characters are rgb color picker, 
+the a is the alpha value and set the value in number between 0 and 1, for example: rgba(100,100,100,0.15) this is a grey color with 15% of opacity.
+
+hsla(hue,saturation,lightness,alpha), value of color/background-color: with this value you can specify color as another alternative of rgb, hex and names, 
+
+
+
+SPECIFYING TYPEFACES
+(font-family): this property allows you to specify the typeace that should be used for any text inside the elements,
+the value of this property is/are the names of the typefaces you want to use.
+generic fonts for webpages or whatever:
+-georgia    - times     -times new roman
+-arial      - verdana   -helveltica
+
+syntax example:
+
+{font-family: georgia, times, serif;} ------> you can specify a list of fonts separeted by commas so that if the user does not have 
+                                              your fist choice of typeface installed the browser can try to use an alternative 
+                                              font from the list.
+
+
+font-size (property): this property specify the size of the font with 3 different unities of measurement .
+unit of measurement:      syntax example:          meaning:                                       
+
+pixels(px)                font-size: 32px          Pixels are commonly used because they allow web designer very precise control over how much space their text takes up.
+
+percentages(%)            font-size: 50%           The default size of text in browser is 16 px. so a size of 75% would be the equivalent of 12px, and 200% would be 32px, you can change the default size in the html element with the font-size property.
+
+ems(em/rem)               font-size: 2em           1 em is 16 pixels, the rem is means "root em", the root em is the font-size of the html element that means the default font-size, if is not specify in the html by default the font size of a html document is 16 pixels, if your html document uses a font size of 12px a element with a fontsize with 2rems means that is 24px.
+
+- rems are relative to the html font-size value or default size, percentages are relative to the parent element font-size or size, ems and px are cuantify scales 1em are 16 pixels and 1px is 1 pixel.  
+
+
+
+You can use percentages to change the size/width/heigth but works different because they are relative with the size of the parent.
+
+SPECIFY FONTS: They are 3 forms for specify the font type or font family in your webpage.
+
+1.download the font and import on the @font-face.
+example:
+ON THE CSS FILE.
+@font-face {
+    font-family: 'Itim';
+    src: url(../../font/jostfont/Jost-VariableFont_wght.ttf);
+}
+*{font-family:'Itim', sans-serif ; background-color:#d4caca ;} -----> you have to specify a list of fonts in the font-family, the list contains various fonts separeted with commas the first font you write will be the the first font to load in the webpage, the others fonts were be like a backup font, if the browser dont load the fonts they are gona pass to the next font of the list and so on, this happen because the browser is not compatible or things like that
+
+
+2.link the font on googlefonts in the head element using the <link> element: This is using the link option on google fonts when you want to load or import a font via google fonts
+INSIDE THE head ELEMENT:
+<head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Itim&family=Jost&family=Manrope&family=Oswald:wght@600&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+
+</head>
+ Now the font is loaded so you can select this font in your html document using the font-family property in the css file, you have to specify as the google fonts call him in the css rules family.
+h1 {font-family:'Roboto Condensed', sans-serif ; background-color:#d4caca ;}
+
+
+
+3.import the url using @import url() on the css file: on your css you can import the font using the @import url('font url') on google fonts next to the <link> option is the @import option.
+INSIDE CSS FILE:
+@import url(@import url('https://fonts.googleapis.com/css2?family=Itim&family=Jost&family=Manrope&family=Oswald:wght@600&family=Roboto+Condensed:wght@300&display=swap');)
+
+The font now is loaded, so you only have to called or use it with the font-family property on css or with the style element in html.
+
+p {font-family:'Oswald', sans-serif ; background-color:#d4caca ;}
+
+
+
+IMPORTANT: IN THE CASE YOU IMPORT/DOWNLOAD/LINK the font AND YOU ARE GONNA LOAD WITH font-family property, you have to specify as the css rules family specify on google fonts or as they are called on the family fonts, if you called the font incorrectly the font wont load, also if the font have space between his name you have to use ''.
+if the font dont load you may:
+
+1. see if the link/route/ is well written.
+2. you specify the font-family of the font not as they are described in the css rules of the site that you find the font.
+example: the font is roboto so in the font-family property you called roboto, but in the css rules that gives you the site that you downloaded/link/import the font says that font family rules is Roboto condensed, you have to change it to what the page tells you.
+3. bad syntax. 
+
+
+font-weight(PROPERTY): allows you to create bold text, there are two values that commonly takes.
+value:                syntax example:                   meaning:
+normal            h1 {font-weight: normal;}             Puts the text in normal, weigth no bold.
+bold              p.important{font-weight: bold;}       Puts the text in bold.
+NUMBERpx          p{font-weight: 300px;}                Specify the font weigth with pixelm, more pixel value more heavy is the font. 
+
+font-style(PROPERTY): allows you to create italic text, there are two values that commonly takes.
+value:                syntax example:                   meaning:
+normal           h1 {font-style: normal;}               Puts the text in normal, weigth no italic.
+italic           p.important {font-style: italic;}      Puts the text in italic.
+oblique          p {font-style: oblique;}               Puts the text in oblique
+inherit          p {font-style: inherit;}               copy the font style of the parent
+initial          p {font-style: initial;}               puts the default or initial style of the font, is like a reset.  
+
+
+Note: see the difference between oblique and bold text here: https://design.tutsplus.com/tutorials/font-style-italic-vs-oblique-whats-the-difference--cms-41212
+NOTE 2: THE INHERIT AND INITIAL PROPERTY CAN BE USED IN COLOR, AND BACKGROUND PROPERTIES.
+
+text-transform (property): is used to change the case of text giving it one of the following values.
+
+value:                   syntax example                      meaning
+uppercase       h1{text-transform: uppercase;}              puts the text on uppercase.
+lowercase       p.info{text-transform: lowercase;}          puts the text on lowercase.
+capitalize      h2 {text-transform: capitalize}             puts the first letter of each word to appear capitalized/uppercase.
+
+
+text-decoration (property)(lines on texts): allows you to decorate the text.
+value:                      syntax example:                     meaning:
+none              article{text-decoration: none;}              removes any decoration already applied to the text.
+underline         footer{text-decoration: underline;}          adds a line underneath the text.
+overline          p.special{text-decoration: overline;}        adds a line over the top of the text.
+line-through      p.badwords{text-decoration: line-through}    add a line through words.
+blink             h2{text-decoration: blink;}                  animates the text to make it flash on and off.
+
+note: you can add/specify the colors and the size of the lines in px, ems, %. 
+
+
+
+
+
+line-height (property) (vertical spacing between lines): leading is the vertical space between lines of text, the lowest point of a letter is descender,
+while the highest point of a letter is called the ascender, the leading is the space between the descender of the line 
+above and the ascender of the line below is the vertical distance that separate the lines.
+You can specify this property in ems, rems, px and %, also you can give them colors and other things.
+
+syntax example:
+p.rules{line-height: 0.8rem;}
+
+
+
+
+letter & word spacing:
+letter-spacing(property): is the space between each letter of the text, you can specify with ems, rems, px and % 
+word-spacing(property): is the space between each word of the text, you can specify with ems, rems, px and %
+
+syntax example:
+p.info{letter-spacing: 1em;}
+footer{word-spacing: 3rem;}
+
+This properties are useful to make the text easier/more comfortable to read.
+
+
+text-align (property): Describes how inline contents of a block are horizontally aligned if the contents do not completely fill the line box.wwwwwwwwwwwwww
+values:             syntax example:                 meaning:          
+left                p.intro{text-align: left;}      indicates the text should be left-aligned.
+right               p.intro{text-align: right;}     indicates that the text should be right-aligned.
+center              h1{text-align: center;}         center the text.
+justify             p.body{text-align: justify}     indicates that every line in a paragraph, except the last, should be set to take up the (debe configurarse para ocupar el) full width of the containing box.
+
+
+vertical-align (property): this property allows you to vertical align text just with inline elements such as img, table, em, strong, etc, it is not intended to allow you to vertically align the text in the middle of a p element (block element).
+values:                syntax example                      meaning:
+auto          footer img{vertical-align: auto;}            Align the dominant baseline of the parent box with the equivalent, or heuristically reconstructed, baseline of the element inline box.
+text-bottom   footer img{vertical-align: text-bottom;}     Align the bottom of the box with the after-edge of the parent element's font.
+baseline      footer img{vertical-align: baseline;}        Align the 'alphabetic' baseline of the element with the 'alphabetic' baseline of the parent element. 
+middle        footer img{vertical-align: middle;}          Align the 'middle' baseline of the inline element with the middle baseline of the parent. 
+top           footer img{vertical-align: top;}             Align the child baseline on the top of the parent element  
+text-top      footer img{vertical-align: text-top;}        Align the text baseline on the top of the parent element
+super         footer img{vertical-align: super;}           Raise the baseline of the box to the proper position for superscripts of the parent's box.  
+sub           footer img{vertical-align: sub;}             Lower the baseline of the box to the proper position for subscripts of the parent's box. 
+ 
+in this case the img is the parent and all the indented text of inline elements after img is the child that the vertical-align property will take effect. 
+
+you only use this with inline elements that interact with others inline elements, block elements simply dont take effect.
+
+If you use this property with the img element you have to simply write text next to the img tag witohut a p tag because this is a block element.
+REMEMBER: block elements always show the text in a new line, inline elements show the info/text on the current line that is mentioned, if you write 2 p elements in the same line, in the webpage will appear the first up and the second below them because the p element is a block element .
+
+
+
+INDENTING TEXT:
+
+text-indent(property): indent the text, thats means that modify in pixels, ems, percentages where the text starts to be written if the text have a 300px of value
+on the text-indent property means that the text will be written 300px next to the starting point,  if its "value" is negative, the text  will be starts to be written or the "cursor" will moved  -X px backwards of the "cursor start point".
+you have to consider that will be modified the start point, its like the cursor moved and start showing the text all thats pixels nexts or backwards
+you moved only the first line of the text, so if you write text more text, this will not take effect, this happen when the text have a br inside the element, br elements makes that all the text you write next to him will starts to be
+shown in a new line making all the text before this elements the "first" or the line above.
+
+You can specify this property with px, ems, rems and %.
+
+
+
+DROP SHADOW:
+
+text-shadow (porperty): this property allows you to puts like a shadows effect on the text, this is effect is in fact a text behind the original that you can set up the position, blur and the color for this the property has 3 lenght for 1 value of the propoerty.
+
+syntax example:
+
+h2 { text-shadow: 2px 1px 1px #3C3C3C;}
+the first lenght will mean how far to the left or right the shadow should fall, 
+the second indicates the distance of the top/bottom the shadow should fall, 
+the third length means how blurry should be the text, 
+and the fourth indicates the color of the shadow text.
+
+h2 {text-shadow: x, y, blur, color}
+
+
+
+
+PSEUDO-ELEMENTS:
+you can specify in the selector different values for the first line or the first letter of a text, this is specifying between the select element and the declaration typing:
+:first-letter
+:first-line
+
+pseudo elements are used for text inside of a a tag or text elements.
+this are not elements because are written outside the declaration,  You specify the pseudo-element at the end of the selector, and then specify the declarations as you would normally for any other element
+this is the way to specify or select a letter or first line of a element text, as you specify a class or specify a id you can specify a first line or a first letter with this pseudo-elements
+
+syntax example:
+p.intro:first-letter{font-size: 3rem} ---> the size of the first letter will be 3*16 pixels
+
+PSEUDO-CLASSES:
+This classes are called the same way as the pseudo-elements, pseudo classes are used for <a> tags or links, they are five pseduclasses that allows you to set different styles for links or inputs. 
+NAME                    syntax example                                  meaning:
+:link           a.data:link{color: deepink;}                     allows you to set styles to a link that have not been visited 
+:visited        a.data:visited{color:orange;}                    allows you to set styles to a link that you already have clicked on
+:hover    a.data:hover{border: 1px solid black; color: aqua;}    allows you to set styles to a link or input when a user hovers over an element with a pointing device such a mouse.
+:active          a.data:active{color: deepink;}                  set style when the input field is on active mode, active mode is when you press and hold the input field.
+:focus           a.data:focus{color: grey;}                      set the style when the input field is on focus mode, focus is when are typng in a input field or textarea, because you clicked and you are ready to type something if you dont click anything more the input field is on focus mode 
+
+Tip: Use the :link selector to style links to unvisited pages, the :hover selector to style links when you mouse over them, and the :active selector to style links when you click on them.
+
+
+According to the CSS specification, the styles that can be applied to a:visited links are restricted to:
+
+color
+background-color
+border-color (and its sub-properties)
+outline-color
+
+Other styles such as background-image, text-decoration, font-size, etc. cannot be applied to a:visited links.
+
+This restriction is in place to ensure that the user's privacy is protected,
+as visited links can potentially contain sensitive information about their browsing history.
+
+pseudo-classes they should appear in this order, ;link, ;visited, ;hover, ;focus, ;active.
+
+
+
+Boxes:
+width & height: by default a box its sized just big enough to hold its contents, to set your own you can use this properties.
+
+example:
+
+in html:
+<div>
+<p>The Moog company pioneered the commercial
+ manufacture of modular voltage-controlled 
+ analog synthesizer systems in the early 
+ 1950s.</p>
+
+</div>
+
+in css:
+div.box{
+    width:500px
+    height:500px
+    background-color: red
+}
+p{
+    width:75%
+    height:100%
+    background-color:blue
+}
+
+In this case the you will see that the blue color indicates the size of the p box,
+the 75% of the div is for the p box so the 75% of the height should be blue and the other 25%
+should be the background-color of the div or of the "Parent" (red).
+The most popular way to specify is using percentages and ems becasue this measurements 
+are flexible and adapt to their user font settings and device 
+
+max & min width/height: some page designs expands to fit the size of the user screen, to limit the width/height that the page can resize,
+when make the window of your page smaller this properties can set the number of pixels/ems/% that can be min and max.
+
+example:
+body{
+    max-width: 800px
+    max-height:800px
+    min-width:400px
+    min-height:400px
+}
+This means that the element will be not larger or will not resized after the 800px and will not be smaller or will not resized under 400px.
+if your text or content inside this box exceeds the max width/height you should see the text one on top of the other or the text should resized a little buggy 
+to solve this we use the:
+OVERFLOW (property): lets you tells the browser what to do if the content dont fits in the box, this has two values.
+overflow="hidden" -------> the content that exceeds the box should not be shown in the page
+
+overflow="scroll" -------> set a scrollbar to view the missing content. 
+
+
+Every box has three available properties that can be adjusted to control their appearance:
+
+Border:every box has a border, the border separates the edge of one box from another this border can apply styles, width and colors, the border have 4 sides.
+
+border-width(property): set the size of the sides of the border box.
+
+values:                   syntax                      meaning
+width               p{border-width: 400px;}           every side of the border box has a width of 400px, also you can use thin, medium and thick as alternative values.
+top-width           p{border-top-width: 150px;}       --------------------------------------------
+right-width         p{border-right-width: 150px;}     --------------------------------------------
+bottom-width        p{border-bottom-width: 320px;}    --------------------------------------------
+left-width          p{border-left-width: 69px;}       --------------------------------------------
+
+IMPORTANT:
+You can also specify differents widths for the four border values this is using the border-width property:
+p {border-width: 30px 42px 12px 54px;}
+the values are in clockwise order: top, right, bottom, left.
+you cant use percentages in this property
+
+
+
+border-style(property): set the style of the border box.
+value;              example                  meaning
+solid;           p{border-style: solid;}    a solid single line
+dotted;          p{border-style: dotted;}   a series of square dots
+groove;          p{border-style: groove;}   appears to be carved into the page
+dashed;          p{border-style: dashed;}   a series of shorts lines
+double;          p{border-style: double;}   two solid lines
+ridge;           p{border-style: ridge;}    appears to stick out from the page
+inset;           p{border-style: inset;}    appears embedded into the page
+outset;          p{border-style: ouset;}    looks like its coming out of the screen
+hidden/none;     p{border-style: none;}     no border is shown
+
+
+IMPORTANT: you can also set this styles values for the specify properties of each sides/edges, border-top-style: border-right-style; border-bottom-style; border-left-style;
+
+border-color: set the color for the entire border, also you can specify the color for each edge of the border box with same value properties mentioned before
+example:
+p{border-color: red;} -----> set the color red for all the edges
+p{border-color-top: blue;} ------> set the color blue for the specify edge in this case is the top
+
+you can also specify the color of each edge in one value using the same as width with the clockwcwise order but in this case you use colors
+example:
+p{border-color:red blue green purple}
+the box has a red top, a blue right edge a green bottom and a purple left edge.
+
+SHORTHAND:
+You can set the width, the style and the color of a border in one property, this using the border property:
+example:
+p{border: 3px groove red}
+first is the width, second is the style and finally the color.
+the width of each edge of the border box is 3px.
+
+padding & margin:
+This two elements are intended as white spaces, so you cant specify a color style for them, this white spaces allows to create spaces between elements so you can just adjust/specify his size as well as a border.
+The difference between each other is that padding is the white space between the content and the border and the margin is the external layer, is the space between the border of him and the margin of other element
+so:
+padding is the most internal layer
+border is in the middle (you can add styles)
+margin is the external layer 
+
+specify the size of a padding & margin is easier than the border because as "white spaces" you can just adjust the sizes of him so you can just call the element and set a value in px/ems/rem or specify the edge and set the value
+you dont have to add the padding-width:, because the only thing you can adjust in a padding is the size, so when you add a value in padding/margin you adjust the size of the edges.
+value:              syntax example              meaning
+padding:         p{padding: 3px}            the size of each edge of the padding box is 3px
+margin:          p{margin: 3px}             the size of each edge of the margin box is 3px
+padding-left:   p{padding-left: 3px}        specify the size of one edge of the padding of an element(in this case is with the left edge)
+margin-left:   p{margin-left: 3px}          same but with margin
+
+
+shorthand: you can specify the size of each edge in one property.
+example:
+padding: 3px 5px 2px 7px   ------> is the same shorthand with the border-width (clockwise)
+margin:  4px 5px 1px 6px 
+if you put 2 values means that you want the values for the top-bottom (first value) right-left (second-value)
+
+margin: sit outiside the edge of the border, you can set the width of margin to create a gap between the borders of two adjacent boxes 
+paading: space between the border of a box and any content contained within it.
+this properties are like layers that enclose the text content in order are: margin, border, padding.
+padding and margin are very helpful in adding space between various items on the page.
+to make your text easy to read yo should apply white spaces or separation between borders, and boxes, this is using the recently mentioned properties.
+
+CENTERING ELEMENTS:
+
+first the element should a block element, With margin you can center elements this is setting the left and right values to auto and the
+text/content of the box should text-align: center you have to this because the box is center but not his content/text.
+
+with padding margin and border you can move boxes and add styles.
+
+display(property): this property allows you to turn an inline elemento to a block element or viceversa, you can also hide an element from the page.
+values:             syntax examples             meaning:
+inline              p{display: inline}          makes a block-level element acts like a inline-level element, so the element has no height and width property.
+inline-block        p{display: inline-block}    makes a block-level elements acts like a inline-level element, but the element conserves some block-level elements, like the width and height.
+block               p{display: block}           makes a inline-level element acts like a block-level element
+none                p{display: none}            hides the element 
+
+HIDDEN BOXES
+visibility(property): this property allows you to hide boxes from users and leaves a white space where the element would have been.
+value       syntax example          meaning
+hidden;     p{visibility:hidden;}   hides the visual element and leaves a white space keeps all the block or content space
+visible;    p{visibility:visible;}  makes the box visible
+
+IMPORTANT: the difference between display: none, and visibility: hidden is that the first delete the element, 
+his space in the page and his visual element, with the visibilty: hidden just hide the element, with a white space but conservers his box sizes and spaces.
+
+visibility: hidden; is like a white layer, and display:none; deletes the element.
+
+
+CSS3, BORDER IMAGES
+border-image(property): this property allows you to apply a image to the border of any box it takes a background image and slices it in nine pieces.
+-syntax-
+p{border-image: url(../img/bayonetta2.png) 11 11 11 11 stretch;}
+
+this property has 3 values:
+1. the url of the image
+2.where to slice the image 
+3.what to do with straight edges: 
+-stretch(stretch the img)-
+-repeat(repeat the img)-
+-round(like repeat but scales the img if dont fit exactly)-
+
+where to slice the image explanation:
+the border image have to splits the image in nine parts, the corners of the image sliced are the corners of the border and the 4 parts that are between each corner are the space between the coners of the border.
+to specify the dimension of the slice this can have 4 values, this values are the lines that sliced the image so 
+if you have this value: 23 43 54 12 
+means that should be a horizontal-line 23px below the top, a perpendicular-line 43px right to the left border, a horizontal-line 54px above the bottom border, and a perpendicular-line 12px left to the right border, in this position the lines slices the image in 9 parts you have all the parts to cover the border with a image !!.
+if you dont understand by this way look at this page https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders/Border-image_generator
+
+
+box-shadow(property): this property allows you add a shadow to a box element.
+syntax:
+p{box-shadow: 12px 3px 4px 45px black;}
+
+1.horizontal offset.
+2.vertical offset.
+3.blur.
+4.spread of shadow(expands or contract the shadow, area).
+5.The color.
+
+
+Border-radius(property): allows you to create "rounded" corners on any box.
+syntax:
+
+p{border-radius: 12px 23px 32px 11px}
+The value in pixels indicates the sizes of the radius in values, indicates the curves.
+more pixels indicates a more curved corner
+the four values of this properties indicates the radius of each corner.
+the order is clockwise
+1.border-top-left corner
+2.border-top-right corner
+3.border-bottom-right corner
+4.border-bottom-left corner
+ 
+You can specify the radius of each corner using this properties,
+this is in the case you want just to radius one corner.
+border-top-left-radius:
+border-top-right-radius:
+border-bottom-right-radius:
+border-bottom-left-radius:
+
+
+LIST, TABLES AND FORMS
+
+list-style-type(property): this property allows you to specify the type of buton/marker/bullet point that represents each listed item.
+
+¿can you add margin padding and border for your ol ul list?:
+    yes, you can, also you can give a margin to each list to separate one of each other
+
+¿can you add a margin padding and border to a li/list item?
+    yes, you can.
+the values are different between unordered list and ordered lists, but the syntax is identical:
+syntax:
+
+ul{list-style-type: disc;} ----> set the disc marker for each li of the ul.
+value markers for unordered lists:
+none
+disc (black point)
+circle
+square
+
+ol{list-style-type: decimal;} ----> set the decimal(numbers) marker for each li of the ol.
+value markers for ordered lists:
+decimal(1 2 3)
+decimal-leading-zero(01 02 03)
+lower-alpha(a b c)
+upper-alpha(A B C)
+lower-roman(i ii iii)
+upper-roman(I II III)
+
+this are not all the markers, they are more markers values for ol and ul in css3. 
+
+
+you can also set images as a markers this is using this property
+this works on ol and ul
+list-style-image:url(../url/of/the/image.png)
+
+list-style-position(property): allows you to set the position of the marker, inside or outside the content of each listed item.
+
+syntax:
+p{list-style-position:outside;} ----> the markers are outside the content of each li (default)
+p{list-style-position:inside;} -----> the markers are inside the content of each li
+
+outside:
+
+(marker)  sdklfjaskldfjsalkdfjaslkdjfkasldf
+          kldfsdfkjskdfjsdkfjsdklfjskdflsdf
+
+
+inside:
+
+(marker) kjsadfkljsdlfkjsdlkfjsakldfjlskdfj
+sdkfjskdljfksdjflaskdfjalksdfjaskldfjaslkd
+
+
+
+SHORTHAND: you can specify the type and position of a marker in one line.
+syntax:
+ol {list-style: inside upper-roman}
+ol {list-style: lower-alpha outside}
+ul {list-style: square outside;} 
+
+the order of style and position in this shorthand dont care.
+
+
+
+
+
+tables properties: tables uses several properties alredy seen it, this properties can be.
+all this properties can be used in the table element and his inside elements, such as tr td & th
+
+width
+padding
+text-transform
+letter-spacing, font-size
+border-top, border-bottom
+text-align, background-color
+:hover
+
+¿how can you use this properties to make a good looking table?
+-give cell paddings         -disntiguish headings
+-shade alternate rows       -align numerals
+¿ tr th td have a margin?
+    no, just the table element have a margin this element just have the property padding.
+
+
+empty-cells(property):this property allows you choose if a empty cell (td) should be shown with his border and a empty content or simply hide the content and his content leaving a empty space.
+this can have two values: show; and hide;
+show; is the default value because the element preserve his border style
+syntax:
+table tr.numbers{empty-cells: show;} ---> all the empty cells inside tr.number will show his border
+table {empty-cells: hide;} ----> all the empty cells of the table will not show his border and will be replaced as a white space
+table tr.numbers td.show{empty-cells: show; } ---->  all the elements td with the class show and with empty cell/content will show his border
+
+
+you can give this empty-cells property to the entire table to specify if you want to hide/show all the empty cells inside of a table
+if you give this to a tr will give the property to all the empty cells inside of them 
+if you give them to a td only this will have this property, because empty cells is an empty td.
+
+gaps between cells
+border-collapse(property): allows you to separate (default) each border of other or collapse all the borders between others.
+
+syntax:
+table{border-collapse: separate}
+table{border-collapse: collapse} 
+
+¿table has a padding?
+the table padding is the border-spacing property and you cant add this property if the borders are collapsed.
+you can give this property inside of a table element, remember, you cant give this property if the table element
+have a border-collapse: collapse value.
+
+to add a border you can create a div give a border and inside of them place the table element
+
+STYLING FORMS:
+
+To make you forms more attractive you and more consisten across different browsers you should style:
+-text inputs and text areas     -submit buttons
+-labels on forms.
+
+styling text inputs: to make a text element attractive you should style this properties or pseudo classes.
+
+1.font-size     2.color         3.background-color
+4.border      5.border-radius   6.:focus and :hover
+7.background-image.
+
+try to make your text input originally and attractive, choose colors that make your form striking.
+
+style submit buttons: here are some properties to make your submit buttons more attractive
+1.color     2.text-shadow(3d effect)     3.border-bottom(3d effect)
+4.background-color      5. :hover (pseudoclass)
+
+styling fieldsets & legends: tips to make this elements more prettier and striking in your page
+
+include this properties:
+1.padding   2.width(wrap elements)  3.border
+4.color     5.background-color      6.border-radius
+
+cursor(property): this property lets change the type of cursor for the user.
+
+example: p:hover{cursor:move;} --> change the cursor type to move.
+here are some values for the cursor property
+
+auto;
+crosshair; 
+default;
+pointer;
+move;
+text;
+wait;
+help;
+url('cursor.gif'); -----> for this property the image should be less bigger than 128x128 px
+
+summary:
+there are several properties used to control the appearence of tables, list and forms.
+list and markers can be given different appearences using the list-style-type and list-style-image properties
+table cells have borders and spacing 
+
+
+*/
+
+
+
+/* roboto condensed font using @import url and google fonts url.*/
+
+
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Jost&family=Manrope&family=Roboto+Condensed:wght@300&display=swap');
+/* itim font using @font-face and downloaded the font.*/
+@font-face {
+    font-family: 'Itim';
+    src: url(../../font/jostfont/Jost-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'Emulogic';
+    src: url(../../font/Emulogic-zrEw.ttf);
+}
+
+@font-face {
+    font-family: 'Unown';
+    src: url(../../font/Unown.ttf);
+}
+/* PAGE settings */
+*{color: #3C3C3C;font-family: 'Itim','Roboto Condensed','Emulogic','Unown' ; background-color:rgb(243, 115, 141) ; margin: 10px auto 10px auto}
+header h1 {color: #d4caca; background-color: #3C3C3C;font-size: 6rem; max-width:100%; text-align: center; margin: 0 0 3rem;} 
+h2 { font-size: 2.5em; font-style: italic;}
+article, article p, img{width: 500px;}
+article p, article a {text-align: justify;} 
+article{vertical-align: 100px; border: 10px groove violet; padding:0 2rem; font-size: 1.5rem;}
+article{margin-bottom: 4rem;}
+article p span{
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+img{border: 3px solid #3C3C3C}
+fieldset{background-color: #3C3C3C;}
+fieldset *{background-color: inherit; color: aliceblue;}
+a:link {
+    border: 3px dashed ;
+    color: purple;
+}
+a:visited {
+    border: 3px groove darkcyan;
+    color: red;
+}
+article a{
+    display: inline-block;
+    text-align: center;
+    margin: 10px auto 20px auto;
+    padding: 1px 2px;
+    
+    
+}
+article.prueba{
+    border: none;
+    text-align: center;
+    
+}
+    
+    
+article.prueba img{
+    margin-top: 3rem;
+    width: 45%;
+    height: 45%;
+    image-rendering: pixelated;
+    box-shadow: 0px 2px 23px 32px #3c3c3c;;
+    border-width: 12px;
+    border-image:url(../img/border.png) 8 3 stretch  ;
+    
+}
+
+legend{background-color: pink; border: groove; color:initial;}
+fieldset img{width: 15px; vertical-align: middle;}
+footer img{vertical-align: middle;}
+p.description:first-letter {font-size: 2rem;}
+article.ejemplo{text-shadow: -2px 2px 5px #111111;}
+p.data {text-align: center}
+input.hover:hover{color: rgb(243, 115, 141); border:4px groove rgb(243, 115, 141);}
+input.focus:focus {border: 5px dashed aqua;}
+textarea.active:active {border: 5px solid springgreen ;}
+
+
+
+
+/* example of the width and the height */
+div.example{ 
+    margin-left: auto;
+    margin-right:auto;
+    text-align: center;
+    border: 8px dashed slateblue;
+    padding: 4rem;
+}
+
+div.example p{
+    border: 10px dashed violet;
+    padding: 3rem;
+    font-size: 4rem;
+    font-family:'Emulogic';
+}
+
+footer{
+    width: 400px;
+}
+article.borderradius p,article.borderradius-dos p,article.borderradius-tres {
+    width: 80%;
+    height: 80%;
+    word-break: break-all;
+}
+article.borderradius{
+    height: 150px;
+    width: 100px;
+    border-radius: 100%;
+}
+article.borderradius-dos{
+    width: 4em;
+    height: 4em;
+    font-size: 16px;
+    border-radius: 100%;
+}
+article.borderradius-tres{
+    width: 50%;
+    height: max-content;
+    border-radius: 0px 50% 150% 80% / 0px 90% 80% 100% ;
+    /* top left, top right, bottom right, bottom left */
+}
+div h2, div h3{
+    text-align: center;
+}
+
+section.dos{ 
+    width: 500px;
+    border:15px groove grey  ;
+    padding: 3rem;
+    border-radius: 10px;
+
+    
+}
+section.dos ul, section.dos ol{
+    margin-bottom: 3rem;
+}
+section.dos ul.unordered-list-1{
+
+    list-style-type: disc;
+}
+section.dos ol.ordered-list-1{
+     
+    list-style-type:decimal-leading-zero ;
+}
+section.dos ul.unordered-list-2{
+    list-style: square inside
+}
+section.dos ol.ordered-list-2{
+    list-style : outside upper-alpha;
+}
+
+section.dos ul.unordered-list-3{
+    list-style-image: url(../img/markerOne.png) ;
+}
+section.dos ol.ordered-list-3{
+    
+    list-style-image: url(../img/marker.png);
+}
+section.tres{
+    padding: 4rem;
+    width: max-content;
+    border: 5px groove purple;
+}
+section.tres table th  {
+    border-top: 2px solid purple;
+    text-transform: uppercase;
+    border-bottom: 2px solid purple;
+}
+section.tres table td, section.tres table th, section.tres table tr{
+    padding: 1rem;
+    
+} 
+section.tres table tr td.money{
+    text-align: right;
+}
+section.tres table tr.shade td{
+
+    background-color: rgb(240, 82, 114)
+}
+section table td,section table th {
+    font-family:'Emulogic';
+    text-align: center;
+
+
+
+}
+table.two{
+    width:  500px;
+    height:  500px;
+    border: 10px dashed grey;
+    border-radius: 10px;
+    empty-cells: show;
+    margin-top: 8rem;
+    border-collapse: collapse;
+    
+    
+}
+table tr td:hover{
+    background-color: rgb(202, 32, 66);
+}
+table.two td{
+    border: 4px solid  rgb(240, 82, 114);
+    border-bottom: none;
+}
+table.two tr td{
+    width: 2rem;
+    padding:1rem   
+    
+}
+/* Form */
+fieldset.dos{
+    width: 400px;
+    border-radius: 10px;
+    padding: 2rem;
+    padding-top: initial;
+    padding-bottom: 0px;
+    border-color: black;
+}
+fieldset.dos legend{
+    padding:0 1rem  ;
+    font-size: 2rem;
+    margin-left:0px ;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    border-color: black;
+    color:black;
+    
+}
+
+fieldset.dos div.left{
+    margin-top: 0px;
+    width: 33%;
+    float: left;
+    text-align: left;
+    max-height: max-content;
+    
+}
+fieldset.dos div.left label:hover{
+    text-shadow: 2px 2px 3px rgb(240, 82, 114);;
+}
+fieldset.dos div.left label{
+    display: inline-block;
+    margin-top: 1rem;
+    margin-bottom: 0px  ;
+    text-shadow: 2px 2px 1px #181717
+    
+}
+fieldset.dos div.left input{
+    border-radius:5px;
+    margin-top: 0px;
+    border: 1px solid #181717; 
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px 1px black;
+    border-bottom: 3px solid #181717 ;
+    text-shadow: 2px 2px 1px #181717 ;
+    
+    
+}
+fieldset.dos div.left input:hover,fieldset.dos div.left input:focus{
+    background-color: #4b4a4a;
+}
+fieldset.dos div.left button{
+    width: 50%;
+    padding: 1%;
+    border: 1px solid #181717; 
+    border-radius: 5px;
+    border-bottom: 3px solid #181717 ;
+    text-shadow: 2px 2px 1px #181717 ;
+    box-shadow: 2px 2px 3px 1px black;
+    
+}
+
+
+fieldset.dos div.left button:hover{
+    color: rgb(240, 82, 114);
+    border-color: grey;
+}
+fieldset.dos div.center{
+    margin-bottom: -150px;
+    margin-right:45%;
+    text-align: center;
+    max-width: fit-content;
+    margin-top: 5rem;
+    text-shadow: 2px 2px 1px #181717 ;
+    
+}
+fieldset.dos div.center span{
+    
+    font-size: 2rem;
+}
+fieldset.dos div.right{
+    width: 33%;
+    height: fit-content;
+    float: right;
+    text-align: center;
+    margin-top:  0;
+    text-shadow: 2px 2px 1px #181717 ;
+    line-height: 1.5rem;
+    
+}
+fieldset.dos div.right a{
+    
+    border: none;
+}
+fieldset.dos div.right h4{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+}
+
+fieldset.dos div.right img{
+    width: 100%;
+    
+}
+fieldset.dos div.right img:hover{
+    /* cursor:pointer; */
+    cursor: pointer;
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+/* 
+JUST USE ALT AND MOVE THE LINES TO VIEW THE EFFECT.
+footer img{vertical-align: text-top;}
+footer img{vertical-align: baseline;}
+footer img{vertical-align: auto;}     
+footer img{vertical-align: text-bottom;}
+footer img {vertical-align: top; }
+footer img{vertical-align: middle;}
+footer img{vertical-align: middle;}
+*/

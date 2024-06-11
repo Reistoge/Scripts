@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 id="Titulo">ANCHOR TAG</h1>
+    <h2><ins>Con propiedad "target" de valor "_blank"</ins>: </h2>
+    <a target="_blank" href="https://www.google.com">Pincha aquí para abrir una nueva pestaña de Google!.</a> <!--En el caso de coloques target="_blank" se creara siempre una nueva pestaña al pinchar en el texto, osea que si ya se abrio google en ese caso y tu te vuelves a la pagina en donde la abriste y vuelves a pinchar, se abriria otra pagina nueva teniendo 2 paginas del link que pusiste en la etiquieta <a></a> -->
+    <br>
+    <a target="_blank" href="https://www.youtube.com">Pincha aqui para abrir una nueva pestaña de Youtube</a>
+
+    <hr>
+
+    <h2> <ins>Con propiedad "target" de valor "blank"</ins>:</h2>
+    <a target="blank " href="https://www.youtube.com">Pincha aqui para abrir solo una vez la ventana de Youtube</a>
+    <br>
+    <a target="blank" href="httpa://google.com">Pincha aqui para ir a Google! </a> <br>  <!-- Si tu colocas target="blank" pasara que se creara una pestaña nueva con el link sugerido pero se abrira una sola vez, si vuelves a la pagina anterior y vuelver a pinchar te devolvera a la pagina que se abrio anteriormente -->     
+
+    <hr>
+
+    <h2><ins>Sin propiedad target</ins>:</h2>
+    <a href="https://www.google.com">Pincha aqui para convertir la pagina en Google</a><br> <!--En el caso de que no coloques "target" y solo "href" (con el link) pasara que la pagina en la que pinchaste se convertira en el link que pinches -->
+    <a href="https://www.youtube.com">Pincha aqui para dirigir la pagina actual a Youtube</a> 
+    <br>
+    <br>
+    <hr>
+    <h2>"Names" relevantes para el atributo "href" del tag "anchor":</h2>
+    <ul>
+        <li><a href="anchor_image_example.html">Pincha aqui para ver a un Gengar en un archivo de html.(redirigir a un script)</a><!-- el atributo de href tambien puede ser dirigido a otros archivos html que esten en otros directorios del servidor o tu almacenamiento, en este caso tengo que especificar desde la ruta local de anchor.html, en este caso como estan en la misma carpeta solo escribo el nombre del script al que quiero que se rediriga. --></li>
+        <li><a href="../img/Wallpapers/1248273.png">Pincha aqui para abrir un wallpaper bakan</a>navegador abre un archivo .jpeg</li><!-- lo mismo que redirigir hacia un script, el navegador puede abrir otros tipos de archivos, no es necesario crear un script con una imagen, si el navegador ya es capaz de abrir imagen por defecto. -->
+        <li><a href="../../MP4/samus-aran-game-free-wallpaper.mp4">EPICO VIDEO</a></li><!-- ahora lo redirige a un video, esto se puede hacer ya que como el navegador soporta este tipo de archivos simplemente debo colocar la ruta en como "name" de href(atributo) -->
+        <li><a href="#Titulo"> Ir al titulo de la pagina. </a>(redirigir a una etiqueta dentro de la misma pagina usando el atributo "id", para que funcione esto la pagina debe ser más larga cosa que no se vea el titulo, puedes hacerle un zoom al 200% cosa antes de pinchar para ver el efecto de este "name").</li><!-- en el atributo href tenemos el name tipo "#(id)" el cual nos redirigira a la etiqueta el cual hayamos puesto el id del mismo valor,
+            en este caso al pinchar en este anchor me llevara al tag h1 de la linea nº12 porque esta referenciado con el id "titulo" tambien.   -->
+        <li><a href="mailto:ferranroj@gmail.com">Contactame aqui. (enviarle gmail a alguien)</a><!-- este name del atributo href de anchor nos permite enviar un gmail al que esta escrito dentro de "mailto" -->
+            <!-- Recuerda, la propiedad href="" indica la url a la cual seremos redirigidos, mientras que la propiedad target="" nos permite configurar en la manera que seremos redirigidos. --></li>
+    </ul>
+     
+</body>
+</html>

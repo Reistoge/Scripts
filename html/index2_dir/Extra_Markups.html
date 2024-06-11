@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="a html file of a explication and examples of the iframe and video tag" >
+    <meta name="keywords" content="iframe, html, video tag">
+    <meta name="robots" content="nofollow">
+    <meta http-equiv="author" content="Ferran Rojas">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="expires" content="mon, 30 jan 2023 23:59:59 EST ">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <h1>Iframe Tag</h1>
+    <p>The iframe tags let you put a box/frame with webpage on your webpage, its like a window but its inside of a box and the width and heigth are confifured by the author, you can put relative html files(same server/directory), or webaoges from other servers or sites.  </p>
+    <h2>Example 1</h2>
+    <iframe src="anchor.html" frameborder="1" width="500" ></iframe>
+
+    <!-- signo de interrogación --><abbr title="&lt;iframe src=&quot;anchor.html&quot;  frameborder=&quot;1&quot; width=&quot;500&quot; &lt;/iframe&gt;"><img src="../img/interrogation.png" width="20"></abbr>
+
+    <br><hr><h2>Example 2</h2> 
+    <iframe src="blog.html" frameborder="0" width="500"></iframe>
+    
+    <!-- signo de interrogación(ayuda) --><abbr title="&lt;iframe src=&quot;blog.html&quot;  frameborder=&quot;0&quot; width=&quot;500&quot; &lt;/iframe&gt;   OJO: Este no tiene borde ya que en frameborder=0, frameborder no modifica el tamaño de la caja, si fuese 1 o 1000 tendria borde pero del mismo tamaño, para eso debemos utilizar el atributo style."><img src="../img/interrogation.png" width="20"></abbr>
+
+    <br><hr><h2>Example 3</h2> 
+    <iframe src="Tablas.html" frameborder="1" width="500" style="border: 5px solid black;"></iframe>
+    
+    
+    <!-- signo de interrogación(ayuda) --><abbr title="&lt;iframe src=&quot;Tablas.html&quot;  frameborder=&quot;1&quot; width=&quot;500&quot; style=&quot;border: 5px solid black;&quot; &lt;/iframe&gt;"><img src="../img/interrogation.png" width="20"></abbr>
+    <br>
+    <h2>Example 4 </h2>
+    <p><i>Youtube</i> videos using the iframe tag:</p>
+    
+    <p>Dont forget to change/edit the url of the yt video, if you simply put the url as the value of the src attribute the webpage simply do not charge the content you have to modify the url 
+        <br>to show youtube videos in iframe you will need to change the url to make it work, let's say I have this url "https://www.youtube.com/watch?v=5EGC65xTIWE" to make it work in the 
+        <br> iframe tag I have to leave it like this "https:/ /www.youtube.com/embed/5EGC65xTIWE".</p>
+
+    <h3>Switch up !!</h3>
+    <iframe src="https://www.youtube.com/embed/5EGC65xTIWE" width="420" height="315"></iframe>
+        <!-- signo de interrogación--><abbr title="&lt;iframe src=&quot;https://www.youtube.com/embed/5EGC65xTIWE&quot; width=&quot;420&quot; height=&quot;315&quot;&gt;&lt;/iframe&gt;"><img src="../img/interrogation.png" width="20" ></abbr> 
+        <!-- para mostrar videos de youtube en iframe necesitaras de cambiar la url para que funcione, digamos que tengo esta url https://www.youtube.com/watch?v=5EGC65xTIWE para que funcione en el iframe tag debo de  dejarla asi https://www.youtube.com/embed/5EGC65xTIWE -->
+    
+    <br>
+    <br>
+    <hr>
+    <br>
+    <h3>Dan, de Puerta al Sotano !!</h3>
+    <iframe src="https://www.youtube.com/embed/B1zko7cAeTY" width="420" height="315" frameborder="1" style="border: 5px solid black;"></iframe>
+            <!-- signo de interrogación--><abbr title="&lt;iframe src=&quot;https://www.youtube.com/embed/B1zko7cAeTY&quot; width=&quot;420&quot; height=&quot;315&quot; frameborder= &quot;1&quot; style= &quot;border: 5px solid black;&gt;&lt;/iframe&gt;"><img src="../img/interrogation.png" width="20" ></abbr> 
+    <br>    
+    <br>
+    <hr style="border: 2px solid black;">
+
+    <h1><ins>Video tag</ins>:</h1>
+        <p>This tag allows you to upload different video formats to your page, the videos must be uploaded from a local path of the script. <br>
+            unlike iframe, "video" tag allows you to upload only videos as if it were an "img" tag, iframe allows you to preview other pages with their respective urls, that is, not only video but entire pages,
+            video tag is only for uploading videos , the videos must not be urls, that is, you cannot place a yt video url in src, but rather you must place a local path.</p>
+        <h3>Example 1:</h3>
+    <video controls autoplay loop width="800" style="border: 2px solid grey;"  > <source src="../../MP4/9ckk2au6yz491.mp4">Your browser does not support the video tag. </video>
+    <!-- puedes agregar más de un source dentro de la etiqueta de video, esto es para agregar disntos formatos, 
+        cuando no cargue el primer formato intentara con el siguiente y asi, es importante agregar distintos 
+        formatos ya que no todos los navegadores soportan el mismo formato de video.
+        atributos: control es para añadir controles al video, autoplay y loop lo dicen en su propio nombre, estos solo con ser llamados se activan, ya que son de logica booleana, puedes darle valor "true" y seria lo mismo. -->
+    
+            <!-- signo de interrogación --><abbr title= "&lt;video controls autoplay loop width=&quot;800&quot; style=&quot;border: 2px solid grey;&quot;&gt; &lt;source src=&quot;../../MP4/9ckk2au6yz491.mp4&quot;&gt;  Your browser does not support the video tag. &lt;/video&gt;"> <img src="../img/interrogation.png" width="20"> </abbr>
+    <br>
+    <br>
+    <!-- OJO video tag no soporta urls solo videos de ruta local, osea que tengas en tu almacenamiento, servidor. -->
+        <h3>Example 2:</h3>
+        <h3>(with poster attribute)</h3>
+
+    <video controls loop poster="../img/gift.gif" width="400" style="border: 1px solid black;"> <source src="../../MP4/rei-ayanami-bathwater-neon-genesis-evangelion-4k-live-wallpaper.mp4" > your browser does not support the video format </video>
+    <!-- OJO que las configuracón del video debe ser siempre dentro del tag video, esas dimensiones seran para poster
+         y para todos los source dentro del video tag, no puedes modificar width y heigth dentro de un source, "poster" 
+         es para añadir una miniatura al video, como si fuera un img. -->
+
+                <!-- signo de interrogación --><abbr title="&lt;controls loop poster=&quot;../img/gift.gif&quot; width=&quot;400&quot; style=&quot;border: 1px solid black;&quot;&gt; &lt;source src=&quot;../../MP4/rei-ayanami-bathwater-neon-genesis-evangelion-4k-live-wallpaper.mp4&quot;&gt; your browser does not support the video format &lt;/video&gt; "> <img src="../img/interrogation.png" width="20"></abbr>
+    <hr style="border: 2px solid black;">
+
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+     table, th, td{border: 1px solid black;}
+     /* aqui tu le estas diciendo a todos los elementos/tags table, th y td  que tengan el atributo {border: 1px solid;} es para no tener que ir a cada elemento y tener que agregar el mismo atributo o tambien para establecer un valor por defecto */
+
+</style>
+<style>
+     table {
+          width: 300px;
+     }
+     /* esto seria para todas las tablas que crees, estas estableciendo un valor por defecto de width cuando crees una tabla. */
+</style>
+
+    
+</head>
+
+<body>
+    <br />
+          <h1>Tablas</h1>
+          <!-- Tablas; -->
+          <table style="width: 300;"> <!-- esto seria para solamente esta tabla -->
+               <thead>
+                    <tr>
+                         <th>Producto</th><th>Precio</th>
+                         
+                    </tr>
+               </thead>
+               <tbody>
+                    <tr>
+                         <td>Hola beats</td><td>GRATIS</td>
+                    </tr>
+
+                    <tr>
+                         <td>Chanchito feliz</td><td>19,90$</td>
+                    </tr>
+
+                    <tr>
+                         <td>Chanchito feliz muy feliz</td><td>29,90$</td>
+                         
+                    </tr>
+               </tbody>
+               <tfoot>
+                    <td>TOTAL</td>
+                    <td>49.80</td>
+               </tfoot>
+          </table>
+
+
+<!-- la etiqueta table tiene multiples etiquetas que deben ser indentadas en ella para configurarla/ordernarla/personalizarla;
+     <tr></tr>: signfica "table row" osea que seria una linea entera la tabla, tr lo que hara sera crear una linea nueva para tu tabla. 
+     <th></th> y <td></td>: estas van indentadas en tr y son para añadir elementos a cada linea de nuestra tabla, por un lado th es para 
+     indicar un header de la tabla por lo tanto estara en bold y centrado, por un lado td es un dato de casilla de la tabla, osea para listar un objeto
+     en cambio th es para crear una sección o nombrar todos esos datos, si te confundes con todo esto, toma estos pasos para crear bien una tabla;
+     1.creas la etiqueta <table></table>
+     2.añades lineas a tu tabla con <tr></tr>
+     3.a tr le añades indentando td o th, esto es para añadirle datos de casillas(td) y descripcion/header de cada casilla(th) a cada tr, la mayoria de veces th ira siempre en el primer tr ya que este
+      será quien describa el conjunto de datos.
+     
+ 
+     
+     Bien, ahora tu tabla necesita ser ordenada por secciones, osea debes especificar cual es el header, el cuerpo de la tabla(donde estan los datos), y el foot(lo de más abajo, puede ser la suma de todos los datos en algunas ocasiones)
+     para esto ocuparas las etiquetas <thead></thead>, <tbody></tbody>, <tfoot></tfoot>, estas etiquetas estaran indentadas en table y dentro de cada una iran indentadas los tr que representen cada seccion de la tabla, osea que si pusiste dentro de table un tr con un th indentado
+     estas diciendo que deberia ser el header de tu tabla por lo tanto indentas toda eso dentro de thead, y asi con <tbody></tbody> y <tfoot></tfoot>, la gracia es que lo hagas al principio asi no tengas que molestarte en cortarlo y pegarlo denuevo con una etiqueta tbody/tfoot/thead 
+     pero en el video me lo enseñaron despues xd. -->
+
+
+
+
+    
+</body>
+
+</html>

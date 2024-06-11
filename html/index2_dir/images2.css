@@ -1,0 +1,273 @@
+/* tips for images, make a class section in css of the images sizes that you want, have a img small, medium and large, this
+this is to have a already a preset value for the images.
+
+you can align images in your text on different element, this makes that the image sits left or right the text, this give to your text or content a more organize
+text and makes it more readable.
+to do this you have 2 alternative, give the float property or give it the text-align property to the image.
+
+
+what is the display:flex; ???
+flex al parecer the permite facilmente alinear los elementos con respecto al contenido, resulta util cuando quieres alinear imagenes con texto rapido
+segun la syntax es una combinacion de position y float
+
+-remember, to do this you have to put the images before the content you want to put between, if you have 2 floating elements between
+one block element in the code, its the same as you did clear:both; between them, so they will never appear in the same horizontal level-
+
+
+background-image(property): allows you to put images to the background of an element.
+
+syntax:
+section {background-image: url(../image/bruh.png);}
+
+modify your background-image.
+
+after you set a background-image you can set different config to the backgrounf using this properties
+
+background-repeat (property) : set a background to your element
+-values-
+repeat;  ----> The background image is repeated both horizontally and vertically (the default way it is shown if the background-repeat property isn't used)
+repeat-x;  ------>  The image is repeated horizontally only (if the image crash with the width the image stop repeating).
+repeat-y; --------> same but with the is repeated vertically only
+no-repeat  -------> the image is shown only once.
+
+example:
+we have a image of 200x200 px and we have a element that is 600 width and 800 height.
+if we use "background-image" and we apply the "background-repeat:repeat-x;" property, the image will be repeated 3 times
+horizontally and the background will be cover in 600x200 px so 600x600 px of background will have a white space.
+same happens with repeat-y just that in this case is with the height.
+
+background-attachment: (property): this controls the behaviour of the image when the user scrolls or move in the page.
+-values-
+scroll; -----> the background image moves up and down as the user scrolls up and down the page as well as they do with the content..
+fixed;  -----> the background-image stays in the same position on the page.
+
+
+
+background-position (property): when a image is not being repeated you can use the bacground-position property to specify where in the browser window the image should be placed.
+
+-values-
+they are a pair of values, the first specify the horizntal position and the second the vertical position.
+so you can have a:
+left top;
+center top;
+right top;
+left center;
+...
+
+
+if you only specify 1 value the second will be center
+ You can also use a pair of pixels
+or percentages. These represent
+the distance from the top left
+corner of the browser window (example: background-position: 20px 50px; ----> "20px right"(horizontally) and "50px down" (vertically) the top left position)
+if is 50% 50% the imae will be centered.
+
+body{
+ background-image: url(../img/bg.png);
+ background-attachment: fixed;
+ background-position: center top;   
+ 
+}
+
+background (property) (SHORTHAND):
+this property allows you to set all these properties we just seen and also the background-color just in one property.
+this properties must be specified in the following order, you can miss any value if you do not want to specify.
+
+-ORDER-
+1.background-color
+2.background-image
+3.background-repeat
+4.background-attachment 
+5.background-position
+
+example:
+div{
+    background: url(../img/background.png) repeat fixed 
+}
+
+other examples
+{
+    background: url(../img/background) no-repeat scroll top center
+}
+CSS3 will also support the use
+of multiple background images
+by repeating the background
+shorthand. Because few
+browsers supported this
+property at the time of writing, it
+was not commonly used.
+you specify all the backgrounds and his values in the background property and you separate them with a comma
+div {
+ background:
+ url(example-1.jpg) top left no-repeat, 
+ url(example-2.jpg) bottom left no-repeat,
+ url(example-3.jpg) centre top repeat-x;}
+The first image is shown on top,
+with the last one on the bottom.
+
+
+
+when you set a entire image to cover  all the background of an element with the background-position will move the in pixels from its inner position,
+example we have a image of 1000px width element so if you move  it with the background-position 500px to the left the image will move in 500 px to the left an will repeat
+the image to cover all that 500px width left that you pass away moving the background, this happens when you have the background-repeat property set to to default, if the background is set
+to no repeat the image and the moment to be moved the pixel far as from its resolution or background space this will fills with white space all that pixels that the image was moved because 
+the image was moved 500px from his inner position, if the background has a 1000px and the image has a width of 1500  and you moved 500 px to the right the image will cover all that 1000px to the right(also the background will not show al that 500px from the left of the image.)
+
+
+if the image dont cover all the background and is only repeated once, the background-position; with the values will move this image around the background, if you have this setting:
+section{
+    width:800px
+    height:800px
+    background-image:url(../img/100x100pxImage.png);
+    background-repeat:no-repeat;
+
+}
+this means that the image dont cover all the background so the image is just behind the content, at the top left, if you set the values for position, you will move this image around the background, it seems like this but the thing is that the image covers all the background but with white space so if you move this element will move like white space,
+also this white space dont affect to the other images, the thing that happens is when you set multiple background-images with different resolution, the result are collapsed images.
+the first background-image will go on top of the second, the second will go on top of the third but crushed by the first, the first of all will not be crushed/stamped by others background-images he is on the top level   .
+
+
+
+
+
+
+*/
+
+
+/* predifined values */
+/* 
+img.small-portrait{
+    width: 220px;
+    height: 360px;
+}
+img.small-landscape{
+    width: 330px;
+    height: 210;
+}
+img.feature-photo
+{
+    width: 640px;
+    height: 400px;
+}
+
+*/
+body{
+    min-width: 800px;
+
+    width: 100%;
+
+}
+/* content */
+section{
+    
+    width: 60%;
+    margin: 0 auto 0 auto;
+}
+img{
+    margin: 3%;
+}
+img.align-left{
+
+float: left;    
+}
+img.align-right{
+    float: right;
+}
+p{
+    text-align: justify ;
+    
+}
+section img{
+
+    border: 3px solid grey;
+    width: 40%;
+}
+
+/* other-left */
+div.other-left{
+    width: 20%;
+    float: left;
+    
+
+}
+
+div.other-left img{
+    width: 80%;
+}
+/* other right */
+div.other-right{
+    margin-top: 2%;
+    width: 18%;
+    clear: right;
+    float: right;
+    text-align: left;
+}
+ 
+/* logo */
+
+div.logo{
+
+    /* display: flex; */
+    
+}
+div.logo img.icon{
+    image-rendering: pixelated;
+    width: 40%;
+    margin: 0px 0px;
+    float: left;
+}
+
+div.logo ul{
+    margin-top: 3%;
+    width: 50%;
+    padding-left:10% ;
+    float:right;
+
+
+}
+/* section 3 */
+section.tres{
+    color: rgb(205, 206, 240);
+     
+}
+section.tres img{
+    display: block;
+    margin: 2rem auto;
+
+}
+section.tres p, h2{
+    text-align: center;
+}
+section.tres {
+    background: url(../img/gengar.gif) no-repeat scroll top left, 
+    url(../img/Otro_Gengar.gif) no-repeat scroll center center,
+    url(../img/Más\ Gengar.gif  ) no-repeat scroll right top;
+
+}
+section.cuatro{
+     
+    height: 1000px;
+    background-image: url(../img/Wallpapers/14-141956_evangelion-asuka.png); 
+    background-repeat: no-repeat;
+    
+
+}
+section.cuatro:hover{
+    background-position: 250px 0px;
+}
+section.cuatro:active{
+    background-position: -500px 0px;
+}
+section.cinco{
+    height: 100%;
+    background-image: -webkit-linear-gradient(#336666,#66cccc);
+}    
+section.cinco h2{
+    margin: 0 auto;
+    font-size: 10rem;
+    word-break: break-all;
+    width: 25%;
+    
+}
+
+ 

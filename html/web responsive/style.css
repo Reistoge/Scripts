@@ -1,0 +1,288 @@
+/* RESET */
+*{
+    margin:0;
+    padding: 0;
+}
+
+/* styles */
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* header */
+header{
+    height: 100px;
+    background-color:#4d4d5c ;
+    padding: 0 30px;
+    color: cornsilk;
+    display: flex; /* ????? */
+    justify-content: space-between; /* ?????? */
+    align-items: center;
+}
+.logo{
+    text-transform: uppercase;
+    color: #6cc091;
+    font-weight:200;
+}
+.menu a{
+    padding: 0 10px;
+    color: cornsilk;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.4s ;
+}
+
+.EsconderMenu,.MostrarMenu{
+    font-size: 30px;
+    cursor: pointer;
+    transition:0.4s;
+    display: none;
+}
+.MostrarMenu{
+    order: 1; /* ?????? */
+}
+.menu a:hover, .MostrarMenu:hover, .EsconderMenu:hover{
+    color: #6cc091;
+}
+#check{
+    display: none;
+}
+/* banner */
+#banner{
+    background: url(../img/atomic-heart.png);
+    height: 55vh;
+    background-repeat: cover;
+    background-position: center center;
+    padding: 0 50px;
+}
+#banner::before{  /* ??????? */
+    content: '';
+    background: rgba(77,77,82,0.5);
+    position: absolute;
+    height: 55vh;
+    width: 100%;
+    left: 0;
+}
+.ContenidoBanner{
+    position: relative; /* ???? */
+    color: cornsilk;
+    height: 100%;
+    display: flex; /* ???? */
+    flex-direction: column; /* ????? */
+    justify-content: center;
+}
+.ContenidoBanner h3{
+    font-weight: 400;
+    font-size: 30px;
+    padding: 10px 0;
+}
+.ContenidoBanner h3 span{
+    font-weight: 600;
+}
+.BotonEmpezar{
+    text-decoration:none;
+    color: cornsilk;
+    padding: 10px 20px;
+    border: 2px groove #6cc091;
+    align-self: baseline; /* ?????????? */
+    transition: all 0.4s;
+}
+.BotonEmpezar:hover{
+    color: #6cc09898;
+}
+#personas{
+    padding: 50px 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#personas img{
+    image-rendering: pixelated;
+    width: 200px;
+    border-radius: 100%;
+}
+#personas div{  
+    padding: 30px 30px;
+}
+#personas div h4{
+    color: #4d4d5c;
+    font-size: 20px;
+    margin: 15px 0px;
+
+}
+#personas div p{
+    color: #4d4d5c87;
+    font-size: 18px;
+}
+.SaberMás{
+    display: inline-block;
+    text-decoration: none;
+    color: #4d4d5c;
+    padding: 10px 30px;
+    border: 3px solid #6cc091;
+    border-radius: 25px;
+    margin-top: 15px;
+    transition: all 0.4s;
+}
+.SaberMás:hover{
+    background: #6cc091;
+    color: cornsilk;
+}
+#iconos{
+    padding: 0px 50px;
+    background-color: rgba(77,77,82,0.6);
+}
+.ContenidoDeIconos{
+    padding: 50px 50px 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.ContenidoDeIconos div{
+    flex: 1;
+    margin:30px 0px;
+    border-right: 2px solid rgba(255, 255,255, 0.5);
+
+
+}
+#QuitarBordeC{ /* ID's TIENEN PREFERENCIA O SON MÁS ESPECIFICOS QUE UN CLASS */
+    border: none;
+}
+.ContenidoDeIconos div span{
+    font-size: 300%;
+    font-weight: 600;
+    color: #6cc091;
+}
+.ContenidoDeIconos div h4{
+    color: cornsilk;
+    margin: 10px 0px;
+
+}
+.ContenidoDeIconos div p{
+    margin: 0 30px;
+    color: azure;
+    font-size: 15px;
+
+}
+#iconos .BotonIconos{
+    text-align: center;
+    padding-bottom:40px
+}
+/* FORMULARIO */
+#Contacto{
+    background-color: #6cc091;
+    padding: 50px 0px;
+    color: cornsilk;
+}
+#Contacto h4{
+    text-align: center;
+    margin-bottom: 30px;
+
+    font-size: 25px;
+}
+#Contacto form{
+    max-width: 80%;
+    margin: 0 auto  ;
+}
+.datosForm{
+    display: flex;
+}
+.datosForm div{
+    padding: 20px;
+    flex: 1;
+}
+form label{
+    display: block;
+    margin-bottom: 10px;
+}
+form input, form textarea{
+    background-color: #6cc091;
+    border-radius: 10px;
+    border: 3px solid #8dcca9;
+    padding: 10px 5px;
+    outline: 0; /* ???? */
+    color: cornsilk;
+    width: 100%;
+        
+}
+form input:focus, form textarea:focus{
+    border-color: #4bae77;
+    box-shadow: 0 0 0 1 #4bae77;
+}
+form input::placeholder, form textarea::placeholder{
+    color:rgba(255, 248, 220, 0.733);
+    
+}
+.mensaje label{
+    margin: 0px ;
+}
+.mensaje{
+    display:flex;
+    flex-direction: column;
+    padding: 10px;
+} 
+.botonFormulario .SaberMás{
+    display: block;
+    border: 1px solid cornsilk;
+    border-radius: 20px;
+    color: cornsilk;
+    text-align: center;
+    transition: all 0.4s;
+}
+.botonFormulario .SaberMás:hover{
+    color: #4bae77;
+    background-color: cornsilk;
+}
+/* footer */
+footer{
+    padding: 10px 0px;
+    text-align: center;
+    background-color: #4d4d5c;
+    color: #4bae77;
+}
+
+/* Responsive */
+@media(max-width:768px){
+    .MostrarMenu, .EsconderMenu{
+        display: block;
+    }
+    .menu{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #4d4d5c;
+        right: -100%;
+        top: 0;
+        text-align: center;
+        padding: 100px 0;
+        z-index: 100;
+        transition: 0.8s;
+    }
+    .menu a{
+        display: block;
+        padding: 10px;
+    }
+    .EsconderMenu{
+        position: absolute;
+        top: 30px;
+        right: 30px;
+    }
+    #check:checked ~ .menu{
+        right: 0;
+        transition: 0.8s;
+    }
+    #personas{
+        flex-direction: column;
+
+    }
+    .ContenidoDeIconos{
+        flex-direction: column;
+        
+    }
+    .ContenidoDeIconos div{
+        border: none;
+    }   
+    #Contacto .datosForm{
+        flex-direction: column;
+    }
+}

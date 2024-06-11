@@ -1,0 +1,143 @@
+/*
+position(property):allows you to move block-elements, static is the default values to all block-elements the static value places the element where this should be.
+this default value is called, normal flow.
+there are 4 values that modify the position of the normal flow:
+
+1.relative position
+    
+    position:relative;
+
+this property allows you to move the element in pixels or ems in top-right-bottom-left angles,
+You can put other elements on top of others making your text unreadable, this happens since 
+the elements stop colliding with each other, as if they were on another plane or on another level.
+
+when you give this value to the element you should specify the direction and pixel you want to move your element.
+to move the element you have to give this other properties above the position:relative;
+properties:
+top:12px; ----> 12px down, because adds 12px to the top
+right:40px; ----> 40px left because adds 40px to the right
+bottom:60px; -----> 60px up adds 60px to bottom
+left:2px; -------> 2px right adds 2px to left          
+Remember that the element move this pixels from the initial position that this element should be placed.
+
+
+2.Absolute position
+
+    position:absolute;
+
+the box is taken out of his normal flow and no longer affects the position of ther elements.
+(they act like it is not there)
+you can move the element with the same properties to move the element that has a relative position, to this element
+you should give a width property, this prevent that the text overlaps and become unreadable.
+
+THE PROPERTIES TO MOVE THE ELEMENT (left, right, top, bottom)SHOULD BE NAMED AFTER YOU GIVE THE POSITION:"VALUE"; 
+
+3.fixed positioning
+
+    position:fixed;
+
+positions the element in relation to the browser window therefore, when user scrolls down the page, it stays in the exact same place.
+if you want that this element stick into the page in other position, you can use the properties mentioned before to move the element(top, right, bottom, right)
+after you called this property.
+
+z-index(property)
+also you have to specify the level that is element, if you give a border to this element but is in the same level as the other element that not use this property 
+the border or any style will be pass trough the styles of this elements, to fix this you should give a z-index property and set a value, in this case of 1, that 
+means that the other elements are in the level 0 because they dont use this property.
+
+p{
+    position:fixed;
+    border:1px solid black;
+    z-index:1;
+}
+
+
+floating(property):take the element in normal flow and place it as far to the left or right of the containing element as possible, anything else that sits inside the
+containing element will flow around the element that is floated.
+when you use this property you should give a width to the element to indicate how wide the floated element should be, also give it a overflow property with value auto.
+
+if your border dont appear when you have a element with only floated elements you should give a width:100%; and a overflow:auto;
+
+
+
+ */
+
+
+
+
+ 
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Righteous&display=swap');
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Righteous'
+}
+body{width: 960px;}
+article{width: 80%;}
+img{width: 100%;}
+article.one {
+position: relative;
+left: 50px;
+}
+article.one h1,h2{
+font-size: 200%;
+font-family: 'Righteous'
+}
+article.one p{
+font-family: 'Dosis', sans-serif;
+}
+div.quote{
+width: 80%;
+margin: 20px 0px;
+position:relative;
+left: 40px;
+}
+div.quote:hover{
+    border: 3px dashed darkred;
+    padding: 0px;
+}
+div.quote h4{
+font-size: 120%;
+font-family: 'Righteous';
+
+}
+span.property{
+    color: blueviolet;
+}
+/* examples */
+
+header h2.example2{
+    top: 90%;
+    /* left: 50%; */
+    position: fixed;
+    z-index: 1;
+    background-color: aliceblue;
+}
+header h2.example{
+    width: 50%;
+    position:absolute;
+    left: 100%;
+}
+img.abbr{
+    width: 15px;
+    margin-left:10px;
+    border: 2px solid darkred;
+    
+}
+div.Floated{
+    overflow: auto;
+    border-top: 3px solid grey;
+    border-left: 3px solid grey;
+    padding-left: 10px;
+    width: 400px;
+    float: right;
+    margin-left: 30px;
+}
+div.Floated2 h4{
+    margin-top: 0;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    overflow: auto;
+    padding-left: 5px;
+    width: 400px;
+    float: right;
+}
