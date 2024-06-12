@@ -1,0 +1,16 @@
+
+#countLabel{
+    font-family: monospace;
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+}
+div{
+    display: flex;
+    justify-content: space-between;
+    
+} 
+button{
+    width: 33%;
+}
+  
