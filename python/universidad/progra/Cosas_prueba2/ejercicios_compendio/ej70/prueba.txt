@@ -1,3 +1,0 @@
-bodega 1, sierra, 99, 204
-bodega 1, sierra, 99, 204
-bodega 2, sierra, 99, 204

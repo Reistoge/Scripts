@@ -1,1 +1,0 @@
-copy and paste all the files in the ffmpeg folder.

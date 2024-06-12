@@ -1,4 +1,0 @@
-2,Juan,Elena,Ovayork
-3,Antonio,Ferran,Rodrigo,Fantasilandia
-2,Pedro,Musculoso,la Serena
-3,Mordecai,Rigby,skipps,valpo

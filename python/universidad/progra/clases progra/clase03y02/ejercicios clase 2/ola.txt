@@ -1,4 +1,0 @@
-luis, edad=23, cuota=40
-Matias, edad=32, cuota=50
-Joaco, edad=10, cuota=45
-miguel, edad=11, cuota=31

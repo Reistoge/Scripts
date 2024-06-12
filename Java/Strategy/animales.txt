@@ -1,3 +1,0 @@
-ALIM_NORMAL
-Juancho,30,100,100
-Rex,50,80,90

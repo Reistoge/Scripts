@@ -1,9 +1,0 @@
-Antofagasta,Santiago,123
-Antofagasta,Coquimbo,120
-Antofagasta,Concepcion,240
-Santiago,Calama,89
-Santiago,iquique,56
-santiago,punta Arenas,156
-Concepcion,puerto Montt,134
-La serena,Santiago,99
-Copiapo,santiago,123
