@@ -1,0 +1,39 @@
+Ferrari,14
+Ferrari 812 Superfast,V12,6.4,789,Automática,2017,Presente
+Ferrari F8 Tributo,V8,3.9,710,Automática,2019,Presente
+Ferrari 488 Pista,V8,3.9,710,Automática,2018,Presente
+Ferrari GTC4 Lusso,V12,6.3,680,Automática,2016,Presente
+Ferrari Monza SP1/SP2,V12,6.5,809,Automática,2018,Presente
+Ferrari SF90 Stradale,V8,4.0,986,Automática,2019,Presente
+Ferrari F12berlinetta,V12,6.3,730,Automática,2012,2017
+Ferrari LaFerrari,V12,6.3,949,Automática,2013,2015
+Ferrari SF90 Stradale,V8,4.0,986,Automática,2019,Presente
+Ferrari FF,V12,6.3,651,Automática,2011,2016
+Ferrari 599 GTO,V12,6.0,670,Automática,2010,2012
+Ferrari 599XX,V12,6.0,740,Automática,2010,2012
+Ferrari 575M Maranello,V12,5.7,515,Automática,2002,2006
+Ferrari 550 Maranello,V12,5.5,485,Automática,1996,2001
+Renault,23
+Renault Megane R.S. Trophy,I4,1.8,300,Automática,2018,Presente
+Renault Clio R.S. Line,I4,1.6,205,Manual,2019,Presente
+Renault Clio R.S. Line,I4,1.6,205,Automática,2019,Presente
+Renault Twingo GT,I3,1,100,Manual,2017,Presente
+Renault Twingo,I3,0.9,100,Automática,2017,Presente
+Renault Captur R.S. Line,I4,1.3,156,Manual,2019,Presente
+Renault Captur R.S. Line,I4,1.3,156,Automática,2019,Presente
+Renault Zoe,I4,1.3,88,Automática,2012,Presente
+Renault Twizy,I2,1,17,Automática,2012,Presente
+Renault Fluence,I4,1.6,143,Automática,2010,2016
+Renault Talisman,I4,1.6,160,Automática,2015,2020
+Renault Scenic XMOD,I4,1.5,110,Automática,2013,2016
+Renault Megane GT,I4,1.6,205,Automática,2015,Presente
+Renault Laguna,I4,1.8,150,Automática,1993,2015
+Renault Laguna,I4,3.5,260,Automática,1993,2015
+Renault Koleos,I4,2.5,170,Automática,2008,2019
+Renault Fluence,I4,1.6,143,Manual,2010,2016
+Renault Talisman,I4,1.6,160,Manual,2015,2020
+Renault Scenic XMOD,I4,1.5,110,Manual,2013,2016
+Renault Megane GT,I4,1.6,205,Manual,2010,Presente
+Renault Laguna,I4,1.8,150,Manual,1993,2015
+Renault Laguna,I4,3.4,260,Manual,1993,2015
+Renault Koleos,I4,2.5,170,Manual,2008,2019

@@ -1,0 +1,4 @@
+marcelo,ucn,785
+ignacio,ua,345
+ricardo,ucn,845
+romina,ua,650

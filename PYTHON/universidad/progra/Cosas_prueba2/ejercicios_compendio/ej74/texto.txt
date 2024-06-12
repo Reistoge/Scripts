@@ -1,0 +1,11 @@
+Toyota Corolla,2015,18
+Honda Civic,2016,17
+Ford Focus,2018,15
+Chevrolet Cruze,2017,16
+Hyundai Elantra,2019,18
+Nissan Sentra,2015,17
+Kia Forte,2016,16
+Volkswagen Jetta,2018,17
+Subaru Impreza,2017,14
+Mazda 3,2019,18
+ 

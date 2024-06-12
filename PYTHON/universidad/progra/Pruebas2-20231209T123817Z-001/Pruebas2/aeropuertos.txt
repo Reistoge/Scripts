@@ -1,0 +1,892 @@
+TCY*Terrace Bay Airport*32*NA*AF
+ARG*Walnut Ridge Regional Airport*279*US*NA
+NKP*Nukutepipi Airport*32*PF*OC
+HMV*Hemavan Airport*1503*SE*EU
+RVK*Rørvik Airport, Ryum*14*NO*EU
+NLU*Santa Lucia Air Force Base*7369*MX*NA
+BTP*Pittsburgh/Butler Regional Airport*1248*US*NA
+HRK*Kharkiv International Airport*508*UA*EU
+LHC*Arlington Municipal Airport*308*US*NA
+ELX*Isla de Tigre  Heliport*20*VE*SA
+ARP*Aragip Airport*1750*PG*OC
+ATA*Comandante FAP German Arias Graziani Airport*9097*PE*SA
+MRI*Merrill Field*137*US*NA
+BGA*Palonegro Airport*3897*CO*SA
+GJT*Grand Junction Regional Airport*4858*US*NA
+YEC*Yecheon Airbase*354*KR*AS
+BUT*Bathpalathang Airport*8485*BT*AS
+KSW*Kiryat Shmona Airport*381*IL*AS
+BZT*Eagle Air Park*15*US*NA
+HUI*Phu Bai Airport*48*VN*AS
+XMG*Mahendranagar Airport*650*NP*AS
+AYS*Waycross Ware County Airport*142*US*NA
+ATQ*Sri Guru Ram Dass Jee International Airport*756*IN*AS
+AHH*Amery Municipal Airport*1088*US*NA
+NYI*Sunyani Airport*1014*GH*AF
+MPE*Griswold Airport*15*US*NA
+MAX*Ouro Sogui Airport*85*SN*AF
+VII*Vinh Airport*23*VN*AS
+EGH*El Gora Airport*324*EG*AF
+YJP*Hinton/Jasper-Hinton Airport*4006*CA*NA
+ACV*California Redwood Coast-Humboldt County Airport*221*US*NA
+OVD*Asturias Airport*416*ES*EU
+SHX*Shageluk Airport*79*US*NA
+WNA*Napakiak Airport*17*US*NA
+KRA*Kerang Airport*254*AU*OC
+BSY*Bardera Airport*4200*SO*AF
+NIS*Simberi Airport*10*PG*OC
+NGZ*Alameda Naval Air Station*10*US*NA
+BBP*Bembridge Airport*53*GB*EU
+RZR*Ramsar Airport*-70*IR*AS
+RVE*Los Colonizadores Airport*680*CO*SA
+BHJ*Bhuj Airport*268*IN*AS
+JUN*Jundah Airport*145*AU*OC
+CMW*Ignacio Agramonte International Airport*413*CU*NA
+UYL*Nyala Airport*2106*SD*AF
+QCY*RAF Coningsby*25*GB*EU
+PEC*Pelican Seaplane Base*0*US*NA
+ANE*Angers-Loire Airport*194*FR*EU
+CMB*Bandaranaike International Colombo Airport*30*LK*AS
+BBS*Blackbushe Airport*325*GB*EU
+BEZ*Beru Airport*6*KI*OC
+KSK*Karlskoga Airport*400*SE*EU
+PEL*Pelaneng Airport*7200*LS*AF
+OBD*Obano Airport*5800*ID*AS
+BUD*Budapest Liszt Ferenc International Airport*495*HU*EU
+SKJ*Sitkinak Airport*65*US*NA
+BBU*Băneasa International Airport*297*RO*EU
+SUS*Spirit of St Louis Airport*463*US*NA
+BYU*Bayreuth Airport*1601*DE*EU
+TER*Lajes Airport*180*PT*EU
+LDE*Tarbes-Lourdes-Pyrénées Airport*1260*FR*EU
+UGA*Bulgan Airport*4311*MN*AS
+ANA*Angama Airport*6180*KE*AF
+RAT*Raduzhny Airport*250*RU*AS
+XSE*Sebba Airport*886*BF*AF
+LIN*Milano Linate Airport*353*IT*EU
+CDD*Cauquira Airport*21*HN*NA
+VRB*Vero Beach Regional Airport*24*US*NA
+RSS*Damazin Airport*1582*SD*AF
+YDA*Dawson City Airport*1215*CA*NA
+KRN*Kiruna Airport*1508*SE*EU
+BKA*Bykovo Airport*427*RU*EU
+MEO*Dare County Regional Airport*13*US*NA
+FPY*Perry-Foley Airport*44*US*NA
+LSV*Nellis Air Force Base*1870*US*NA
+MAF*Midland International Airport*2871*US*NA
+JTI*Jataí Airport*2529*BR*SA
+PYO*Putumayo Airport*733*EC*SA
+MCH*General Manuel Serrano Airport*11*EC*SA
+ADT*Ada Regional Airport*1016*US*NA
+SKU*Skiros Airport*44*GR*EU
+YKU*Chisasibi Airport*43*CA*NA
+FJR*Fujairah International Airport*152*AE*AS
+ARN*Stockholm-Arlanda Airport*137*SE*EU
+AAS*Apalapsili Airport*3100*ID*AS
+BDG*Blanding Municipal Airport*5868*US*NA
+TDX*Trat Airport*105*TH*AS
+SQO*Storuman Airport*915*SE*EU
+DUS*Düsseldorf Airport*147*DE*EU
+VDM*Gobernador Castello Airport*20*AR*SA
+HCQ*Halls Creek Airport*1346*AU*OC
+ATH*Eleftherios Venizelos International Airport*308*GR*EU
+GUA*La Aurora Airport*4952*GT*NA
+YPJ*Aupaluk Airport*119*CA*NA
+CKA*Kegelman AF Aux Field*1202*US*NA
+SEP*Stephenville Clark Regional Airport*1321*US*NA
+CMC*Camocim Airport*16*BR*SA
+BIZ*Bimin Airport*5775*PG*OC
+EOI*Eday Airport*10*GB*EU
+TPJ*Taplejung Airport*7990*NP*AS
+ILO*Iloilo International Airport*27*PH*AS
+SIG*Fernando Luis Ribas Dominicci Airport*10*PR*NA
+YSI*Parry Sound/Frying Pan Island-Sans Souci Seaplane Base*580*CA*NA
+GND*Point Salines International Airport*41*GD*NA
+YNG*Youngstown Warren Regional Airport*1192*US*NA
+INX*Inanwatan Airport*9*ID*AS
+LYU*Ely Municipal Airport*1456*US*NA
+IGD*Iğdır Airport*3101*TR*AS
+PUL*Port of Poulsbo Marina Moorage Seaplane Base*0*US*NA
+XTR*Tara Airport*360*AU*OC
+OML*Omkalai Airport*5700*PG*OC
+BMK*Borkum Airport*3*DE*EU
+PMK*Palm Island Airport*28*AU*OC
+KIQ*Kira Airport*1700*PG*OC
+MPV*Edward F Knapp State Airport*1166*US*NA
+KKC*Khon Kaen Airport*670*TH*AS
+SZX*Shenzhen Bao'an International Airport*13*CN*AS
+LYO*Lyons-Rice County Municipal Airport*1691*US*NA
+LPI*Linköping City Airport*172*SE*EU
+RTM*Rotterdam The Hague Airport*-15*NL*EU
+ISP*Long Island Mac Arthur Airport*99*US*NA
+MZJ*Pinal Airpark*1893*US*NA
+ARH*Talagi Airport*62*RU*EU
+ENA*Kenai Municipal Airport*99*US*NA
+LPS*Lopez Island Airport*209*US*NA
+PUD*Puerto Deseado Airport*268*AR*SA
+SDV*Sde Dov Airport*43*IL*AS
+AAE*Rabah Bitat Airport*16*DZ*AF
+BOZ*Bozoum Airport*2215*CF*AF
+RGI*Rangiroa Airport*10*PF*OC
+YPA*Prince Albert Glass Field*1405*CA*NA
+SQW*Skive Airport*74*DK*EU
+IVG*Berane Airport*2287*ME*EU
+RNZ*Jasper County Airport*698*US*NA
+BJM*Bujumbura International Airport*2582*BI*AF
+CEL*Cape Eleuthera Airport*9*BS*NA
+BBV*Nero-Mer Airport*20*CI*AF
+XXN*Riyadh Air Base*2082*SA*AS
+DUK*Mubatuba Airport*210*ZA*AF
+KPI*Kapit Airport*65*MY*AS
+KTO*Kato Airport*2299*GY*SA
+RJL*Logroño-Agoncillo Airport*1161*ES*EU
+CCP*Carriel Sur Airport*26*CL*SA
+TDA*Trinidad Airport*649*CO*SA
+WMB*Warrnambool Airport*242*AU*OC
+EJT*Enejit Airport*30*MH*OC
+GSL*Taltheilei Narrows Airport*570*CA*NA
+SBY*Salisbury Ocean City Wicomico Regional Airport*52*US*NA
+JRF*Kalaeloa Airport*30*US*NA
+CGN*Cologne Bonn Airport*302*DE*EU
+GHF*Giebelstadt Airport*981*DE*EU
+YTU*Tasu Water Aerodrome*0*CA*NA
+PBH*Paro Airport*7332*BT*AS
+GHT*Ghat Airport*2296*LY*AF
+JGO*Qeqertarsuaq Heliport*9*GL*NA
+OTN*Ed-Air Airport*426*US*NA
+TRG*Tauranga Airport*13*NZ*OC
+URS*Kursk East Airport*686*RU*EU
+APP*Asapa Airport*1930*PG*OC
+CUL*Bachigualato Federal International Airport*108*MX*NA
+UIT*Jaluit Airport*4*MH*OC
+ENV*Wendover Airport*4237*US*NA
+THC*Tchien Airport*790*LR*AF
+ETH*Eilat Airport*42*IL*AS
+BKW*Raleigh County Memorial Airport*2504*US*NA
+COJ*Coonabarabran Airport*2117*AU*OC
+SOB*Sármellék International Airport*408*HU*EU
+LUD*Luderitz Airport*457*NA*AF
+AAI*Arraias Airport*1923*BR*SA
+SNZ*Santa Cruz Air Force Base*10*BR*SA
+OYA*Goya Airport*128*AR*SA
+MWZ*Mwanza Airport*3763*TZ*AF
+BSR*Basrah International Airport*11*IQ*AS
+DCR*Decatur HI-Way Airfield*842*US*NA
+AUJ*Ambunti Airport*50*PG*OC
+EWE*Ewer Airport*27*ID*AS
+SJM*San Juan Airport*1496*DO*NA
+JIC*Jinchuan Airport*4740*CN*AS
+ISJ*Isla Mujeres Airport*7*MX*NA
+SRV*Stony River 2 Airport*230*US*NA
+JRS*Jerusalem Airport*2485*PS*AS
+LOK*Lodwar Airport*1715*KE*AF
+LIY*Wright AAF (Fort Stewart)/Midcoast Regional Airport*45*US*NA
+CPX*Benjamin Rivera Noriega Airport*49*PR*NA
+YVE*Vernon Airport*1140*CA*NA
+GDP*Guadalupe Airport*564*BR*SA
+LBO*Lusambo Airport*1407*CD*AF
+KLF*Grabtsevo Airport*656*RU*EU
+BYC*Yacuiba Airport*2112*BO*SA
+MTI*Mosteiros Airport*66*CV*AF
+CYI*Chiayi Airport*85*TW*AS
+UPN*Licenciado y General Ignacio Lopez Rayon Airport*5258*MX*NA
+WUH*Wuhan Tianhe International Airport*113*CN*AS
+LTH*Lathrop Wells Airport / Jackass Aeropark*2650*US*NA
+HUS*Hughes Airport*299*US*NA
+XSP*Seletar Airport*36*SG*AS
+QUN*Camp Page Airport (A-306)*245*KR*AS
+DAT*Datong Airport*3442*CN*AS
+HAF*Half Moon Bay Airport*66*US*NA
+MCF*Mac Dill Air Force Base*14*US*NA
+RKP*Aransas County Airport*24*US*NA
+CVH*Caviahue Airport*5435*AR*SA
+WEI*Weipa Airport*63*AU*OC
+MIY*Mittebah Airport*865*AU*OC
+NAP*Naples International Airport*294*IT*EU
+CZL*Mohamed Boudiaf International Airport*2265*DZ*AF
+ZAZ*Zaragoza Air Base*863*ES*EU
+GDL*Don Miguel Hidalgo Y Costilla International Airport*5016*MX*NA
+SXM*Princess Juliana International Airport*13*SX*NA
+GUG*Guari Airport*6450*PG*OC
+CRG*Jacksonville Executive at Craig Airport*41*US*NA
+ACL*Aguaclara Airport*1090*CO*SA
+MES*Soewondo Air Force Base*114*ID*AS
+EGE*Eagle County Regional Airport*6548*US*NA
+ELF*El Fasher Airport*2393*SD*AF
+HKG*Hong Kong International Airport Kai Tak*28*HK*AS
+HKB*Healy Lake Airport*1180*US*NA
+MGN*Baracoa Airport*178*CO*SA
+MEL*Melbourne International Airport*434*AU*OC
+ERN*Eirunepé Airport*412*BR*SA
+HTI*Hamilton Island Airport*15*AU*OC
+MED*Prince Mohammad Bin Abdulaziz Airport*2151*SA*AS
+FSL*Fossil Downs Airport*414*AU*OC
+NIO*Nioki Airport*1043*CD*AF
+LII*Mulia Airport*6527*ID*AS
+FIH*Ndjili International Airport*1027*CD*AF
+BZU*Buta Zega Airport*1378*CD*AF
+YVG*Vermilion Airport*2025*CA*NA
+BTY*Beatty Airport*3170*US*NA
+LEN*Leon Airport*3006*ES*EU
+YXY*Whitehorse / Erik Nielsen International Airport*2317*CA*NA
+DRY*Drysdale River Airport*360*AU*OC
+WTS*Tsiroanomandidy Airport*2776*MG*AF
+TIP*Tripoli International Airport*263*LY*AF
+NAM*Namlea Airport*41*ID*AS
+WDG*Enid Woodring Regional Airport*1167*US*NA
+FOO*Kornasoren Airfield*13*ID*AS
+HOP*Campbell AAF (Fort Campbell) Air Field*573*US*NA
+ZER*Ziro Airport*5403*IN*AS
+PCC*Puerto Rico Airport*980*CO*SA
+EPH*Ephrata Municipal Airport*1276*US*NA
+ILL*Willmar Municipal -John L Rice Field*1126*US*NA
+PRO*Perry Municipal Airport*1013*US*NA
+CDU*Camden Airport*230*AU*OC
+REZ*Resende Airport*1320*BR*SA
+CDF*Cortina Airport*4213*IT*EU
+GUR*Gurney Airport*88*PG*OC
+VMI*Dr Juan Plate Airport*280*PY*SA
+SHY*Shinyanga Airport*3800*TZ*AF
+SXP*Nunam Iqua Airport*12*US*NA
+OVS*Sovetskiy Airport*351*RU*AS
+DBK*Dutch Bay SPB*0*LK*AS
+FUL*Fullerton Municipal Airport*96*US*NA
+OBL*Zoersel (Oostmalle) Airfield*53*BE*EU
+KLM*Kalaleh Airport*425*IR*AS
+ABH*Alpha Airport*1255*AU*OC
+TLF*Telida Airport*650*US*NA
+JBB*Noto Hadinegoro, Jember Airport*281*ID*AS
+IKB*Wilkes County Airport*1301*US*NA
+UEO*Kumejima Airport*23*JP*AS
+XRH*RAAF Base Richmond*67*AU*OC
+FYM*Fayetteville Municipal Airport*984*US*NA
+BAA*Bialla Airport*51*PG*OC
+YPM*Pikangikum Airport*1114*CA*NA
+PRH*Phrae Airport*538*TH*AS
+AIN*Wainwright Airport*41*US*NA
+RNO*Reno Tahoe International Airport*4415*US*NA
+ACZ*Zabol Airport*1628*IR*AS
+EDM*La Roche-sur-Yon Airport*299*FR*EU
+PED*Pardubice Airport*741*CZ*EU
+KMU*Kisimayu Airport*49*SO*AF
+LEU*Pirineus - la Seu d'Urgel Airport*2625*ES*EU
+MJN*Amborovy Airport*87*MG*AF
+TWA*Twin Hills Airport*82*US*NA
+VNR*Vanrook Station Airport*43*AU*OC
+HUC*Humacao Airport*33*PR*NA
+AIC*Ailinglaplap Airok Airport*16*MH*OC
+CLU*Columbus Municipal Airport*656*US*NA
+MIB*Minot Air Force Base*1667*US*NA
+CWF*Chennault International Airport*17*US*NA
+SKI*Skikda Airport*27*DZ*AF
+DCN*RAAF Base Curtin*300*AU*OC
+DNS*Denison Municipal Airport*1274*US*NA
+UEE*Queenstown Airport*867*AU*OC
+YSU*Summerside Airport*56*CA*NA
+IST*Istanbul Airport*325*TR*AS
+IHO*Ihosy Airport*2500*MG*AF
+STT*Cyril E. King Airport*23*VI*NA
+LSW*Malikus Saleh Airport*90*ID*AS
+VIQ*Viqueque Airport*500*TL*AS
+GFA*Malmstrom Air Force Base*3472*US*NA
+MHD*Mashhad International Airport*3263*IR*AS
+NVS*Nevers-Fourchambault Airport*602*FR*EU
+HPE*Hope Vale Airport*228*AU*OC
+CXL*Calexico International Airport*4*US*NA
+YAG*Fort Frances Municipal Airport*1125*CA*NA
+KEC*Kasenga Airport*3146*CD*AF
+RBC*Robinvale Airport*87*AU*OC
+ASA*Assab International Airport*46*ER*AF
+UPL*Upala Airport*184*CR*NA
+RAE*Arar Domestic Airport*1813*SA*AS
+BFD*Bradford Regional Airport*2143*US*NA
+CAQ*Juan H White Airport*174*CO*SA
+CPT*Cape Town International Airport*151*ZA*AF
+FTX*Owando Airport*1214*CG*AF
+CRK*Diosdado Macapagal International Airport*484*PH*AS
+SXW*Sauren Airport*46*PG*OC
+GMT*Granite Mountain Air Station*1313*US*NA
+KEG*Keglsugl Airport*8400*PG*OC
+HOU*William P Hobby Airport*46*US*NA
+BLS*Bollon Airport*182*AU*OC
+RMP*Rampart Airport*302*US*NA
+INU*Nauru International Airport*22*NR*OC
+HGL*Helgoland-Düne Airport*8*DE*EU
+CMA*Cunnamulla Airport*630*AU*OC
+TPN*Tiputini Airport*997*EC*SA
+HVB*Hervey Bay Airport*60*AU*OC
+KPF*Kondobol Airport*132*PG*OC
+FWH*NAS Fort Worth JRB/Carswell Field*650*US*NA
+POW*Portoroz Airport*7*SI*EU
+KRU*Kerau Airport*7360*PG*OC
+FUJ*Fukue Airport*273*JP*AS
+LNY*Lanai Airport*1308*US*NA
+QPS*Campo Fontenelle Airport*1968*BR*SA
+LPN*Leron Plains Airport*680*PG*OC
+SST*Santa Teresita Airport*9*AR*SA
+BHN*Beihan Airport*3800*YE*AS
+FLN*Hercílio Luz International Airport*16*BR*SA
+FAF*Felker Army Air Field*12*US*NA
+HIO*Portland Hillsboro Airport*208*US*NA
+TBE*Timbunke Airport*24*PG*OC
+KJI*Kanas Airport*3921*CN*AS
+LGM*Laiagam Airport*7267*PG*OC
+RTL*Spirit Lake Municipal Airport*1434*US*NA
+AOM*Adam Airport*1075*OM*AS
+HZP*Fort Mackay / Horizon Airport*916*CA*NA
+PPJ*Pulau Panjang Airport*155*ID*AS
+KCC*Coffman Cove Seaplane Base*0*US*NA
+ESF*Esler Regional Airport*112*US*NA
+DIE*Arrachart Airport*374*MG*AF
+SHC*Shire Inda Selassie Airport*6207*ET*AF
+KTN*Ketchikan International Airport*89*US*NA
+HOF*Al Ahsa Airport*588*SA*AS
+YLW*Kelowna International Airport*1421*CA*NA
+UMR*Woomera Airfield*548*AU*OC
+HDG*Handan Airport*229*CN*AS
+FEK*Ferkessedougou Airport*1102*CI*AF
+OSG*Ossima Airport*205*PG*OC
+YVZ*Deer Lake Airport*1092*CA*NA
+DUE*Dundo Airport*2451*AO*AF
+MTA*Matamata Glider Airport*180*NZ*OC
+ANU*V.C. Bird International Airport*62*AG*NA
+YCS*Chesterfield Inlet Airport*32*CA*NA
+FCA*Glacier Park International Airport*2977*US*NA
+SDK*Sandakan Airport*46*MY*AS
+PNQ*Pune Airport*1942*IN*AS
+IGT*Magas Airport*1165*RU*EU
+MMJ*Matsumoto Airport*2182*JP*AS
+AVP*Wilkes Barre Scranton International Airport*962*US*NA
+SUM*Sumter Airport*182*US*NA
+PSP*Palm Springs International Airport*477*US*NA
+RAZ*Rawalakot Airport*5479*PK*AS
+IVH*Ivishak Airport*677*US*NA
+GCW*Grand Canyon West Airport*4825*US*NA
+DAU*Daru Airport*20*PG*OC
+AOH*Lima Allen County Airport*975*US*NA
+YAJ*Lyall Harbour Seaplane Base*0*CA*NA
+HCC*Columbia County Airport*198*US*NA
+MVZ*Masvingo International Airport*3595*ZW*AF
+KEF*Keflavik International Airport*171*IS*EU
+KSH*Shahid Ashrafi Esfahani Airport*4307*IR*AS
+DVD*Andavadoaka Airport*30*MG*AF
+RRM*Marromeu Airport*43*MZ*AF
+KCS*Kings Creek Airport*615*AU*OC
+TNA*Yaoqiang Airport*76*CN*AS
+UAQ*Domingo Faustino Sarmiento Airport*1958*AR*SA
+FAU*Fahud Airport*552*OM*AS
+DWH*David Wayne Hooks Memorial Airport*152*US*NA
+EBW*Ebolowa Airport*1975*CM*AF
+PNZ*Senador Nilo Coelho Airport*1263*BR*SA
+TFS*Tenerife South Airport*209*ES*EU
+KGP*Kogalym International Airport*220*RU*AS
+MWJ*Matthews Ridge Airport*324*GY*SA
+MOB*Mobile Regional Airport*219*US*NA
+SZZ*Szczecin-Goleniów "Solidarność" Airport*154*PL*EU
+PKG*Pulau Pangkor Airport*19*MY*AS
+MKQ*Mopah Airport*10*ID*AS
+UTG*Quthing Airport*5350*LS*AF
+CZF*Cape Romanzof LRRS Airport*464*US*NA
+KIW*Southdowns Airport*4145*ZM*AF
+PRI*Praslin Airport*10*SC*AF
+KEX*Kanabea Airport*4288*PG*OC
+VPY*Chimoio Airport*2287*MZ*AF
+RDB*Red Dog Airport*969*US*NA
+VAT*Vatomandry Airport*39*MG*AF
+QIT*Itapetinga Airport*915*BR*SA
+CLW*Clearwater Air Park*71*US*NA
+BVZ*Beverley Springs Airport*385*AU*OC
+BSL*EuroAirport Basel-Mulhouse-Freiburg Airport*885*FR*EU
+FAY*Fayetteville Regional Grannis Field*189*US*NA
+BLO*Hjaltabakki Airport*131*IS*EU
+INM*Innamincka Airport*54*AU*OC
+LLG*Chillagoe Airport*1110*AU*OC
+PDV*Plovdiv International Airport*597*BG*EU
+RMQ*Taichung Ching Chuang Kang Airport*663*TW*AS
+LUS*Lusanga Airport*1365*CD*AF
+PSC*Tri Cities Airport*410*US*NA
+NNG*Nanning Wuxu Airport*421*CN*AS
+YAR*La Grande-3 Airport*775*CA*NA
+KYU*Koyukuk Airport*149*US*NA
+ILN*Wilmington Airpark*1077*US*NA
+PLX*Semipalatinsk Airport*761*KZ*AS
+HCA*Big Spring Mc Mahon-Wrinkle Airport*2573*US*NA
+KRW*Turkmenbashi Airport*279*TM*AS
+CFN*Donegal Airport*30*IE*EU
+WON*Wondoola Airport*58*AU*OC
+KNQ*Koné Airport*23*NC*OC
+ORU*Juan Mendoza Airport*12152*BO*SA
+NEN*Whitehouse Naval Outlying Field*99*US*NA
+BXJ*Boralday Airport*2313*KZ*AS
+APY*Alto Parnaíba Airport*968*BR*SA
+JGD*Jiagedaqi Airport*1205*CN*AS
+YPD*Parry Sound Area Municipal Airport*832*CA*NA
+MQH*Minaçu Airport*1401*BR*SA
+NAZ*Nana Airport*60*SB*OC
+OMA*Eppley Airfield*984*US*NA
+KWB*Dewadaru - Kemujan Island*35*ID*AS
+BHP*Bhojpur Airport*4000*NP*AS
+PHC*Port Harcourt International Airport*87*NG*AF
+LEK*Tata Airport*3396*GN*AF
+KWB*Dewadaru Airport*35*ID*AS
+KWH*Khwahan Airport*3593*AF*AS
+MZQ*Mkuze Airport*400*ZA*AF
+SCN*Saarbrücken Airport*1058*DE*EU
+PIE*St Petersburg Clearwater International Airport*11*US*NA
+HVD*Khovd Airport*4898*MN*AS
+YEI*Bursa Yenişehir Airport*764*TR*AS
+BFS*Belfast International Airport*268*GB*EU
+LGY*Lagunillas Airport*2469*VE*SA
+YMG*Manitouwadge Airport*1198*CA*NA
+BNX*Banja Luka International Airport*400*BA*EU
+JOI*Lauro Carneiro de Loyola Airport*15*BR*SA
+ARC*Arctic Village Airport*2092*US*NA
+JDO*Orlando Bezerra de Menezes Airport*1392*BR*SA
+BPA*Grumman Bethpage Airport*115*US*NA
+KGG*Kédougou Airport*584*SN*AF
+MFR*Rogue Valley International Medford Airport*1335*US*NA
+NLV*Mykolaiv International Airport*184*UA*EU
+LHE*Alama Iqbal International Airport*712*PK*AS
+BJG*Boalang Airport*146*ID*AS
+MGY*Dayton-Wright Brothers Airport*957*US*NA
+NEJ*Nejjo Airport*6150*ET*AF
+EFG*Efogi Airport*3900*PG*OC
+BIO*Bilbao Airport*138*ES*EU
+HEZ*Hardy-Anders Field / Natchez-Adams County Airport*272*US*NA
+ULK*Lensk Airport*801*RU*AS
+LEZ*La Esperanza Airport*5475*HN*NA
+PGR*Kirk Field*290*US*NA
+STW*Stavropol Shpakovskoye Airport*1486*RU*EU
+JFR*Paamiut Airport*120*GL*NA
+TEO*Terapo Airport*15*PG*OC
+MYG*Mayaguana Airport*11*BS*NA
+TKJ*Tok Junction Airport*1639*US*NA
+MFS*Miraflores Airport*730*CO*SA
+EYL*Yélimané Airport*325*ML*AF
+XCM*Chatham Kent Airport*650*CA*NA
+CNB*Coonamble Airport*604*AU*OC
+HUU*Alferez Fap David Figueroa Fernandini Airport*6070*PE*SA
+MUR*Marudi Airport*103*MY*AS
+ATW*Appleton International Airport*918*US*NA
+LKP*Lake Placid Airport*1747*US*NA
+TEC*Telêmaco Borba Airport*2610*BR*SA
+WIO*Wilcannia Airport*250*AU*OC
+THI*Tichitt Airport*561*MR*AF
+MGQ*Aden Adde International Airport*29*SO*AF
+GXH*Gannan Xiahe Airport*10510*CN*AS
+SNL*Shawnee Regional Airport*1073*US*NA
+CHF*Jinhae Airbase/Airport (G-813/K-10)*8*KR*AS
+LMI*Lumi Airport*1750*PG*OC
+GSO*Piedmont Triad International Airport*925*US*NA
+MQR*Mosquera Airport*50*CO*SA
+KWV*Kurwina Airport*65*PG*OC
+BTT*Bettles Airport*647*US*NA
+BNY*Bellona/Anua Airport*60*SB*OC
+CWT*Cowra Airport*966*AU*OC
+FPO*Grand Bahama International Airport*7*BS*NA
+LMN*Limbang Airport*14*MY*AS
+BHA*Los Perales Airport*10*EC*SA
+MRQ*Marinduque Airport*32*PH*AS
+NKX*Miramar Marine Corps Air Station - Mitscher Field*477*US*NA
+HAN*Noi Bai International Airport*39*VN*AS
+SNC*General Ulpiano Paez Airport*18*EC*SA
+ZVA*Miandrivazo Airport*203*MG*AF
+HRR*Herrera Airport*5740*CO*SA
+HZV*Hazyview Airport*1810*ZA*AF
+TKL*Taku Lodge Seaplane Base*0*US*NA
+AJJ*Akjoujt Airport*403*MR*AF
+TGM*Transilvania Târgu Mureş International Airport*963*RO*EU
+KLZ*Kleinsee Airport*270*ZA*AF
+TCL*Tuscaloosa Regional Airport*170*US*NA
+KKW*Kikwit Airport*1572*CD*AF
+TZL*Tuzla International Airport*784*BA*EU
+YST*St. Theresa Point Airport*773*CA*NA
+LZR*Lizard Island Airport*70*AU*OC
+SHF*Huayuan Airport*1700*CN*AS
+GRQ*Eelde Airport*17*NL*EU
+PLT*Plato Airport*69*CO*SA
+DNN*Dalton Municipal Airport*709*US*NA
+KOD*Kotabangun Airport*13*ID*AS
+ZAC*York Landing Airport*621*CA*NA
+YXD*Edmonton City Centre (Blatchford Field) Airport*2202*CA*NA
+PWY*Ralph Wenz Field*7102*US*NA
+MVC*Monroe County Aeroplex Airport*419*US*NA
+SHH*Shishmaref Airport*12*US*NA
+AST*Astoria Regional Airport*15*US*NA
+AHD*Ardmore Downtown Executive Airport*844*US*NA
+MUF*Muting Airport*70*ID*AS
+NCR*San Carlos*91*NI*NA
+GMS*Antônio Guerreiro Airport*245*BR*SA
+RIJ*Juan Simons Vela Airport*2707*PE*SA
+PTX*Pitalito Airport*4212*CO*SA
+LPE*La Primavera Airport*390*CO*SA
+APU*Captain João Busse Airport*2641*BR*SA
+GEM*President Obiang Nguema International Airport*2165*GQ*AF
+DJU*Djúpivogur Airport*9*IS*EU
+PHK*Palm Beach County Glades Airport*16*US*NA
+CTH*Chester County G O Carlson Airport*660*US*NA
+AER*Sochi International Airport*89*RU*EU
+KWN*Quinhagak Airport*42*US*NA
+PZH*Zhob Airport*4728*PK*AS
+PNS*Pensacola Regional Airport*121*US*NA
+OKA*Naha Airport*12*JP*AS
+CIO*Teniente Col Carmelo Peralta Airport*253*PY*SA
+PUN*Punia Airport*1742*CD*AF
+KOU*Koulamoutou Mabimbi Airport*1070*GA*AF
+COH*Cooch Behar Airport*138*IN*AS
+MDE*Jose Maria Córdova International Airport*6955*CO*SA
+AMN*Gratiot Community Airport*754*US*NA
+MYL*McCall Municipal Airport*5024*US*NA
+TUK*Turbat International Airport*498*PK*AS
+ERU*Erume Airport*6690*PG*OC
+MUA*Munda Airport*10*SB*OC
+LTB*Latrobe Airport*12*AU*OC
+SVP*Kuito Airport*5618*AO*AF
+PBN*Porto Amboim Airport*16*AO*AF
+MIA*Miami International Airport*8*US*NA
+GLW*Glasgow Municipal Airport*716*US*NA
+MQV*Mostaganem Airport*732*DZ*AF
+KQL*Kol Airport*5350*PG*OC
+HLM*Park Township Airport*603*US*NA
+DBP*Debepare Airport*360*PG*OC
+KLV*Karlovy Vary International Airport*1989*CZ*EU
+LYN*Lyon-Bron Airport*659*FR*EU
+KGX*Grayling Airport*99*US*NA
+ALQ*Alegrete Novo Airport*459*BR*SA
+SAK*Sauðárkrókur Airport*8*IS*EU
+SPJ*Sparti Airport*500*GR*EU
+QGB*Limeira Airport*2172*BR*SA
+BSX*Pathein Airport*20*MM*AS
+CRH*Cherrabah Airport*2228*AU*OC
+MNN*Marion Municipal Airport*993*US*NA
+ITN*Itabuna Airport*197*BR*SA
+IAD*Washington Dulles International Airport*312*US*NA
+RHE*Reims-Champagne (BA 112) Air Base*312*FR*EU
+LCV*Lucca-Tassignano Airport*39*IT*EU
+NGO*Chubu Centrair International Airport*15*JP*AS
+BPY*Besalampy Airport*125*MG*AF
+BYG*Johnson County Airport*4968*US*NA
+MLM*General Francisco J. Mujica International Airport*6033*MX*NA
+SSC*Shaw Air Force Base*241*US*NA
+RIA*Santa Maria Airport*287*BR*SA
+MSB*Marigot Seaplane Base*0*MF*NA
+FUG*Fuyang Xiguan Airport*104*CN*AS
+YDQ*Dawson Creek Airport*2148*CA*NA
+VVZ*Illizi Takhamalt Airport*1778*DZ*AF
+OLR*Salerno Landing Zone Airport*3780*AF*AS
+TQL*Tarko-Sale Airport*82*RU*AS
+SJK*Professor Urbano Ernesto Stumpf Airport*2120*BR*SA
+JAQ*Jacquinot Bay Airport*136*PG*OC
+TIO*Tilin Airport*1385*MM*AS
+KIG*Koingnaas Airport*228*ZA*AF
+BGJ*Borgarfjörður eystri Airport*80*IS*EU
+NGF*Kaneohe Bay MCAS (Marion E. Carl Field) Airport*24*US*NA
+MRX*Mahshahr Airport*8*IR*AS
+IMI*Ine Airport*4*MH*OC
+CBB*Jorge Wilsterman International Airport*8360*BO*SA
+GTB*Genting Airport*13*MY*AS
+MGA*Augusto C. Sandino (Managua) International Airport*194*NI*NA
+NYN*Nyngan Airport*569*AU*OC
+BRY*Samuels Field*669*US*NA
+COR*Ingeniero Ambrosio Taravella Airport*1604*AR*SA
+MOT*Minot International Airport*1716*US*NA
+REQ*Reko Diq Airport*2784*PK*AS
+MTE*Monte Alegre Airport*325*BR*SA
+ESA*Esa'ala Airport*10*PG*OC
+ENL*Centralia Municipal Airport*534*US*NA
+BCN*Barcelona International Airport*12*ES*EU
+UIK*Ust-Ilimsk Airport*1339*RU*AS
+CPP*Coposa Airport*12468*CL*SA
+RCL*Redcliffe Airport*36*VU*OC
+JDP*Paris Issy-les-Moulineaux Heliport*112*FR*EU
+RLG*Rostock-Laage Airport*138*DE*EU
+HXX*Hay Airport*305*AU*OC
+BVB*Atlas Brasil Cantanhede Airport*276*BR*SA
+OLN*Colonia Sarmiento Airport*877*AR*SA
+RCE*Roche Harbor Airport*100*US*NA
+KGL*Kigali International Airport*4859*RW*AF
+MDI*Makurdi Airport*371*NG*AF
+KNZ*Kenieba Airport*449*ML*AF
+TEP*Tep Tep Airport*7011*PG*OC
+ONL*The O'Neill Municipal John L Baker Field*2031*US*NA
+CDA*Cooinda Airport*13*AU*OC
+OVL*El Tuqui Airport*1100*CL*SA
+BGQ*Big Lake Airport*158*US*NA
+CND*Mihail Kogălniceanu International Airport*353*RO*EU
+VPN*Vopnafjörður Airport*16*IS*EU
+MIS*Misima Island Airport*26*PG*OC
+VRO*Kawama Airport*16*CU*NA
+DHM*Kangra Airport*2525*IN*AS
+HSZ*Hsinchu Air Base*26*TW*AS
+MWR*Motswari Airport*1160*ZA*AF
+TKS*Tokushima Airport/JMSDF Air Base*26*JP*AS
+ORW*Ormara Airport*10*PK*AS
+TKB*Tekadu Airport*1310*PG*OC
+GRE*Greenville Airport*541*US*NA
+LWA*Lebak Rural Airport*16*PH*AS
+HME*Oued Irara Airport*463*DZ*AF
+YHA*Port Hope Simpson Airport*347*CA*NA
+LJN*Texas Gulf Coast Regional Airport*25*US*NA
+NDI*Namudi Airport*1044*PG*OC
+PEX*Pechora Airport*98*RU*EU
+PAC*Marcos A. Gelabert International Airport*31*PA*NA
+ACJ*Anuradhapura Air Force Base*324*LK*AS
+INS*Creech Air Force Base*3133*US*NA
+SYW*Sehwan Sharif Airport*121*PK*AS
+AKU*Aksu Airport*3816*CN*AS
+CWP*Campbellpore Airport*1175*PK*AS
+MCL*McKinley National Park Airport*1720*US*NA
+ROV*Platov International Airport*213*RU*EU
+JYV*Jyvaskyla Airport*459*FI*EU
+CGT*Chinguetti Airport*1775*MR*AF
+TYR*Tyler Pounds Regional Airport*544*US*NA
+HLG*Wheeling Ohio County Airport*1195*US*NA
+MBH*Maryborough Airport*38*AU*OC
+PHG*Port Harcourt City Airport*57*NG*AF
+QUG*Chichester/Goodwood Airport*98*GB*EU
+YEH*Asaloyeh Airport*15*IR*AS
+SDI*Saidor Airport*83*PG*OC
+WMD*Mandabe Airport*951*MG*AF
+DAL*Dallas Love Field*487*US*NA
+ARJ*Arso Airport*208*ID*AS
+FFD*RAF Fairford*286*GB*EU
+JOH*Port St Johns Airport*1227*ZA*AF
+GMU*Greenville Downtown Airport*1048*US*NA
+EFW*Jefferson Municipal Airport*1044*US*NA
+PIT*Pittsburgh International Airport*1203*US*NA
+PKR*Pokhara Airport*2712*NP*AS
+AYU*Aiyura Airport*5355*PG*OC
+BKX*Brookings Regional Airport*1648*US*NA
+JZH*Jiuzhai Huanglong Airport*11327*CN*AS
+PBI*Palm Beach International Airport*19*US*NA
+SFX*Macagua Airport*231*VE*SA
+CEZ*Cortez Municipal Airport*5918*US*NA
+CNW*TSTC Waco Airport*470*US*NA
+YBC*Baie Comeau Airport*71*CA*NA
+EML*Emmen Air Base*1400*CH*EU
+MEH*Mehamn Airport*39*NO*EU
+PKT*Port Keats Airport*91*AU*OC
+NWT*Nowata Airport*2040*PG*OC
+UIR*Quirindi Airport*1054*AU*OC
+YFS*Fort Simpson Airport*555*CA*NA
+PKU*Sultan Syarif Kasim Ii (Simpang Tiga) Airport*102*ID*AS
+DRD*Dorunda Airport*58*AU*OC
+SWV*Shikarpur Airport*219*PK*AS
+KKT*Kentland Municipal Airport*698*US*NA
+EYK*Beloyarskiy Airport*82*RU*EU
+RNU*Ranau Airport*1800*MY*AS
+SKY*Griffing Sandusky Airport*580*US*NA
+EVV*Evansville Regional Airport*418*US*NA
+LKZ*RAF Lakenheath*32*GB*EU
+ITB*Itaituba Airport*110*BR*SA
+KMI*Miyazaki Airport*20*JP*AS
+TEQ*Tekirdağ Çorlu Airport*574*TR*EU
+PKY*Tjilik Riwut Airport*82*ID*AS
+PVA*El Embrujo Airport*10*CO*SA
+QSR*Salerno Costa d'Amalfi Airport*119*IT*EU
+MKG*Muskegon County Airport*629*US*NA
+NSO*Scone Airport*745*AU*OC
+DOY*Dongying Shengli Airport*15*CN*AS
+XYA*Yandina Airport*60*SB*OC
+BHU*Bhavnagar Airport*44*IN*AS
+TPA*Tampa International Airport*26*US*NA
+PSN*Palestine Municipal Airport*423*US*NA
+SAU*Sabu-Tardanu Airport*71*ID*AS
+DRB*Derby Airport*24*AU*OC
+OZC*Labo Airport*75*PH*AS
+TEI*Tezu Airport*800*IN*AS
+CEK*Chelyabinsk Balandino Airport*769*RU*EU
+CNV*Sócrates Rezende Airport*19*BR*SA
+TBU*Fua'amotu International Airport*126*TO*OC
+NDE*Mandera Airport*805*KE*AF
+YWO*Lupin Airport*1608*CA*NA
+AFI*Amalfi Airport*5507*CO*SA
+SFK*Soure Airport*43*BR*SA
+BZC*Umberto Modiano Airport*10*BR*SA
+AGE*Wangerooge Airport*7*DE*EU
+KAZ*Kao Airport*27*ID*AS
+BWX*Blimbingsari Airport*112*ID*AS
+MIF*Roy Hurd Memorial Airport*2615*US*NA
+IIL*Ilam Airport*4404*IR*AS
+YKX*Kirkland Lake Airport*1157*CA*NA
+IUS*Inus Airport*50*PG*OC
+SNG*Capitán Av. Juan Cochamanidis S. Airport*1354*BO*SA
+KEN*Kenema Airport*485*SL*AF
+VRU*Vryburg Airport*3920*ZA*AF
+KRP*Karup Airport*170*DK*EU
+BZM*Bemolanga Airport*950*MG*AF
+QSI*Moshi Airport*2801*TZ*AF
+AIF*Marcelo Pires Halzhausen Airport*1850*BR*SA
+GFF*Griffith Airport*439*AU*OC
+SVD*E. T. Joshua Airport*66*VC*NA
+YTG*Sullivan Bay Seaplane Base*0*CA*NA
+NGB*Ningbo Lishe International Airport*13*CN*AS
+WSR*Wasior Airport*49*ID*AS
+PME*Fleetlands Heliport*3*GB*EU
+LVA*Laval-Entrammes Airport*330*FR*EU
+SIP*Simferopol International Airport*639*UA*EU
+KAQ*Kamulai Airport*5800*PG*OC
+SJS*San José De Chiquitos Airport*974*BO*SA
+PPK*Petropavlosk South Airport*453*KZ*AS
+YGC*Grande Cache Airport*4117*CA*NA
+SVL*Savonlinna Airport*311*FI*EU
+SFF*Felts Field*1953*US*NA
+PLO*Port Lincoln Airport*36*AU*OC
+SZH*Senipah Heliport*38*ID*AS
+GUY*Guymon Municipal Airport*3123*US*NA
+YAZ*Tofino / Long Beach Airport*80*CA*NA
+KOY*Olga Bay Seaplane Base*0*US*NA
+KOL*Koumala Airport*2175*CF*AF
+DJH*Jebel Ali Seaplane Base*0*AE*AS
+SJH*San Juan Del César Airport*3608*CO*SA
+PNR*Pointe Noire Airport*55*CG*AF
+IPH*Sultan Azlan Shah Airport*130*MY*AS
+JXA*Jixi Xingkaihu Airport*760*CN*AS
+NLI*Nikolayevsk-na-Amure Airport*170*RU*EU
+CTQ*Santa Vitória do Palmar Airport*82*BR*SA
+APN*Alpena County Regional Airport*690*US*NA
+NNR*Connemara Regional Airport*70*IE*EU
+CNL*Sindal Airport*92*DK*EU
+NAL*Nalchik Airport*1461*RU*EU
+ALT*Alenquer Airport*55*BR*SA
+GYL*Argyle Airport*522*AU*OC
+KPO*Pohang Airport (G-815/K-3)*70*KR*AS
+SCH*Schenectady County Airport*378*US*NA
+HGE*Higuerote Airport*12*VE*SA
+BCB*Virginia Tech Montgomery Executive Airport*2132*US*NA
+KCB*Tepoe Airstrip*596*SR*SA
+AIK*Aiken Regional Airport*528*US*NA
+RJI*Rajouri Airport*3000*IN*AS
+YNY*Yangyang International Airport*241*KR*AS
+LLL*Lissadell Airport*374*AU*OC
+SVV*San Salvador de Paul Airport*576*VE*SA
+TZM*Cupul Airport*56*MX*NA
+KLK*Kalokol Airport*1245*KE*AF
+WAL*Wallops Flight Facility Airport*40*US*NA
+LMT*Crater Lake-Klamath Regional Airport*4095*US*NA
+BSC*José Celestino Mutis Airport*80*CO*SA
+CHL*Challis Airport*5072*US*NA
+WKB*Warracknabeal Airport*397*AU*OC
+ROO*Maestro Marinho Franco Airport*1467*BR*SA
+QJI*Ikamiut Heliport*49*GL*NA
+HRO*Boone County Airport*1365*US*NA
+TKQ*Kigoma Airport*2700*TZ*AF
+SXV*Salem Airport*1008*IN*AS
+DOE*Djumu-Djomoe Airport*290*SR*SA
+PUP*Po Airport*1050*BF*AF
+PWM*Portland International Jetport Airport*76*US*NA
+SZQ*Saenz Peña Airport*20*AR*SA
+HNN*Honinabi Airport*452*PG*OC
+RKW*Rockwood Municipal Airport*1664*US*NA
+LMS*Louisville Winston County Airport*575*US*NA
+SSN*Seoul Air Base (K-16)*92*KR*AS
+YCU*Yuncheng Guangong Airport*1242*CN*AS
+HLT*Hamilton Airport*803*AU*OC
+MPG*Makini Airport*2530*PG*OC
+IFO*Ivano-Frankivsk International Airport*919*UA*EU
+KOJ*Kagoshima Airport*906*JP*AS
+NCU*Nukus Airport*246*UZ*AS
+OMN*Osmanabad Airport*2277*IN*AS
+XBN*Biniguni Airport*215*PG*OC
+OKN*Okondja Airport*1325*GA*AF
+CWW*Corowa Airport*469*AU*OC
+TIY*Tidjikja Airport*1363*MR*AF
+YCD*Nanaimo Airport*92*CA*NA
+LNB*Lamen Bay Airport*7*VU*OC
+FHU*Sierra Vista Municipal Libby Army Air Field*4719*US*NA
+HIT*Haivaro Airport*180*PG*OC
+TRA*Tarama Airport*36*JP*AS
+KMK*Makabana Airport*495*CG*AF
+EJN*Ejin Banner-Taolai Airport*3077*CN*AS
+TGH*Tongoa Airport*443*VU*OC
+WVL*Waterville Robert Lafleur Airport*333*US*NA
+TYS*McGhee Tyson Airport*981*US*NA
+UST*Northeast Florida Regional Airport*10*US*NA
+EGC*Bergerac-Roumanière Airport*171*FR*EU
+TTN*Trenton Mercer Airport*213*US*NA
+MZE*Manatee Airport*343*BZ*NA
+CXI*Cassidy International Airport*5*KI*OC
+HTZ*Hato Corozal Airport*820*CO*SA
+LMQ*Marsa Brega Airport*50*LY*AF
+GIT*Mchauru Airport*3955*TZ*AF
+ELG*El Golea Airport*1306*DZ*AF
+POI*Capitan Nicolas Rojas Airport*12913*BO*SA
+STX*Henry E Rohlsen Airport*74*VI*NA
+TTT*Taitung Airport*143*TW*AS
+ISC*St. Mary's Airport*116*GB*EU
+ATP*Aitape Airport*10*PG*OC
+YYG*Charlottetown Airport*160*CA*NA
+TCM*McChord Air Force Base*322*US*NA
+PDK*DeKalb Peachtree Airport*1003*US*NA
+TUA*Teniente Coronel Luis a Mantilla Airport*9649*EC*SA
+AAB*Arrabury Airport*334*AU*OC
+KBS*Bo Airport*328*SL*AF
+IHU*Ihu Airport*70*PG*OC
+IJK*Izhevsk Airport*531*RU*EU
+RIX*Riga International Airport*36*LV*EU
+LKD*Lakeland Airport*930*AU*OC
+HOC*Komako Airport*3960*PG*OC
+LEF*Lebakeng Airport*6000*LS*AF
+GBK*Gbangbatok Airport*75*SL*AF
+SBD*San Bernardino International Airport*1159*US*NA
+FOC*Fuzhou Changle International Airport*46*CN*AS
+ZRZ*Zaraza Airport*400*VE*SA
+DSO*Sondok Airport*12*KP*AS
+SMG*Santa Maria Airport*769*PE*SA
+LKA*Gewayentana Airport*63*ID*AS
+SDE*Vicecomodoro Angel D. La Paz Aragonés Airport*656*AR*SA
+ARF*Acaricuara Airport*587*CO*SA
+NQY*Newquay Cornwall Airport*390*GB*EU
+YRT*Rankin Inlet Airport*94*CA*NA
+JIO*Jos Orno Imsula Airport*43*ID*AS
+BSM*Bishe Kola Air Base*-79*IR*AS
+IDK*Indulkana Airport*401*AU*OC
+SOD*Sorocaba Airport*2077*BR*SA
+PLL*Ponta Pelada Airport*267*BR*SA
+BWF*Barrow Walney Island Airport*173*GB*EU
+FAT*Fresno Yosemite International Airport*336*US*NA
+LPK*Lipetsk Airport*584*RU*EU
+YSF*Stony Rapids Airport*805*CA*NA
+KXU*Katiu Airport*7*PF*OC
+LWC*Lawrence Municipal Airport*833*US*NA
+WVB*Walvis Bay Airport*299*NA*AF
+ESU*Mogador Airport*384*MA*AF
+PNY*Pondicherry Airport*134*IN*AS
+KKB*Kitoi Bay Seaplane Base*0*US*NA
+TBP*Capitan FAP Pedro Canga Rodriguez Airport*115*PE*SA
+AIZ*Lee C Fine Memorial Airport*869*US*NA
+KBV*Krabi Airport*82*TH*AS
+GYM*General José María Yáñez International Airport*59*MX*NA
+FLO*Florence Regional Airport*146*US*NA
+SEX*Sembach Air Base*1050*DE*EU
+CVQ*Carnarvon Airport*13*AU*OC
+BYR*Læsø Airport*25*DK*EU
+SRG*Achmad Yani Airport*10*ID*AS
+UUD*Ulan-Ude Airport (Mukhino)*1690*RU*AS
+OSU*The Ohio State University Airport - Don Scott Field*905*US*NA
+TKP*Takapoto Airport*12*PF*OC
+IXB*Bagdogra Airport*412*IN*AS
+XLU*Leo Airport*1181*BF*AF
+YQD*The Pas Airport*887*CA*NA
+AMV*Amderma Airport*13*RU*AS
+LAR*Laramie Regional Airport*7284*US*NA
+MBX*Maribor Airport*876*SI*EU
+BRS*Bristol Airport*622*GB*EU
+YTX*Telegraph Creek Airport*1100*CA*NA
+SGD*Sønderborg Airport*24*DK*EU
+COK*Cochin International Airport*30*IN*AS
+HTH*Hawthorne Industrial Airport*4215*US*NA
+GMO*Gombe Lawanti International Airport*1590*NG*AF
+JCK*Julia Creek Airport*404*AU*OC
+SIJ*Siglufjörður Airport*10*IS*EU
+DIP*Diapaga Airport*951*BF*AF
+WGT*Wangaratta Airport*504*AU*OC
+ANI*Aniak Airport*88*US*NA
+SYJ*Sirjan Airport*5846*IR*AS
+LKY*Lake Manyara Airport*4150*TZ*AF
+BSO*Basco Airport*291*PH*AS
+ZMG*Magdeburg "City" Airport*259*DE*EU
+CTT*Le Castellet Airport*1391*FR*EU
+RKZ*Shigatse Air Base*3782*CN*AS
+WAY*Greene County Airport*1069*US*NA
+XNG*Quảng Ngãi Airfield*50*VN*AS

@@ -1,0 +1,13 @@
+3,Blanco,Blanco,Blanco
+3,Rojo,Rojo,Blanco
+3,Azul,Azul,Negro
+3,Negro,Rojo,Negro
+4,Rojo,Rojo,Rojo,Amarillo
+4,Verde,Verde,Verde,Amarillo
+4,Negro,Rojo,Verde,Amarillo
+4,Amarillo,Amarillo,Amarillo,Verde
+4,Verde,Verde,Verde,Verde
+5,Verde,Verde,Verde,Verde,Negro
+5,Amarillo,Amarillo,Rojo,Negro,Azul
+5,Verde,Verde,Verde,Verde,Verde
+5,Verde,Negro,Verde,Verde,Verde
