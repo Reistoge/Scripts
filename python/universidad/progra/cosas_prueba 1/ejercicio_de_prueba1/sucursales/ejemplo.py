@@ -1,0 +1,8 @@
+arch=open("problema1.txt","r")
+print(arch.readline().strip())
+print(arch.readline().strip())
+print(arch.readline().strip())
+print(arch.readline().strip())
+print(arch.readline().strip())
+print(arch.readline().strip())
+print(arch.readline().strip())

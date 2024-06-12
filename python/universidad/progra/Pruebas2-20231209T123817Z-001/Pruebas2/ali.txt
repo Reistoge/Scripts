@@ -1,0 +1,469 @@
+Pedro Thiarre,Aisén,Lago Verde,LP5-K733,Retrasado,98.04
+Facundo Francisco,Aisén,Chile Chico,NZ8-C767,Entregado,22.36
+Arturo Chichi,Antofagasta,San Pedro de Atacama,UZ6-V716,En camino,259.60
+David Zavala,Biobío,Chillán Viejo,LA1-K307,Entregado,179.74
+Gaspar Paz,Arica y Parinacota,Putre,HH0-P184,Devuelto,221.74
+Santiago Augustin,Tarapacá,Pozo Almonte,LJ9-H438,En camino,133.80
+Máximo Diego,Aisén,Cochrane,CQ1-Q558,Entregado,67.79
+Dylan Munoz,Arica y Parinacota,Arica,FI5-A618,Retrasado,157.80
+Gonzalo Bentlee,O'Higgins,Navidad,GC7-G865,Entregado,229.25
+Eduardo Sofia,Aisén,Chile Chico,GF3-Y896,En camino,5.34
+Franco Monserrat,Arica y Parinacota,Arica,GR4-R156,Entregado,273.71
+Damián Fuentes,Antofagasta,Taltal,NY4-H558,Devuelto,229.92
+Álvaro Gabriela,Los Ríos,Los Lagos,AC8-U413,En camino,51.39
+Carlos Joaquin,Tarapacá,Colchane,EW6-L504,Entregado,109.84
+Clemente Azizi,Los Ríos,Lanco,KK2-U350,Retrasado,251.44
+Héctor Pia,Los Ríos,Lago Ranco,CN5-P878,Entregado,177.63
+Simón Joaquin,Antofagasta,Calama,CW3-Z324,En camino,185.83
+Álvaro Lopez,O'Higgins,Peralillo,AP6-M232,Entregado,150.82
+Guillermo Vega,Atacama,Chañaral,MC0-F230,Devuelto,42.56
+Arturo Miranda,Magallanes y Antártica Chilena,Primavera,FX7-T756,En camino,201.39
+Juan Matilde,Valparaíso,Santo Domingo,NG3-B508,Entregado,266.70
+Gaspar Carrasco,Antofagasta,Antofagasta,NV5-N426,Retrasado,292.96
+Diego Barbara,Arica y Parinacota,Putre,RE4-I135,Entregado,95.47
+Sebastián Fernandez,Metropolitana de Santiago,Macul,OP7-T832,En camino,163.45
+Guillermo Alonsos,Los Ríos,Río Bueno,EL6-U917,Entregado,113.40
+Gonzalo Francisco,Magallanes y Antártica Chilena,Natales,KB7-K461,Devuelto,263.57
+Guillermo Sebastian,Los Lagos,Puerto Varas,LO2-U966,En camino,9.34
+Jesús Sepulveda,Aisén,Guaitecas,LX4-I250,Entregado,76.58
+Máximo Renato,Metropolitana de Santiago,Isla de Maipo,JE7-R610,Retrasado,219.38
+Oscar Sebastian,Metropolitana de Santiago,La Reina,KN5-N228,Entregado,252.35
+Facundo Hernandez,O'Higgins,Peumo,JY6-R486,En camino,228.90
+Amaro Perez,O'Higgins,Marchihue,MC8-J998,Entregado,186.29
+Jesús Javier,Magallanes y Antártica Chilena,Natales,QE6-G254,Devuelto,148.91
+Fabián Daniel,Araucanía,Loncoche,ST8-I137,En camino,297.34
+Matías Matilde,O'Higgins,Pichidegua,EL1-X717,Entregado,255.00
+Alonso Maria,O'Higgins,Malloa,SV3-U753,Retrasado,285.95
+Manuel Sofia,Aisén,Río Ibáñez,GC2-W559,Entregado,163.44
+Antonio Valenzuela,Antofagasta,Calama,SK8-I678,En camino,247.85
+Juan Vera,Valparaíso,Limache,IG6-Q563,Entregado,13.32
+Alejandro Luis,Los Ríos,Los Lagos,WG5-B524,Devuelto,92.50
+Miguel Contreras,Tarapacá,Huara,NC3-L313,En camino,202.96
+Alejandro Vargas,Los Lagos,Puqueldón,EF2-C863,Entregado,185.16
+Jesús Miranda,Aisén,Lago Verde,HR6-P340,Retrasado,291.92
+José Gutierrez,Arica y Parinacota,Arica,FM5-M575,Entregado,275.85
+Mariano Thiarre,Arica y Parinacota,Putre,IS2-Q644,En camino,165.32
+Alex Torres,Aisén,Río Ibáñez,OX0-L778,Entregado,125.37
+Alex Juan,Valparaíso,Papudo,YC5-X167,Devuelto,254.18
+Ricardo Cristobal,Los Ríos,Máfil,CM6-X788,En camino,290.97
+Alex Atlas,Los Ríos,Río Bueno,MD6-V753,Entregado,88.07
+Maximiliano Nunez,Magallanes y Antártica Chilena,Primavera,IE6-D173,Retrasado,169.39
+Ricardo Soto,Arica y Parinacota,Camarones,CL6-X175,Entregado,293.91
+Camilo Perez,Coquimbo,Salamanca,IG5-T327,En camino,294.05
+Joaquín Rodriguez,Antofagasta,Tocopilla,OD9-S017,Entregado,85.44
+Alfonso Ramirez,Metropolitana de Santiago,Lo Espejo,QQ1-M853,Devuelto,250.93
+Josue Emilia,Tarapacá,Colchane,CL5-N484,En camino,39.17
+Matías Alvarez,Valparaíso,Juan Fernández,VB7-H132,Entregado,14.25
+Guillermo Torres,Metropolitana de Santiago,La Florida,MG4-P049,Retrasado,18.90
+Juan Trinidad,Los Ríos,La Unión,IK0-P585,Entregado,143.66
+León Jose,Aisén,Lago Verde,HY6-K639,En camino,275.45
+Fabián Julieta,Antofagasta,María Elena,PV2-N295,Entregado,151.93
+Alex Diem,Aisén,Chile Chico,IK5-O602,Devuelto,223.72
+Dante Catalina,Los Ríos,Mariquina,LI4-L505,En camino,83.84
+Lukas Reyes,Atacama,Caldera,MK4-E346,Entregado,192.53
+Sergio Juan,Antofagasta,San Pedro de Atacama,YS6-T652,Retrasado,293.95
+Alfonso Lopez,Atacama,Huasco,FI4-C958,Entregado,10.93
+Marcelo Nunez,Antofagasta,María Elena,LV4-P128,En camino,66.28
+Héctor Alonsos,Los Ríos,Lanco,ES6-Y587,Entregado,217.02
+Dante Francisco,O'Higgins,Codegua,KK7-Y358,Devuelto,223.07
+Fernando Florencia,Coquimbo,Combarbalá,FI4-T587,En camino,281.79
+Emiliano Julieta,Los Lagos,Osorno,JW6-K826,Entregado,150.88
+Elías Juan,Biobío,Portezuelo,CD3-D977,Retrasado,53.36
+Alejandro Maximiliano,Maule,Villa Alegre,RJ9-W994,Entregado,199.52
+Agustín Diem,Coquimbo,Los Vilos,WD4-L727,En camino,233.68
+Bruno Mateo,Antofagasta,San Pedro de Atacama,PX1-B990,Entregado,218.58
+Gustavo Benjamin,Arica y Parinacota,Arica,XS5-M338,Devuelto,164.07
+Thomas Matias,Valparaíso,Casablanca,MN6-B116,En camino,69.51
+Mariano Perez,Tarapacá,Pica,JY1-C677,Entregado,283.97
+Cristóbal Francisco,Biobío,Lota,PA1-I113,Retrasado,8.67
+Ricardo Maximiliano,Maule,Sagrada Familia,LL3-S746,Entregado,187.53
+Simón Martinez,Aisén,Aisén,DE6-N717,En camino,142.11
+Manuel Gutierrez,Antofagasta,Sierra Gorda,KY8-F836,Entregado,212.39
+Bruno Maria,Magallanes y Antártica Chilena,Río Verde,DK1-V186,Devuelto,178.72
+Víctor Soto,Atacama,Diego de Almagro,OA8-B384,En camino,236.64
+Camilo Bastian,Araucanía,Lumaco,LI3-Q079,Entregado,145.56
+Amaro Martina,Aisén,Chile Chico,FE8-D141,Retrasado,256.95
+Emilio Matilde,Metropolitana de Santiago,Padre Hurtado,MO1-P273,Entregado,176.74
+Leonardo Diaz,Biobío,Hualpén,KJ6-K173,En camino,12.02
+Sebastián Atlas,Los Ríos,Lanco,CU4-R372,Entregado,29.49
+Thomas Alonsos,Aisén,Coihaique,MK8-L532,Devuelto,81.87
+Isaias Zuniga,Los Lagos,Hualaihué,UG6-X980,En camino,95.38
+León Azizi,Magallanes y Antártica Chilena,Primavera,ME2-R977,Entregado,290.54
+Marcelo Gabriela,Atacama,Freirina,TH6-A577,Retrasado,265.28
+Amaro Flores,Coquimbo,Río Hurtado,VL6-T971,Entregado,69.68
+Clemente Rocio,Los Ríos,Paillaco,JD6-W285,En camino,276.02
+Emilio Vera,Los Ríos,Paillaco,BN7-D314,Entregado,86.18
+Clemente Flores,Antofagasta,Antofagasta,HT2-H792,Devuelto,179.33
+Dylan Pia,Aisén,Lago Verde,BA5-U066,En camino,101.58
+Elías Figueroa,Los Ríos,Mariquina,GR8-W853,Entregado,104.53
+Salvador Cortes,Antofagasta,Calama,LB8-Y573,Retrasado,10.89
+Emiliano Araya,Magallanes y Antártica Chilena,Laguna Blanca,ZJ1-U022,Entregado,239.48
+Matías Gabriela,Arica y Parinacota,General Lagos,NE6-O914,En camino,101.49
+Agustín Vicente,Valparaíso,Petorca,SU2-I358,Entregado,98.45
+Felipe Bentlee,Arica y Parinacota,Camarones,PP2-Y234,Devuelto,228.68
+Kevin Matias,Magallanes y Antártica Chilena,Punta Arenas,QV2-E788,En camino,272.82
+Carlos Miranda,Maule,San Clemente,ZO6-Y776,Entregado,173.58
+Alexander Diego,Los Lagos,Fresia,UL2-M139,Retrasado,96.96
+Álvaro Chichi,Maule,Empedrado,EB6-W427,Entregado,218.76
+Maximiliano Bravo,Coquimbo,Punitaqui,MT4-D981,En camino,166.62
+Cristian Diem,Aisén,Cochrane,JC5-W505,Entregado,117.44
+Oscar Castillo,Los Ríos,Lanco,UO3-P276,Devuelto,252.16
+Rodrigo Garcia,Valparaíso,Santo Domingo,UW4-T631,En camino,33.95
+Sergio Mateo,Biobío,Laja,XN2-J237,Entregado,24.36
+Emiliano Cristobal,Biobío,Quillón,XK8-P700,Retrasado,265.42
+Kevin Vargas,Arica y Parinacota,Camarones,AC1-U650,Entregado,129.95
+Samuel Martinez,Araucanía,Angol,DG8-P342,En camino,262.41
+Carlos Araya,Aisén,Tortel,EF1-D173,Entregado,130.28
+Alfonso Herrera,Coquimbo,Paiguano,PF0-G834,Devuelto,26.93
+Manuel Maximo,Maule,Villa Alegre,DI7-D880,En camino,39.79
+Matías Figueroa,Los Lagos,Calbuco,LC1-N588,Entregado,230.88
+Arturo Bravo,O'Higgins,San Fernando,DS9-K484,Retrasado,219.26
+Alan Flores,Antofagasta,Mejillones,AU4-Q363,Entregado,34.16
+Felipe Augustin,Magallanes y Antártica Chilena,Natales,IO3-W685,En camino,122.47
+Sebastián Gabriela,Coquimbo,Combarbalá,SI1-S029,Entregado,11.49
+Jesús Martinez,Metropolitana de Santiago,Tiltil,MJ7-S438,Devuelto,277.86
+Alonso Matias,Los Lagos,Puerto Octay,NF7-J480,En camino,269.05
+Claudio Martina,O'Higgins,Pichidegua,MS7-B972,Entregado,223.58
+Samuel Javier,Aisén,Coihaique,LE9-L674,Retrasado,288.41
+Nicolás Monserrat,Magallanes y Antártica Chilena,Río Verde,QT2-T047,Entregado,43.91
+Sebastián Alvarez,Antofagasta,Calama,IA7-C314,En camino,199.06
+Facundo Gomez,Arica y Parinacota,General Lagos,NI9-C032,Entregado,65.48
+Marcelo Bastian,Biobío,Tomé,DN6-L847,Devuelto,119.63
+Miguel Magdalena,Metropolitana de Santiago,San Miguel,DZ2-A365,En camino,90.00
+Guillermo Rivera,Maule,Talca,LV4-D346,Entregado,63.87
+Isaias Nunez,Metropolitana de Santiago,Quilicura,JN4-X683,Retrasado,191.81
+Isaias Rodriguez,Maule,Río Claro,TP7-H806,Entregado,152.26
+Víctor Rojas,Aisén,Río Ibáñez,CP6-S563,En camino,72.38
+Dylan Francisco,Los Ríos,Los Lagos,GC4-E993,Entregado,11.75
+Isaac Fernanda,Metropolitana de Santiago,San Ramón,UL5-G789,Devuelto,38.07
+Agustín Javier,Los Lagos,Futaleufú,FW8-G376,En camino,63.18
+Cristóbal Silva,Los Lagos,Puqueldón,JN1-L568,Entregado,211.48
+Patricio Sanchez,Los Lagos,Palena,RW5-S769,Retrasado,142.55
+Pedro Julieta,Biobío,Ñiquén,CL4-H848,Entregado,287.83
+José Gutierrez,Metropolitana de Santiago,Pedro Aguirre Cerda,BV7-C827,En camino,65.69
+Felipe Bentlee,Antofagasta,Ollagüe,YU7-R304,Entregado,48.99
+Joaquín Gabriela,Coquimbo,Río Hurtado,EP8-O632,Devuelto,150.05
+Isaac Vasquez,Tarapacá,Alto Hospicio,YT1-F325,En camino,45.62
+Cristóbal Fuentes,Biobío,Bulnes,EV3-F176,Entregado,70.68
+Alexis Testudines,O'Higgins,Peumo,NW5-G068,Retrasado,87.36
+Bruno Morales,Aisén,Cochrane,ZB9-A327,Entregado,22.11
+Javier Julieta,Biobío,Contulmo,AB0-N340,En camino,137.65
+Alfonso Alvarez,Maule,San Javier,HS1-Q382,Entregado,134.23
+Santiago Diem,Maule,Retiro,GB3-X868,Devuelto,233.65
+Elías Rivera,Antofagasta,Taltal,WP3-K453,En camino,185.01
+León Bastian,Los Ríos,Los Lagos,YP9-S221,Entregado,121.01
+Dylan Perez,Valparaíso,Catemu,CI6-W053,Retrasado,14.33
+Facundo Bastian,Arica y Parinacota,Putre,II2-B344,Entregado,18.16
+Alfonso Nicolas,Metropolitana de Santiago,Cerro Navia,PG8-G698,En camino,134.73
+Luciano Vasquez,O'Higgins,Doñihue,UW5-G746,Entregado,297.46
+Franco Valenzuela,Biobío,Ñiquén,OC8-N198,Devuelto,57.43
+Bastián Camila,Tarapacá,Pica,LC8-D766,En camino,157.68
+Oscar Vasquez,Metropolitana de Santiago,Tiltil,NH8-Y341,Entregado,21.98
+Mathias Soto,Magallanes y Antártica Chilena,Primavera,WT1-J400,Retrasado,129.34
+Marcelo Matias,Los Ríos,Máfil,LE5-J273,Entregado,17.94
+Pablo Martinez,Arica y Parinacota,General Lagos,MH7-Y722,En camino,179.15
+Patricio Renato,Coquimbo,Los Vilos,TN6-Y856,Entregado,49.22
+Joaquín Paz,Valparaíso,Putaendo,TQ1-T593,Devuelto,26.81
+Thomas Ignacio,Arica y Parinacota,General Lagos,KN4-M106,En camino,82.13
+Diego Javier,Metropolitana de Santiago,La Reina,MQ3-N558,Entregado,91.29
+Dante Francisco,Magallanes y Antártica Chilena,Porvenir,JK6-G513,Retrasado,192.77
+Luis Alexandra,Coquimbo,La Higuera,RV6-A439,Entregado,294.23
+Juan Perez,Atacama,Alto del Carmen,YH7-Y688,En camino,169.96
+Gabriel Diego,Tarapacá,Colchane,XB3-V653,Entregado,6.13
+Esteban Reyes,Magallanes y Antártica Chilena,Timaukel,SE6-Q420,Entregado,205.11
+Alfonso Gabriela,Biobío,Curanilahue,CR2-W455,En camino,246.31
+Isaac Valentina,Biobío,San Carlos,QU1-Q507,Entregado,46.90
+Carlos Valentina,Araucanía,Melipeuco,IF0-I354,Retrasado,59.11
+Emilio Vargas,Metropolitana de Santiago,San Ramón,EW1-I518,Entregado,193.04
+Thomas Alonsos,Tarapacá,Alto Hospicio,KF6-M294,En camino,135.04
+Camilo Zuniga,Coquimbo,Punitaqui,LU3-L392,Entregado,140.76
+Jean Sofia,Arica y Parinacota,Arica,YE6-S672,Entregado,156.45
+Aaron Augustin,Aisén,Cisnes,RM6-G511,En camino,85.75
+Dylan Maria,Magallanes y Antártica Chilena,Antártica,PO4-I589,Entregado,123.15
+Julián Martin,O'Higgins,Las Cabras,YT3-V448,Retrasado,163.40
+Gonzalo Valenzuela,Valparaíso,San Antonio,KV5-E389,Entregado,212.45
+Facundo Alexandra,Arica y Parinacota,Putre,ZP1-I486,En camino,245.21
+Martín Maximo,Los Ríos,Panguipulli,YP3-M563,Entregado,147.63
+Álvaro Gabriela,Maule,Licantén,QU6-I700,Devuelto,135.34
+Damián Contreras,Atacama,Vallenar,WA6-V647,En camino,5.29
+Héctor Pascal,Coquimbo,La Higuera,EX1-H257,Entregado,215.06
+Felipe Bravo,Maule,Longaví,JY6-W210,Retrasado,129.65
+Felipe Rodriguez,Araucanía,Cholchol,FT3-E551,Entregado,35.75
+David Gomez,Magallanes y Antártica Chilena,Torres del Paine,XZ7-R375,En camino,57.27
+Valentín Ramirez,O'Higgins,Graneros,HR6-Z582,Entregado,98.69
+Ricardo Francisco,Valparaíso,Cabildo,CL5-R198,Devuelto,126.24
+Liam Castillo,Arica y Parinacota,Camarones,LE4-Z531,En camino,248.03
+Felipe Figueroa,Tarapacá,Huara,GD1-W644,Entregado,107.88
+Alexander Garcia,Tarapacá,Pica,RH2-Z148,Retrasado,218.33
+Dylan Herrera,Antofagasta,Taltal,SJ4-V682,Entregado,252.02
+Francisco Sebastian,O'Higgins,Navidad,IM7-P944,En camino,243.53
+Benjamín Emilia,O'Higgins,Olivar,SR5-O835,Entregado,172.28
+Martín Bastian,Antofagasta,Sierra Gorda,HC2-Q294,Devuelto,137.68
+Lucas Carla,Antofagasta,Mejillones,QE5-R721,En camino,264.82
+Aaron Morales,Valparaíso,Quilpué,IP9-N500,Entregado,184.02
+Facundo Atlas,Los Lagos,Puerto Varas,CE1-O624,Retrasado,222.01
+Alan Contreras,O'Higgins,Peumo,PN4-G337,Entregado,5.44
+Mathias Azizi,Magallanes y Antártica Chilena,Antártica,ME1-W321,En camino,54.36
+Josue Isabella,Los Ríos,Paillaco,MW5-S255,Entregado,135.48
+Rodrigo Sanchez,Atacama,Caldera,SL1-C850,Devuelto,292.55
+Josue Carrasco,Coquimbo,Salamanca,WN4-D284,En camino,118.72
+Miguel Emilia,Valparaíso,San Esteban,SY3-Z261,Entregado,83.33
+Daniel Miranda,Biobío,Laja,IP1-G324,Retrasado,215.61
+Javier Emilia,Los Ríos,Paillaco,MU4-C947,Entregado,38.56
+Esteban Diaz,Los Lagos,Llanquihue,NX5-E220,En camino,66.84
+Patricio Fuentes,Los Ríos,Lanco,GY9-D811,Entregado,174.21
+Franco Munoz,O'Higgins,San Vicente,PO9-S014,Devuelto,48.50
+Álvaro Tomas,O'Higgins,Peralillo,MV0-J703,En camino,56.78
+Alejandro Alvarez,Los Lagos,Purranque,JK9-B094,Entregado,222.16
+Tomás Silva,Magallanes y Antártica Chilena,Laguna Blanca,RP8-J862,Retrasado,245.80
+Rodrigo Carrasco,Antofagasta,Mejillones,PU7-I333,Entregado,294.11
+Vicente Paz,Los Ríos,Panguipulli,YE2-W380,En camino,240.51
+Isaac Martinez,Metropolitana de Santiago,Lampa,WH6-N612,Entregado,23.94
+Joaquín Valenzuela,Arica y Parinacota,Arica,WP0-X513,Devuelto,299.11
+Álvaro Catalina,Tarapacá,Colchane,OX4-H214,En camino,266.02
+Martín Carla,Antofagasta,Calama,FP3-C013,Entregado,15.71
+Isaac Matias,Antofagasta,San Pedro de Atacama,XI6-C962,Retrasado,240.54
+Bruno Valentina,Magallanes y Antártica Chilena,Cabo de Hornos,GR4-R661,Entregado,99.68
+Carlos Hernandez,Aisén,Cisnes,LS9-W761,En camino,7.62
+Fabián Sanchez,Antofagasta,San Pedro de Atacama,JF7-F182,Entregado,112.79
+Julián Lopez,Valparaíso,La Ligua,IJ8-C848,Devuelto,22.60
+Cristóbal Laura,Tarapacá,Huara,XW2-D001,En camino,102.16
+Benjamín Rivera,Araucanía,Perquenco,VW2-V813,Entregado,262.27
+Mateo Azizi,Los Lagos,Llanquihue,VR4-H688,Retrasado,132.51
+Jean Silva,O'Higgins,Malloa,MP4-E356,Entregado,283.98
+Isaac Hernandez,Tarapacá,Camiña,YZ6-V826,En camino,122.85
+Miguel Tapia,Magallanes y Antártica Chilena,Torres del Paine,WH2-C949,Entregado,94.84
+Gabriel Gutierrez,Atacama,Copiapó,CW3-V588,Devuelto,197.63
+Kevin Valenzuela,Coquimbo,Ovalle,IK7-M302,En camino,34.79
+Lucas Gomez,O'Higgins,La Estrella,PL7-G084,Entregado,179.82
+Isaac Vasquez,Coquimbo,Monte Patria,PF4-T956,Retrasado,259.31
+Gustavo Azizi,Los Ríos,Futrono,CD4-K916,Entregado,288.05
+Esteban Flores,Los Lagos,Queilén,YS3-H504,En camino,138.06
+Pedro Rocio,Araucanía,Ercilla,XZ0-V153,Entregado,264.24
+Mariano Felipe,Valparaíso,Hijuelas,YG8-M580,Devuelto,28.69
+Álvaro Gonzalez,Biobío,Tucapel,MD3-E172,En camino,247.48
+Bastián Alexandra,Aisén,Chile Chico,RC3-Y327,Entregado,222.91
+Arturo Atlas,Coquimbo,Ovalle,OX6-O837,Retrasado,65.41
+Oscar Gabriel,Aisén,Guaitecas,YF5-X367,Entregado,70.37
+Renato Isabella,Los Lagos,Puerto Montt,DJ7-H787,En camino,93.13
+Pablo Torres,Los Ríos,La Unión,KM8-R654,Entregado,239.00
+Benjamín Camila,Antofagasta,Ollagüe,GN5-D787,Devuelto,16.58
+Vicente Vergara,O'Higgins,Coltauco,VM4-V623,En camino,60.84
+Luciano Hernandez,Arica y Parinacota,Arica,SR6-J366,Entregado,266.16
+Renato Alonsos,Valparaíso,La Ligua,YF8-E762,Retrasado,91.92
+Alonso Rocio,Magallanes y Antártica Chilena,Laguna Blanca,CC4-Y344,Entregado,293.41
+Héctor Tomas,Metropolitana de Santiago,San José de Maipo,YL3-C183,En camino,76.74
+Felipe Maximiliano,Biobío,San Nicolás,SI3-S822,Entregado,101.21
+Andrés Catalina,Antofagasta,María Elena,PB3-B462,Devuelto,251.86
+Renato Hernandez,Antofagasta,Tocopilla,CR3-A355,En camino,204.73
+Clemente Francisco,Valparaíso,Putaendo,LR2-M366,Entregado,296.50
+Lukas Reyes,Metropolitana de Santiago,Paine,YD2-K895,Retrasado,176.21
+Lukas Alonsos,Atacama,Huasco,QJ4-P615,Entregado,66.16
+Miguel Flores,Arica y Parinacota,Arica,TX1-Q967,En camino,111.51
+Ricardo Matias,O'Higgins,Quinta de Tilcoco,GM4-Z599,Entregado,71.93
+Kevin Sebastian,Tarapacá,Iquique,FF7-N574,Devuelto,51.72
+Marcelo Hernandez,Metropolitana de Santiago,La Pintana,SO5-U417,En camino,136.96
+Clemente Lopez,Arica y Parinacota,Putre,YY8-U271,Entregado,254.40
+Juan Chichi,Metropolitana de Santiago,Quilicura,DU9-G238,Retrasado,117.12
+Francisco Barbara,Tarapacá,Colchane,VH8-I869,Entregado,72.69
+Luciano Sofia,Valparaíso,El Tabo,TY6-U157,En camino,97.65
+Elías Rodriguez,O'Higgins,Rancagua,UZ4-W934,Entregado,96.45
+Miguel Jose,O'Higgins,Santa Cruz,VV5-M828,Devuelto,118.30
+Isaac Alonsos,Antofagasta,Taltal,XJ0-O950,En camino,220.79
+Vicente Castillo,Arica y Parinacota,Arica,NA9-I467,Entregado,243.96
+Álvaro Gutierrez,Arica y Parinacota,Camarones,CV8-R153,Retrasado,12.33
+Patricio Trinidad,Arica y Parinacota,Arica,BV9-I521,Entregado,162.67
+Maximiliano Francisco,Arica y Parinacota,Camarones,RE8-B331,En camino,214.98
+Isaias Alonsos,Antofagasta,Tocopilla,QQ5-A578,Entregado,165.59
+Damián Munoz,Arica y Parinacota,Putre,PD5-B232,Entregado,231.52
+Dante Zavala,O'Higgins,Pumanque,EQ5-U379,En camino,59.50
+Agustín Joaquin,Araucanía,Ercilla,YF4-K921,Entregado,233.99
+Samuel Vergara,Tarapacá,Pica,ZJ3-Z524,Retrasado,88.71
+Patricio Maximiliano,Atacama,Diego de Almagro,HS9-D378,Entregado,215.34
+Mateo Soto,Biobío,Florida,SN7-L648,En camino,224.15
+Francisco Benjamin,Antofagasta,María Elena,IO2-C022,Entregado,220.42
+Javier Monserrat,Maule,Pelluhue,CO4-C095,Entregado,250.54
+Gaspar Valentina,Araucanía,Villarrica,EH4-N938,En camino,195.35
+Franco Vasquez,Tarapacá,Huara,VY2-I851,Entregado,287.52
+Pedro Matias,Magallanes y Antártica Chilena,Natales,FE5-H539,Retrasado,53.51
+Gonzalo Magdalena,Tarapacá,Iquique,GT5-E210,Entregado,30.14
+Isaac Luis,Maule,Longaví,OU1-R083,En camino,25.02
+Alexis Luis,Atacama,Vallenar,TE3-W137,Entregado,102.33
+Alexander Nicolas,Biobío,Santa Bárbara,QC0-E886,Entregado,56.07
+Pablo Lopez,Los Lagos,Quellón,FE4-A372,En camino,201.17
+Gustavo Sofia,Aisén,Río Ibáñez,JW0-C177,Entregado,16.91
+Alexis Alonsos,O'Higgins,Machalí,XS6-T379,Retrasado,265.99
+Carlos Jose,Magallanes y Antártica Chilena,Natales,YN7-N642,Entregado,214.60
+Luciano Herrera,Biobío,Talcahuano,TM3-H663,En camino,113.11
+Máximo Garcia,Los Ríos,Panguipulli,HS5-P138,Entregado,244.68
+Pablo Fernanda,Coquimbo,Illapel,BL0-N808,Entregado,182.34
+Joaquín Bravo,Los Ríos,Paillaco,ED2-Q827,En camino,279.13
+Fabián Atlas,Tarapacá,Iquique,PR2-I255,Entregado,142.77
+Esteban Silva,Arica y Parinacota,General Lagos,QQ7-P980,Retrasado,93.59
+Tomás Valenzuela,Metropolitana de Santiago,Macul,RB0-W864,Entregado,237.38
+David Cristobal,Maule,Constitución,KU4-N696,En camino,196.88
+Agustín Chichi,Los Lagos,Río Negro,BO2-O234,Entregado,115.43
+Dante Lopez,Tarapacá,Pica,PV1-J724,Devuelto,40.71
+Sebastián Zavala,Los Ríos,Máfil,YC8-J563,En camino,176.73
+Antonio Trinidad,Aisén,Aisén,YV2-M031,Entregado,289.93
+Ignacio Juan,Metropolitana de Santiago,Vitacura,FF0-W318,Retrasado,93.73
+Alexis Cortes,Maule,Cauquenes,SF2-U746,Entregado,40.57
+Javier Augustin,Aisén,Cochrane,NR7-I605,En camino,147.11
+Valentín Gabriela,Los Ríos,Futrono,KR2-U541,Entregado,34.25
+Kevin Chichi,Valparaíso,Quintero,AY4-U554,Entregado,133.52
+Alexis Vera,Atacama,Alto del Carmen,TM8-E833,En camino,71.25
+Samuel Soto,Antofagasta,Antofagasta,QN6-N656,Entregado,225.94
+Carlos Perez,Arica y Parinacota,Camarones,HT7-X935,Retrasado,94.44
+Maximiliano Sebastian,Atacama,Vallenar,RB1-S723,Entregado,284.09
+Bruno Barbara,Magallanes y Antártica Chilena,Timaukel,PQ6-B174,En camino,275.19
+Vicente Monserrat,O'Higgins,Placilla,EC5-F492,Entregado,267.46
+Vicente Sofia,Maule,Pelarco,VH2-R266,Devuelto,191.90
+Daniel Martina,Biobío,Chiguayante,QG1-O315,En camino,110.19
+Eduardo Pia,Los Lagos,Puqueldón,VU3-B285,Entregado,220.99
+Javier Martin,Metropolitana de Santiago,Melipilla,TK6-O239,Retrasado,198.25
+Rodrigo Diem,Coquimbo,Andacollo,KH3-H159,Entregado,80.26
+Elías Rojas,Araucanía,Vilcún,LT6-L126,En camino,173.12
+Samuel Barbara,Atacama,Tierra Amarilla,XV2-F058,Entregado,37.73
+Luis Azizi,Arica y Parinacota,General Lagos,XQ4-Q934,Devuelto,226.73
+Maximiliano Renato,Valparaíso,Juan Fernández,VE6-E055,En camino,46.41
+Vicente Gomez,Coquimbo,Combarbalá,OQ4-X488,Entregado,49.92
+Sergio Cortes,Biobío,El Carmen,EN8-X745,Retrasado,291.71
+Pedro Morales,Metropolitana de Santiago,Colina,YH2-R219,Entregado,251.14
+Alexander Sepulveda,Biobío,Pinto,SS3-G719,En camino,35.20
+Mariano Fuentes,Maule,Teno,XO0-Q829,Entregado,82.28
+Ricardo Figueroa,Metropolitana de Santiago,Maipú,AR8-T887,Devuelto,267.31
+Juan Carrasco,Magallanes y Antártica Chilena,Torres del Paine,LJ7-U114,En camino,30.03
+Andrés Paula,Magallanes y Antártica Chilena,Porvenir,TZ5-C298,Entregado,53.19
+Dante Perez,Arica y Parinacota,General Lagos,CG0-O152,Retrasado,216.72
+Felipe Vargas,Los Ríos,Panguipulli,DV7-X244,Entregado,262.40
+Santiago Thiarre,Arica y Parinacota,Arica,GA3-N293,En camino,267.42
+Alexander Matias,Metropolitana de Santiago,San Joaquín,ID7-K631,Entregado,50.85
+Aaron Felipe,Coquimbo,Combarbalá,II4-X455,Devuelto,12.65
+Francisco Espinoza,Antofagasta,María Elena,LO1-L837,En camino,29.77
+Alan Victoria,O'Higgins,Chimbarongo,UU5-H774,Entregado,224.44
+Leonardo Zavala,Los Lagos,Calbuco,CX0-S719,Retrasado,163.33
+Benjamín Julieta,Magallanes y Antártica Chilena,Timaukel,QS3-M786,Entregado,113.11
+Cristian Gabriel,Valparaíso,Petorca,RJ0-U237,En camino,12.35
+Ian Fernandez,Biobío,Curanilahue,NN3-J078,Entregado,220.85
+Kevin Martin,Biobío,San Fabián,JC1-G518,Devuelto,269.51
+Luis Soto,Valparaíso,Zapallar,QV7-V563,En camino,37.81
+Franco Bravo,Los Lagos,Los Muermos,PV7-R559,Entregado,105.47
+Valentín Carla,Coquimbo,Los Vilos,KO4-X573,Retrasado,10.63
+Samuel Trinidad,Metropolitana de Santiago,Pudahuel,AN6-L672,Entregado,134.29
+Ricardo Sepulveda,Aisén,Guaitecas,NT5-M558,En camino,106.93
+Jesús Reyes,Metropolitana de Santiago,Calera de Tango,KY1-R726,Entregado,107.83
+Gustavo Gonzalez,Biobío,Antuco,SL3-X140,Devuelto,166.34
+Sebastián Diego,O'Higgins,Nancagua,RW3-L711,En camino,218.63
+Damián Benjamin,Tarapacá,Camiña,OY4-V226,Entregado,222.84
+Juan Tomas,Atacama,Alto del Carmen,BP2-C557,Retrasado,156.16
+Angel Vega,Antofagasta,Taltal,KX5-E476,Entregado,96.59
+Amaro Nunez,Atacama,Vallenar,GK7-J015,En camino,11.39
+Ian Vargas,Antofagasta,Sierra Gorda,UV8-V161,Entregado,200.70
+Kevin Julieta,Los Lagos,Fresia,YJ1-T164,Devuelto,258.32
+Sebastián Nicolas,Biobío,Contulmo,FH7-K781,En camino,155.00
+Gabriel Tomas,Atacama,Freirina,EE6-I619,Entregado,128.00
+Mariano Cristobal,O'Higgins,Chépica,LU2-V013,Retrasado,293.17
+Aaron Julieta,Arica y Parinacota,Putre,KF6-V744,Entregado,185.07
+Leonardo Araya,Maule,Longaví,TM5-E337,En camino,128.17
+Vicente Castro,Valparaíso,Viña del Mar,CL6-L813,Entregado,119.49
+Isaac Munoz,Tarapacá,Pozo Almonte,LJ6-O466,Devuelto,119.55
+Ian Zavala,O'Higgins,Doñihue,US5-F622,En camino,147.17
+Vicente Isabella,Antofagasta,Ollagüe,GY4-O623,Entregado,112.36
+Francisco Miranda,Los Ríos,Paillaco,PP0-Y736,Retrasado,10.11
+Agustín Vargas,Valparaíso,Villa Alemana,BZ6-D773,Entregado,138.95
+Alex Nunez,Magallanes y Antártica Chilena,Antártica,IT7-R317,En camino,144.26
+Kevin Cristobal,Biobío,Tucapel,FZ3-G703,Entregado,88.28
+Fabián Zavala,Antofagasta,Calama,FH8-N309,Devuelto,105.13
+Cristóbal Gabriel,Los Lagos,Río Negro,SU1-N411,En camino,79.81
+Guillermo Carolina,O'Higgins,Nancagua,TN9-R593,Entregado,202.85
+Isaac Soto,Araucanía,Nueva Imperial,UQ6-E542,Retrasado,247.63
+Alonso Flores,Magallanes y Antártica Chilena,Primavera,CB1-B161,Entregado,193.71
+Julián Lopez,Aisén,Coihaique,IR2-L221,En camino,143.99
+Manuel Joaquin,Atacama,Copiapó,WB8-R488,Entregado,257.23
+Gonzalo Soto,Los Ríos,Corral,SF6-T613,Devuelto,201.10
+Máximo Fuentes,Valparaíso,Petorca,RN4-M275,En camino,268.36
+Martín Rivera,Aisén,Tortel,OU4-U308,Entregado,163.37
+Antonio Castro,O'Higgins,Codegua,QS3-L675,Retrasado,295.62
+Ian Gabriela,Valparaíso,Olmué,LZ4-W631,Entregado,17.30
+Daniel Contreras,Magallanes y Antártica Chilena,Torres del Paine,YS2-Q865,En camino,165.54
+Ricardo Azizi,Valparaíso,Quillota,NU3-V437,Entregado,237.96
+Isaias Sebastian,Atacama,Freirina,ER0-A278,Devuelto,203.19
+Aaron Sebastian,Atacama,Copiapó,NZ3-N755,En camino,68.16
+Rafael Maximo,O'Higgins,Mostazal,GK8-Q615,Entregado,17.68
+Héctor Vasquez,O'Higgins,Malloa,RS8-J842,Retrasado,123.23
+Ignacio Maximiliano,Arica y Parinacota,Camarones,TW3-A193,Entregado,68.10
+Alonso Renato,Maule,Romeral,ER6-S395,En camino,180.11
+León Diem,Metropolitana de Santiago,Quilicura,RS7-B876,Entregado,278.56
+Elías Rivera,Araucanía,Renaico,SX4-E353,Devuelto,284.49
+Javier Sebastian,Antofagasta,Sierra Gorda,VG3-X857,En camino,87.06
+Sebastián Soto,Antofagasta,Taltal,TF8-J366,Entregado,291.80
+Joaquín Rocio,Magallanes y Antártica Chilena,Cabo de Hornos,TR8-B547,Retrasado,238.49
+Ricardo Soto,Valparaíso,Putaendo,BJ8-G748,Entregado,84.15
+Antonio Fernandez,Valparaíso,Cartagena,SO0-M976,En camino,177.55
+Alexis Cristobal,Tarapacá,Colchane,IT4-W496,Entregado,206.83
+Santiago Francisco,Magallanes y Antártica Chilena,Timaukel,MI5-O722,Devuelto,27.15
+Guillermo Vicente,Valparaíso,Juan Fernández,GP7-Q624,En camino,116.16
+Camilo Garcia,Antofagasta,Sierra Gorda,QK3-V705,Entregado,269.52
+Liam Catalina,Atacama,Alto del Carmen,SH7-Y615,Retrasado,55.25
+Tomás Maximiliano,Metropolitana de Santiago,Maipú,IE4-W406,Entregado,283.76
+Carlos Gonzalez,Tarapacá,Pozo Almonte,MW6-H283,En camino,15.58
+Franco Zavala,Valparaíso,Santa María,QF1-O076,Entregado,185.52
+Valentín Torres,Antofagasta,Mejillones,WG2-K230,Devuelto,37.57
+Fernando Torres,Metropolitana de Santiago,Calera de Tango,HR4-A611,En camino,263.35
+Thomas Azizi,Magallanes y Antártica Chilena,Río Verde,QO5-I669,Entregado,116.59
+Cristóbal Silva,Metropolitana de Santiago,La Pintana,DH6-O355,Retrasado,48.42
+Samuel Herrera,Maule,Yerbas Buenas,NX1-K385,Entregado,276.56
+Pedro Francisco,Arica y Parinacota,Camarones,PL7-V555,En camino,280.92
+Alex Javier,Los Lagos,Ancud,QD6-E413,Entregado,148.41
+Alexander Sanchez,Arica y Parinacota,General Lagos,QW5-E821,Devuelto,137.67
+Mateo Vega,Biobío,Tucapel,HR7-T378,En camino,21.75
+Sergio Pia,Metropolitana de Santiago,Lo Espejo,HW7-U151,Entregado,155.88
+Matías Florencia,Maule,San Clemente,XP1-R015,Retrasado,112.21
+Benjamín Rojas,Atacama,Alto del Carmen,VQ5-M332,Entregado,98.26
+Alex Camila,Maule,Constitución,NV1-D449,En camino,262.66
+Marcelo Cristobal,Los Ríos,Río Bueno,VE1-J843,Entregado,106.81
+Manuel Sofia,Antofagasta,Ollagüe,NV3-F368,Devuelto,252.42
+Clemente Hernandez,Maule,Hualañé,BG7-E527,En camino,108.11
+Sergio Vargas,Valparaíso,Nogales,SE2-M047,Entregado,211.51
+Maximiliano Martin,Atacama,Freirina,GC8-C795,Retrasado,149.55
+Felipe Diego,Valparaíso,El Tabo,SD6-W472,Entregado,47.45
+Gaspar Rojas,Los Ríos,Lanco,HC1-E714,En camino,244.47
+Víctor Bravo,Antofagasta,Calama,KC3-Q381,Entregado,229.99
+Fernando Ignacio,Valparaíso,Villa Alemana,XH9-S049,Devuelto,206.15
+Marcelo Atlas,Atacama,Caldera,QG3-G246,En camino,153.66
+Luciano Tomas,Antofagasta,Calama,HC4-H499,Entregado,151.37
+Matías Alonsos,O'Higgins,Navidad,TM2-Z352,Retrasado,150.46
+Bruno Florencia,Antofagasta,Tocopilla,SK3-T793,Entregado,283.66
+Cristóbal Vergara,Metropolitana de Santiago,San Ramón,VL5-O626,En camino,170.87
+Emilio Soto,Araucanía,Cunco,ML5-F636,Entregado,71.75
+Esteban Fernanda,Arica y Parinacota,General Lagos,NI6-K652,Devuelto,11.28
+Alonso Azizi,Magallanes y Antártica Chilena,Torres del Paine,RB3-K556,En camino,168.87
+Javier Maximo,Araucanía,Collipulli,MK0-F725,Entregado,215.60
+Lucas Munoz,Aisén,Lago Verde,QV2-M259,Retrasado,256.41
+Luciano Paula,Arica y Parinacota,Putre,YS1-Z172,Entregado,163.97
+Benjamín Jara,Coquimbo,Paiguano,IO1-A439,En camino,76.74
+Cristóbal Atlas,Maule,Constitución,EY2-L111,Entregado,256.77
+Héctor Bentlee,Metropolitana de Santiago,San Pedro,RE3-M875,Devuelto,202.07
+Alexander Herrera,Los Lagos,Chaitén,RW1-K292,En camino,286.57
+Fabián Testudines,Metropolitana de Santiago,Cerrillos,BF7-O636,Entregado,99.22
+Carlos Bastian,Los Ríos,Los Lagos,VX1-F228,Retrasado,260.05
+Miguel Florencia,Biobío,Mulchén,GV8-O741,Entregado,43.99
+Luis Castillo,Magallanes y Antártica Chilena,Torres del Paine,OR8-G524,En camino,271.03
+León Maria,O'Higgins,Marchihue,VH4-O968,Entregado,223.18
+Antonio Rodriguez,Atacama,Huasco,MN7-Z694,Devuelto,17.09
+Fernando Benjamin,Atacama,Alto del Carmen,DH6-O521,En camino,201.26
+Aaron Bentlee,Aisén,Aisén,EV8-V793,Entregado,10.89
+Elías Atlas,Los Lagos,Fresia,QP3-Y535,Retrasado,219.58
+Ian Sanchez,Valparaíso,Santo Domingo,OC9-J101,Entregado,92.03
+Pablo Miranda,Tarapacá,Pica,HB2-P020,En camino,179.34
+Ricardo Maximiliano,O'Higgins,Peumo,ON5-U291,Entregado,110.24
+Miguel Valenzuela,Aisén,Lago Verde,MM3-I362,Devuelto,210.81
+Guillermo Alonsos,Antofagasta,María Elena,XK5-H223,En camino,33.41
+Simón Joaquin,Maule,Cauquenes,ZH2-P863,Entregado,272.24
+Jorge Matias,Antofagasta,Calama,NY1-U226,Retrasado,156.59
+Renato Fernanda,Maule,Hualañé,UW7-U455,Entregado,198.72
+Isaac Valentina,Arica y Parinacota,Putre,GG1-J755,En camino,95.75
+Daniel Fuentes,Valparaíso,Quilpué,ZN4-U687,Entregado,52.28
+Alexander Florencia,Valparaíso,Quintero,WA5-M455,Devuelto,193.01
+Ian Diaz,Atacama,Diego de Almagro,YA4-T548,En camino,239.35
+Antonio Martin,Magallanes y Antártica Chilena,Antártica,TW7-W118,Entregado,249.14

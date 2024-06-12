@@ -1,0 +1,5 @@
+miguel,francia,2010
+miguel,china,2012
+javiera,francia,2011
+miguel,china,2012
+federico,china,2012

@@ -1,0 +1,47 @@
+Ḩātim,1542,100,29,No protegido,False
+Tawali,1038,30,30,No protegido,False
+Morrelgonj,1712,60,75,No protegido,False
+Jatiklampok,1047,20,72,No protegido,True
+Anchorage,1457,100,62,Protegido,False
+Hankha,697,60,87,Protegido,False
+San Vicente,1395,50,31,No protegido,True
+Växjö,499,60,59,Protegido,False
+København,407,30,25,No protegido,True
+Fort Portal,369,10,75,No protegido,False
+Des Moines,1276,70,4,No protegido,True
+Jāndiāla Sher Khān,727,100,81,No protegido,False
+Aeteke,431,80,65,Protegido,False
+Jiguan,1514,50,4,Protegido,True
+Nīshābūr,553,60,87,No protegido,False
+Costa de Rios Frios,970,10,18,Protegido,False
+Masebewa,1317,90,26,Protegido,True
+Kawakawa,697,40,35,Protegido,False
+Cikuray,1747,50,83,No protegido,False
+Nueva Arica,716,90,67,No protegido,False
+Włocławek,353,10,36,Protegido,True
+Oropesa,453,90,45,Protegido,False
+Perico,1602,40,82,No protegido,False
+Puerto Eldorado,857,70,44,No protegido,False
+Ivanovo-Alekseyevka,1225,20,72,No protegido,False
+Araxá,753,20,37,Protegido,True
+Angoulême,390,30,70,No protegido,False
+Sergokala,1264,80,66,No protegido,False
+Clarin,1128,90,47,Protegido,True
+Mingshuihe,1563,90,47,Protegido,True
+Munjul,1243,30,21,No protegido,True
+Hanyuan,1260,60,35,Protegido,False
+Klirou,1001,90,26,No protegido,False
+Medvedovskaya,1367,70,84,No protegido,False
+Tungipāra,908,70,47,Protegido,False
+San Marcos,1374,100,48,Protegido,False
+Madrid,984,90,68,Protegido,True
+Kandangan,1622,90,84,No protegido,True
+Nagrog,1359,100,8,No protegido,True
+Dera Bugti,1521,70,8,No protegido,True
+Nogent-sur-Marne,1710,70,34,No protegido,True
+Taposan,584,60,25,No protegido,True
+Nantes,1735,100,2,No protegido,False
+Margahayu,351,80,23,Protegido,False
+Pulupandan,697,80,19,Protegido,False
+Sumbersari Wetan,1026,40,2,Protegido,True
+San Jose,854,60,62,No protegido,False

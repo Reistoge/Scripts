@@ -1,0 +1,49 @@
+La Puerta de San José,192,100,79,No protegido,False
+Geyuan,1071,60,52,Protegido,True
+Chengdong,234,50,24,No protegido,True
+Hot,1622,40,90,No protegido,False
+Brétigny-sur-Orge,438,100,88,Protegido,False
+Adirejo,551,30,47,Protegido,False
+Saint Aubin,1220,90,90,Protegido,False
+Baranti,203,70,10,Protegido,False
+Jiangbei,565,60,24,Protegido,True
+Margherita,1663,100,43,Protegido,False
+Afonsoeiro,208,90,54,No protegido,True
+Ar Rawḑah,1355,100,70,Protegido,False
+Qindu,1354,20,23,Protegido,True
+Jintan,1609,10,44,Protegido,True
+Curibaya,186,50,11,No protegido,False
+Growong Lor,701,80,37,No protegido,False
+Harbutowice,1399,40,28,Protegido,False
+Raşad,1729,100,16,No protegido,False
+Montilla,1314,20,28,Protegido,True
+Manzil Bū Zalafah,684,40,79,No protegido,True
+Karano,981,90,46,Protegido,False
+Bherāmāra,1595,90,48,Protegido,True
+Kanginan,1690,10,33,Protegido,True
+Mulhouse,269,80,11,No protegido,False
+Norfolk,1153,40,2,Protegido,False
+Ar Rawḑah,581,70,45,Protegido,False
+Nandu,882,10,46,No protegido,True
+Changtan,999,60,4,Protegido,False
+Balugo,1330,20,36,Protegido,True
+Mesopotamía,550,50,43,Protegido,False
+Wanjia,1788,20,51,No protegido,False
+Atalaia,1108,40,18,Protegido,True
+Krumvíř,1424,100,32,Protegido,True
+Karma,154,100,62,No protegido,True
+Oslo,324,100,41,Protegido,True
+Loutrá,414,30,27,No protegido,False
+Batarasa,1317,100,9,Protegido,True
+Siuna,310,60,82,No protegido,False
+Pariti,1111,90,87,No protegido,True
+Ceelbuur,728,70,85,No protegido,False
+Lukavice,1605,80,40,No protegido,True
+Caohezhang,166,90,36,No protegido,False
+São Miguel,1672,20,84,No protegido,False
+Dłutów,686,50,59,Protegido,True
+Nangabere,1006,90,48,Protegido,True
+Lac La Biche,532,10,5,Protegido,True
+Kukurečani,1283,100,26,No protegido,False
+Shunde,1227,30,54,No protegido,True
+Richard-Toll,625,20,3,No protegido,True
