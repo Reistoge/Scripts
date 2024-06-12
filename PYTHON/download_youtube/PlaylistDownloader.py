@@ -1,8 +1,9 @@
 import yt_dlp
 import os
 from yt_dlp.postprocessor import FFmpegPostProcessor
-#location of the formatter
-FFmpegPostProcessor._ffmpeg_location.set(R'C:\ffmpeg\bin')
+#install and import the libraries requiered.
+ 
+FFmpegPostProcessor._ffmpeg_location.set(R"C:\ffmpeg\bin") # location of the ffmpeg formatter 
 
 # Get the absolute path to the current directory
 current_directory = os.path.dirname(os.path.abspath(__file__))
