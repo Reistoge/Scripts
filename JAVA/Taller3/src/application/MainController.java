@@ -30,51 +30,41 @@ public class MainController {
 	private Stage stage;
 	private Parent root;
 	private Scene scene;
-	
- 
-	public void homeButton(ActionEvent event) throws IOException{
-		Parent root = FXMLLoader.load(getClass().getResource("Menu.fxml"));
-		stage= (Stage) ((Node) event.getSource()).getScene().getWindow();
-		scene= new Scene(root);
+
+	public void homeButton(ActionEvent event) throws IOException {
+		Parent root = FXMLLoader.load(getClass().getResource("Menu2.fxml"));
+		stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+		scene = new Scene(root, 500, 400);
 		scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 		stage.setScene(scene);
-		
-		
+
 	}
-	public void goToUser(ActionEvent event) throws IOException{
-		Parent root = FXMLLoader.load(getClass().getResource("Usuario.fxml"));
-		stage= (Stage) ((Node) event.getSource()).getScene().getWindow();
-		
-		scene= new Scene(root);
+
+	public void goToUser(ActionEvent event, String tipoSoldado) throws IOException {
+		Parent root = FXMLLoader.load(getClass().getResource(tipoSoldado + ".fxml"));
+		stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+		scene = new Scene(root, 500, 400);
 		scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 		stage.setScene(scene);
-		
-		
+
 	}
-	public void goToSedes(ActionEvent event) throws IOException{
+
+	public void goToSedes(ActionEvent event) throws IOException {
 		Parent root = FXMLLoader.load(getClass().getResource("Sedes.fxml"));
-		stage= (Stage) ((Node) event.getSource()).getScene().getWindow();
-		scene= new Scene(root);
+		stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+		scene = new Scene(root, 500, 400);
 		scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 		stage.setScene(scene);
-		
-		
+
 	}
-	public void goToInscribirse(ActionEvent event) throws IOException{
+
+	public void goToInscribirse(ActionEvent event) throws IOException {
 		Parent root = FXMLLoader.load(getClass().getResource("Inscribirse.fxml"));
-		stage= (Stage) ((Node) event.getSource()).getScene().getWindow();
-		scene= new Scene(root);
+		stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+		scene = new Scene(root, 500, 400);
 		scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 		stage.setScene(scene);
-		
-		
+
 	}
-	
-	
-
-
- 
-	 
-	
 
 }

@@ -16,13 +16,7 @@ public class Main {
 //		-HAZ QUE RECIBA DOS ESTRATEGIAS EN EL CONSTRUCTOR Y QUE CAMBIE ENTRE ELLAS DESPUESDE CADA LLAMADA A VIVIR.
 		
 //		
-//		ALIM_NORMAL
-//		Juancho,30,100,100
-//		Rex,50,80,90
-//		YAZ,20,90,40
-//		Firulais,25,50,32
-//		Kiltro,35,120,90
-//		Flux,27,90,130
+ 
 		
 		
 		Main m = new Main();

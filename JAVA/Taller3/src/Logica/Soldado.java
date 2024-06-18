@@ -1,7 +1,14 @@
 package Logica;
 
-public class Soldado {
-	String nombre,rut,contraseña,cede,tipo;
+import java.util.ArrayList;
+import java.util.List;
+
+public abstract class Soldado {
+
+	String nombre, rut, contraseña, cede, tipo;
+	List<ActividadComponent> actividades;
+	
+	
 
 	public Soldado(String nombre, String rut, String contraseña, String cede, String tipo) {
 		this.nombre = nombre;
@@ -9,6 +16,9 @@ public class Soldado {
 		this.contraseña = contraseña;
 		this.cede = cede;
 		this.tipo = tipo;
+		actividades = new ArrayList<ActividadComponent>();
+		
+
 	}
 
 	public String getNombre() {
@@ -20,7 +30,7 @@ public class Soldado {
 	}
 
 	public String getRut() {
-		return rut;
+		return this.rut;
 	}
 
 	public void setRut(String rut) {
@@ -50,8 +60,23 @@ public class Soldado {
 	public void setTipo(String tipo) {
 		this.tipo = tipo;
 	}
-	
-	
-	
-	
+
+	public List<ActividadComponent> getActividades() {
+		return actividades;
+	}
+
+	public ActividadComponent getEntrenamiento() {
+		return this.actividades.get(0);
+	}
+
+	public void setActividades(List<ActividadComponent> actividades) {
+		this.actividades = actividades;
+	}
+
+	@Override
+	public String toString() {
+		return "Soldado [nombre=" + nombre + ", rut=" + rut + ", contraseña=" + contraseña + ", cede=" + cede
+				+ ", tipo=" + tipo + "]";
+	}
+
 }

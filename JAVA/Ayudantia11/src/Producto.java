@@ -1,4 +1,3 @@
-
 public abstract class Producto {
 	String tipo,nombre,marca,precio;
 	 

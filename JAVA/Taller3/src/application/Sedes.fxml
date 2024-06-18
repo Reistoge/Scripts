@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.control.SplitPane?>
 <?import javafx.scene.control.Tab?>
 <?import javafx.scene.control.TabPane?>
@@ -10,129 +8,47 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane fx:id="cede" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
-   <children>
-      <Text fx:id="cedeText" layoutX="14.0" layoutY="55.0" nodeOrientation="LEFT_TO_RIGHT" strokeType="OUTSIDE" strokeWidth="0.0" text="Cede: Coquimbo" AnchorPane.bottomAnchor="700.09765625" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="760.544921875" AnchorPane.topAnchor="22.626953125">
-         <font>
-            <Font name="Consolas" size="30.0" />
-         </font>
-      </Text>
-      <SplitPane dividerPositions="0.5" layoutY="78.0" orientation="VERTICAL" prefHeight="685.0" prefWidth="996.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="78.0">
-         <items>
-            <TabPane prefWidth="578.0" tabClosingPolicy="UNAVAILABLE">
-              <tabs>
-                <Tab text="Ranking Fusileros">
-                     <content>
-                        <AnchorPane>
-                           <children>
-                              <ScrollPane layoutX="126.0" layoutY="87.0" prefHeight="481.0" prefWidth="744.0" AnchorPane.leftAnchor="126.0" AnchorPane.rightAnchor="124.0">
-                                 <content>
-                                    <Text fx:id="rankingText" strokeType="OUTSIDE" strokeWidth="0.0" text="info ranking descendente info ranking descendenteinfo ranking descendenteinfo ranking descendenteinfo ranking descendenteinfo ranking descendenteinfo ranking descendenteinfo ranking descendenteinfo ranking descendenteinfo ranking descendenteinfo ranking descendenteinfo ranking descendenteinfo ranking descendenteinfo ranking descendenteinfo ranking descendenteinfo ranking descendenteinfo ranking descendenteinfo ranking descendenteinfo ranking descendenteinfo ranking descendenteinfo ranking descendenteinfo ranking descendenteinfo ranking descendenteinfo ranking descendenteinfo ranking descendenteinfo ranking descendenteinfo ranking descendenteinfo ranking descendenteinfo ranking descendenteinfo ranking descendenteinfo ranking descendenteinfo ranking descendente" wrappingWidth="700.0">
-                                       <font>
-                                          <Font name="Consolas" size="25.0" />
-                                       </font>
-                                    </Text>
-                                 </content>
-                                 <padding>
-                                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
-                                 </padding>
-                              </ScrollPane>
-                           </children>
-                        </AnchorPane>
-                     </content>
-                  </Tab>
-                  <Tab text="Lugares de espionaje de pilotos">
-                     <content>
-                        <AnchorPane>
-                           <children>
-                              <ScrollPane layoutX="126.0" layoutY="87.0" prefHeight="481.0" prefWidth="744.0" AnchorPane.leftAnchor="126.0" AnchorPane.rightAnchor="124.0">
-                                 <content>
-                                    <Text fx:id="espionajesText" strokeType="OUTSIDE" strokeWidth="0.0" text="Pilotos" wrappingWidth="700.0">
-                                       <font>
-                                          <Font name="Consolas" size="25.0" />
-                                       </font>
-                                    </Text>
-                                 </content>
-                                 <padding>
-                                    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-                                 </padding>
-                              </ScrollPane>
-                           </children>
-                        </AnchorPane>
-                     </content>
-                  </Tab>
-                  <Tab text="Lugares que vigilan Infantes">
-                     <content>
-                        <AnchorPane>
-                           <children>
-                              <ScrollPane layoutX="126.0" layoutY="87.0" prefHeight="481.0" prefWidth="744.0" AnchorPane.leftAnchor="126.0" AnchorPane.rightAnchor="124.0">
-                                 <content>
-                                    <Text fx:id="infantesText" strokeType="OUTSIDE" strokeWidth="0.0" text="Lugares y rol" wrappingWidth="700.0">
-                                       <font>
-                                          <Font size="25.0" />
-                                       </font>
-                                    </Text>
-                                 </content>
-                                 <padding>
-                                    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-                                 </padding>
-                              </ScrollPane>
-                           </children>
-                        </AnchorPane>
-                     </content>
-                  </Tab>
-                  <Tab text="Cupos que quedan en Cede">
-                     <content>
-                        <AnchorPane>
-                           <children>
-                              <ScrollPane layoutX="126.0" layoutY="87.0" prefHeight="481.0" prefWidth="744.0" AnchorPane.leftAnchor="126.0" AnchorPane.rightAnchor="124.0">
-                                 <content>
-                                    <Text fx:id="cuposText" strokeType="OUTSIDE" strokeWidth="0.0" text="Cupos restantes en la cede" wrappingWidth="700.0">
-                                       <font>
-                                          <Font size="25.0" />
-                                       </font>
-                                    </Text>
-                                 </content>
-                                 <padding>
-                                    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-                                 </padding>
-                              </ScrollPane>
-                           </children>
-                        </AnchorPane>
-                     </content>
-                  </Tab>
-                  <Tab fx:id="SoldadosText" text="Soldados">
-                     <content>
-                        <AnchorPane>
-                           <children>
-                              <ScrollPane layoutX="126.0" layoutY="87.0" prefHeight="481.0" prefWidth="744.0" AnchorPane.leftAnchor="126.0" AnchorPane.rightAnchor="124.0">
-                                 <content>
-                                    <Text fx:id="soldadosText" strokeType="OUTSIDE" strokeWidth="0.0" text="Soldados" wrappingWidth="700.0">
-                                       <font>
-                                          <Font name="Consolas" size="25.0" />
-                                       </font>
-                                    </Text>
-                                 </content>
-                                 <padding>
-                                    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-                                 </padding>
-                              </ScrollPane>
-                           </children>
-                        </AnchorPane>
-                     </content>
-                  </Tab>
-              </tabs>
-            </TabPane>
-            <Text layoutX="10.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="By X company" textAlignment="CENTER" wrappingWidth="384.0">
-               <font>
-                  <Font name="Consolas" size="16.0" />
-               </font>
-            </Text>
-         </items>
-      </SplitPane>
-      <Button fx:id="MenuBoton" layoutX="939.0" layoutY="25.0" mnemonicParsing="false" text="Menu" AnchorPane.rightAnchor="14.0">
-         <font>
-            <Font name="Consolas" size="16.0" />
-         </font></Button>
-   </children>
+<AnchorPane fx:id="cede" xmlns="http://javafx.com/javafx/21"
+	xmlns:fx="http://javafx.com/fxml/1">
+	<children>
+		<Text fx:id="cedeText" layoutX="14.0" layoutY="55.0"
+			nodeOrientation="LEFT_TO_RIGHT" strokeType="OUTSIDE"
+			strokeWidth="0.0" text="Cede: String"
+			AnchorPane.bottomAnchor="700.09765625" AnchorPane.leftAnchor="14.0"
+			AnchorPane.rightAnchor="760.544921875"
+			AnchorPane.topAnchor="22.626953125">
+			<font>
+				<Font name="Consolas" size="30.0" />
+			</font>
+		</Text>
+		<SplitPane dividerPositions="0.5" layoutY="78.0"
+			orientation="VERTICAL" prefHeight="685.0" prefWidth="996.0"
+			AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+			AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="78.0">
+			<items>
+				<TabPane prefWidth="578.0" tabClosingPolicy="UNAVAILABLE">
+					<tabs>
+						<Tab text="Ranking Fusileros" />
+						<Tab text="Lugares de espionaje de pilotos" />
+						<Tab text="Lugares que vigilan Infantes" />
+						<Tab text="Cupos que quedan en Cede" />
+						<Tab fx:id="SoldadosText" text="Soldados" />
+					</tabs>
+				</TabPane>
+				<Text layoutX="10.0" layoutY="47.0" strokeType="OUTSIDE"
+					strokeWidth="0.0" text="By X company" textAlignment="CENTER"
+					wrappingWidth="384.0">
+					<font>
+						<Font name="Consolas" size="16.0" />
+					</font>
+				</Text>
+			</items>
+		</SplitPane>
+		<Button fx:id="MenuBoton" layoutX="939.0" layoutY="25.0"
+			mnemonicParsing="false" text="Menu" AnchorPane.rightAnchor="14.0">
+			<font>
+				<Font name="Consolas" size="16.0" />
+			</font>
+		</Button>
+	</children>
 </AnchorPane>

@@ -1,127 +1,246 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Accordion?>
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Spinner?>
 <?import javafx.scene.control.SplitPane?>
 <?import javafx.scene.control.Tab?>
 <?import javafx.scene.control.TabPane?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane fx:id="cede" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
-   <children>
-      <Text fx:id="cedeText" layoutX="14.0" layoutY="55.0" nodeOrientation="LEFT_TO_RIGHT" strokeType="OUTSIDE" strokeWidth="0.0" text="Capitan Type Menu" AnchorPane.bottomAnchor="700.09765625" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="760.544921875" AnchorPane.topAnchor="22.626953125">
-         <font>
-            <Font name="Consolas" size="30.0" />
-         </font>
-      </Text>
-      <SplitPane dividerPositions="0.5" layoutY="78.0" orientation="VERTICAL" prefHeight="685.0" prefWidth="996.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="78.0">
-         <items>
-            <TabPane prefWidth="578.0" tabClosingPolicy="UNAVAILABLE" tabMinHeight="40.0" tabMinWidth="200.0">
-              <tabs>
-                <Tab text="Info">
-                     <content>
-                        <AnchorPane>
-                           <children>
-                              <ScrollPane layoutX="105.0" layoutY="49.0" prefHeight="517.0" prefWidth="845.0" AnchorPane.leftAnchor="105.0" AnchorPane.rightAnchor="104.0">
+<SplitPane dividerPositions="0.5" orientation="VERTICAL" prefHeight="500.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.FusileroController">
+	<items>
+		<VBox spacing="10.0">
+			<children>
+				<AnchorPane prefHeight="47.0" prefWidth="296.0">
+					<children>
+						<Label layoutX="14.0" layoutY="6.0" text="Fusilero Menu" AnchorPane.leftAnchor="14.0">
+							<font>
+								<Font name="Consolas" size="34.0" />
+							</font>
+						</Label>
+						<Button layoutX="237.0" layoutY="11.0" mnemonicParsing="false" onAction="#volverMenu" text="Volver al Menú" AnchorPane.rightAnchor="7.0" />
+					</children>
+				</AnchorPane>
+				<TabPane tabClosingPolicy="UNAVAILABLE" tabMinHeight="25.0" tabMinWidth="120.0" VBox.vgrow="ALWAYS">
+					<tabs>
+						<Tab text="Info">
+							<content>
+								<GridPane gridLinesVisible="true">
+									<columnConstraints>
+										<ColumnConstraints hgrow="SOMETIMES" maxWidth="258.0" minWidth="10.0" prefWidth="236.0" />
+										<ColumnConstraints hgrow="SOMETIMES" maxWidth="269.0" minWidth="10.0" prefWidth="252.0" />
+									</columnConstraints>
+									<rowConstraints>
+										<RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+										<RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+										<RowConstraints maxHeight="86.0" minHeight="10.0" prefHeight="85.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="78.0" minHeight="10.0" prefHeight="56.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="78.0" minHeight="10.0" prefHeight="56.0" vgrow="SOMETIMES" />
+									</rowConstraints>
+									<children>
+										<Label text="Nombre">
+                                 <GridPane.margin>
+                                    <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
+                                 </GridPane.margin>
+                                 <font>
+                                    <Font name="Consolas" size="24.0" />
+                                 </font></Label>
+										<Label fx:id="nombre" text="String" GridPane.columnIndex="1">
+                                 <GridPane.margin>
+                                    <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
+                                 </GridPane.margin>
+                                 <font>
+                                    <Font name="Consolas" size="24.0" />
+                                 </font></Label>
+										<Label text="Rut" GridPane.rowIndex="1">
+                                 <GridPane.margin>
+                                    <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
+                                 </GridPane.margin>
+                                 <font>
+                                    <Font name="Consolas" size="24.0" />
+                                 </font></Label>
+										<Label fx:id="rut" text="float" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                 <GridPane.margin>
+                                    <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
+                                 </GridPane.margin>
+                                 <font>
+                                    <Font name="Consolas" size="24.0" />
+                                 </font></Label>
+										<Label text="Arma" GridPane.rowIndex="2">
+                                 <GridPane.margin>
+                                    <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
+                                 </GridPane.margin>
+                                 <font>
+                                    <Font name="Consolas" size="24.0" />
+                                 </font></Label>
+										<Label fx:id="arma" text="String" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                 <GridPane.margin>
+                                    <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
+                                 </GridPane.margin>
+                                 <font>
+                                    <Font name="Consolas" size="24.0" />
+                                 </font></Label>
+                              <Label layoutX="62.0" layoutY="239.0" text="Peso de arma" GridPane.rowIndex="3">
+                                 <font>
+                                    <Font name="Consolas" size="24.0" />
+                                 </font>
+                                 <GridPane.margin>
+                                    <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
+                                 </GridPane.margin>
+                              </Label>
+                              <Label fx:id="pesoArma" layoutX="40.0" layoutY="317.0" text="Cede" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                                 <font>
+                                    <Font name="Consolas" size="24.0" />
+                                 </font>
+                                 <GridPane.margin>
+                                    <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
+                                 </GridPane.margin>
+                              </Label>
+                              <Label layoutX="62.0" layoutY="273.0" text="Cede" GridPane.rowIndex="4">
+                                 <font>
+                                    <Font name="Consolas" size="24.0" />
+                                 </font>
+                                 <GridPane.margin>
+                                    <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
+                                 </GridPane.margin>
+                              </Label>
+                              <Label fx:id="cede" layoutX="40.0" layoutY="326.0" text="Cede" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                                 <font>
+                                    <Font name="Consolas" size="24.0" />
+                                 </font>
+                                 <GridPane.margin>
+                                    <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
+                                 </GridPane.margin>
+                              </Label>
+									</children>
+									<padding>
+										<Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+									</padding>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+								</GridPane>
+							</content>
+						</Tab>
+						<Tab text="Actividades">
+							<content>
+								<VBox prefHeight="200.0" prefWidth="100.0" spacing="5.0">
+									<children>
+                              <ScrollPane>
                                  <content>
-                                    <Text fx:id="rankingText" strokeType="OUTSIDE" strokeWidth="0.0" text="Info" wrappingWidth="700.0">
-                                       <font>
-                                          <Font name="Consolas" size="25.0" />
-                                       </font>
-                                    </Text>
+      										<Accordion fx:id="actividadesAccordion" />
                                  </content>
+                                 <VBox.margin>
+                                    <Insets top="22.0" />
+                                 </VBox.margin>
+                              </ScrollPane>
+										<Label text="Nombre de nueva actividad" />
+										<TextField fx:id="nombreActividad" text=" " />
+										<Label layoutX="10.0" layoutY="85.0" text="Descripcion de nueva actividad" />
+										<TextField fx:id="descripcionActividad" layoutX="10.0" layoutY="95.0" />
+										<Label layoutX="10.0" layoutY="120.0" text="Prioridad de Actividad" />
+										<ChoiceBox fx:id="priorityBox" prefWidth="150.0" />
+										<Button fx:id="agregarActivadadBoton" mnemonicParsing="false" onAction="#agregarActividad" text="Agregar" />
+										<Button layoutX="10.0" layoutY="300.0" mnemonicParsing="false" onAction="#eliminarActividad" text="Eliminar ultima actividad" />
+									</children>
+								</VBox>
+							</content>
+						</Tab>
+						<Tab text="Subir de Rango">
+							<content>
+								<VBox prefHeight="200.0" prefWidth="100.0" />
+							</content>
+							<content>
+								<VBox spacing="8.0">
+									<children>
+										<GridPane gridLinesVisible="true">
+											<columnConstraints>
+												<ColumnConstraints hgrow="SOMETIMES" prefWidth="50.0" />
+												<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+											</columnConstraints>
+											<rowConstraints>
+												<RowConstraints maxHeight="100.0" minHeight="100.0" prefHeight="100.0" vgrow="SOMETIMES" />
+												<RowConstraints maxHeight="100.0" minHeight="100.0" prefHeight="100.0" vgrow="SOMETIMES" />
+											</rowConstraints>
+											<children>
+												<Label text="Rango Actual" GridPane.halignment="CENTER">
+                                       <font>
+                                          <Font name="Consolas" size="22.0" />
+                                       </font>
+                                       <GridPane.margin>
+                                          <Insets />
+                                       </GridPane.margin></Label>
+												<Label fx:id="rangoSoldado" text="Int" GridPane.columnIndex="1" GridPane.halignment="CENTER">
+                                       <font>
+                                          <Font name="Consolas" size="22.0" />
+                                       </font>
+                                       <GridPane.margin>
+                                          <Insets />
+                                       </GridPane.margin></Label>
+												<Label prefHeight="69.0" prefWidth="189.0" text="Diferencia con rango mayor" wrapText="true" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+                                       <font>
+                                          <Font name="Consolas" size="22.0" />
+                                       </font>
+                                       <GridPane.margin>
+                                          <Insets />
+                                       </GridPane.margin></Label>
+												<Label fx:id="topRango" text="int" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+                                       <font>
+                                          <Font name="Consolas" size="22.0" />
+                                       </font>
+                                       <GridPane.margin>
+                                          <Insets />
+                                       </GridPane.margin></Label>
+											</children>
+                                 <VBox.margin>
+                                    <Insets />
+                                 </VBox.margin>
                                  <padding>
                                     <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
                                  </padding>
-                              </ScrollPane>
-                           </children>
-                        </AnchorPane>
-                     </content>
-                  </Tab>
-                  <Tab text="Actividades">
-                     <content>
-                        <AnchorPane>
-                           <children>
-                              <ScrollPane layoutX="96.0" layoutY="48.0" prefHeight="265.0" prefWidth="863.0" AnchorPane.leftAnchor="96.0" AnchorPane.rightAnchor="95.0">
-                                 <content>
-                                    <Text fx:id="espionajesText" strokeType="OUTSIDE" strokeWidth="0.0" text="Pilotos" wrappingWidth="700.0">
-                                       <font>
-                                          <Font name="Consolas" size="25.0" />
-                                       </font>
-                                    </Text>
-                                 </content>
-                                 <padding>
-                                    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-                                 </padding>
-                              </ScrollPane>
-                              <AnchorPane layoutX="96.0" layoutY="336.0" AnchorPane.leftAnchor="96.0" AnchorPane.rightAnchor="523.0">
-                                 <children>
-                                    <Text layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Agregar actividad" wrappingWidth="181.0">
-                                       <font>
-                                          <Font size="16.0" />
-                                       </font>
-                                    </Text>
-                                    <TextField layoutY="36.0" prefHeight="38.0" prefWidth="435.0" promptText="agregar actividad" text=" ">
-                                       <font>
-                                          <Font size="16.0" />
-                                       </font>
-                                    </TextField>
-                                    <Button layoutY="90.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="97.0" text="agregar">
-                                       <font>
-                                          <Font size="16.0" />
-                                       </font>
-                                    </Button>
-                                 </children>
-                              </AnchorPane>
-                           </children>
-                        </AnchorPane>
-                     </content>
-                  </Tab>
-                  <Tab text="Rango">
-                     <content>
-                        <AnchorPane>
-                           <children>
-                              <AnchorPane layoutX="248.0" layoutY="71.0" prefHeight="223.0" prefWidth="399.0" AnchorPane.bottomAnchor="336.0" AnchorPane.leftAnchor="248.0" AnchorPane.rightAnchor="357.0" AnchorPane.topAnchor="55.0">
-                                 <children>
-                                    <Text layoutX="14.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rango:" wrappingWidth="58.0">
-                                       <font>
-                                          <Font size="16.0" />
-                                       </font></Text>
-                                    <TextField layoutX="14.0" layoutY="49.0" prefHeight="38.0" prefWidth="435.0" promptText="Nuevo Rango">
-                                       <font>
-                                          <Font size="16.0" />
-                                       </font></TextField>
-                                    <Button layoutX="14.0" layoutY="103.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="97.0" text="Cambiar">
-                                       <font>
-                                          <Font size="16.0" />
-                                       </font></Button>
-                                    <Text layoutX="78.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="numero" wrappingWidth="65.75">
-                                       <font>
-                                          <Font size="16.0" />
-                                       </font>
-                                    </Text>
-                                 </children>
-                              </AnchorPane>
-                           </children>
-                        </AnchorPane>
-                     </content>
-                  </Tab>
-              </tabs>
-            </TabPane>
-            <Text layoutX="10.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="By X company" textAlignment="CENTER" wrappingWidth="384.0">
-               <font>
-                  <Font name="Consolas" size="16.0" />
-               </font>
-            </Text>
-         </items>
-      </SplitPane>
-      <Button fx:id="MenuBoton" layoutX="939.0" layoutY="25.0" mnemonicParsing="false" text="Menu" AnchorPane.rightAnchor="14.0">
-         <font>
-            <Font name="Consolas" size="16.0" />
-         </font></Button>
-   </children>
-</AnchorPane>
+										</GridPane>
+										<Text strokeType="OUTSIDE" strokeWidth="0.0" text="Subir de rango">
+                                 <VBox.margin>
+                                    <Insets top="22.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font name="Consolas" size="18.0" />
+                                 </font></Text>
+										<Spinner fx:id="rangoSpinner">
+                                 <VBox.margin>
+                                    <Insets />
+                                 </VBox.margin></Spinner>
+										<Button mnemonicParsing="false" onAction="#actualizarRango" text="Actualizar">
+                                 <VBox.margin>
+                                    <Insets />
+                                 </VBox.margin></Button>
+									</children>
+								</VBox>
+							</content>
+						</Tab>
+					</tabs>
+					<VBox.margin>
+						<Insets />
+					</VBox.margin>
+				</TabPane>
+			</children>
+		</VBox>
+		<Label text="X Company">
+			<font>
+				<Font name="Consolas" size="15.0" />
+			</font>
+		</Label>
+	</items>
+</SplitPane>
