@@ -7,6 +7,8 @@ import java.util.ResourceBundle;
 import Logica.Actividad;
 import Logica.ActividadComponent;
 import Logica.ColorDecorator;
+import Logica.Marino;
+import Logica.Piloto;
 import Logica.SistemaImp;
 import Logica.Soldado;
 import javafx.event.ActionEvent;
@@ -19,8 +21,24 @@ import javafx.scene.control.TextField;
 import javafx.scene.control.TitledPane;
 
 public class PilotoController extends SoldadoController{
+	Soldado user;
 	@FXML
-	Label nombre,rut,arma,pesoArma,cede;
+	Label nombre;
+	@FXML
+	Label cede;
+	@FXML
+	Label rut;
+	@FXML
+	Label lugarDondeEspia;
+	@FXML
+	Label tipoNave;
+	@FXML
+	Label alturaVuelo;
+	
+	
+	@FXML
+	TextField nuevoLugarField;
+	 
 	ActividadPaneFactory factoryActividad;
 	@FXML
 	TextField nombreActividad;
@@ -33,6 +51,14 @@ public class PilotoController extends SoldadoController{
 
 	@FXML
 	Accordion actividadesAccordion;
+	public void cambiarLugarEspionaje() {
+		Piloto p=(Piloto) user;
+		String field=nuevoLugarField.getText().strip();
+		if(field!="") {
+			p.setLugarEspionaje(field);
+			lugarDondeEspia.setText(field);
+		}
+	}
 
 	public void agregarActividad(ActionEvent e) {
 
@@ -79,6 +105,9 @@ public class PilotoController extends SoldadoController{
 
 	@Override
 	public void initialize(URL arg0, ResourceBundle arg1) {
+		
+		user=SistemaImp.getInstance().getLoggedSoldado();
+		cargarInfo();
 		factoryActividad = new ActividadPaneFactory();
 		priorityBox.getItems().addAll(SistemaImp.getInstance().getActividadColores());
 		priorityBox.setValue("Ninguna");
@@ -99,12 +128,23 @@ public class PilotoController extends SoldadoController{
  
  		 
 	}
-
+	public void cargarInfo() {
+		Piloto p = (Piloto) user;
+		nombre.setText(p.getNombre());
+		rut.setText(p.getRut());
+		cede.setText(p.getCede());
+		alturaVuelo.setText(p.getAlturaVuelo());
+		lugarDondeEspia.setText(p.getLugarEspionaje());
+	}
 	public void agregarAccordion(TitledPane e) {
 
 		actividadesAccordion.getPanes().add(e);
 	}
 	public void volverMenu(ActionEvent e) throws IOException {
+		super.guardarArchivos();
 		super.homeButton(e);
+	}
+	public void guardarCambios() {
+		super.guardarArchivos();
 	}
 }

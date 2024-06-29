@@ -3,9 +3,10 @@ package Logica;
 import java.util.ArrayList;
 import java.util.List;
 
-public abstract class Soldado {
+public abstract class Soldado implements Subscriber{
 
 	String nombre, rut, contraseña, cede, tipo;
+	float factorCorrer,factorEntrenamiento;
 	List<ActividadComponent> actividades;
 	
 	
@@ -72,11 +73,30 @@ public abstract class Soldado {
 	public void setActividades(List<ActividadComponent> actividades) {
 		this.actividades = actividades;
 	}
+	 
 
 	@Override
 	public String toString() {
 		return "Soldado [nombre=" + nombre + ", rut=" + rut + ", contraseña=" + contraseña + ", cede=" + cede
 				+ ", tipo=" + tipo + "]";
 	}
+
+	public float getFactorCorrer() {
+		return factorCorrer;
+	}
+
+	public void setFactorCorrer(float factorCorrer) {
+		this.factorCorrer = factorCorrer;
+	}
+
+	public float getFactorEntrenamiento() {
+		return factorEntrenamiento;
+	}
+
+	public void setFactorEntrenamiento(float factorEntrenamiento) {
+		this.factorEntrenamiento = factorEntrenamiento;
+	}
+
+ 
 
 }

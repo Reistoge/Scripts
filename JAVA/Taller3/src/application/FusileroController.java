@@ -4,10 +4,9 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-
 import Logica.Actividad;
 import Logica.ActividadComponent;
-import Logica.Cede;
+import Logica.Sede;
 import Logica.ColorDecorator;
 import Logica.Fusilero;
 import Logica.SistemaImp;
@@ -30,7 +29,7 @@ import javafx.scene.text.Text;
 public class FusileroController extends SoldadoController {
 	// por alguna razon hay problemas con el UI pero esta funcionando todo bien
 	Fusilero f;
-	Cede cedeFusilero;
+	Sede cedeFusilero;
 	@FXML
 	Label nombre;
 	@FXML
@@ -41,14 +40,14 @@ public class FusileroController extends SoldadoController {
 	Label pesoArma;
 	@FXML
 	Label cede;
-	
+
 	@FXML
 	Label rangoSoldado;
 	@FXML
 	Label topRango;
 	@FXML
 	Spinner<Integer> rangoSpinner;
-	
+
 	ActividadPaneFactory factoryActividad;
 	@FXML
 	TextField nombreActividad;
@@ -85,7 +84,7 @@ public class FusileroController extends SoldadoController {
 			descripcion = "no hay descripcion";
 		}
 
-		if (!nombre.strip().equalsIgnoreCase("") ) {
+		if (!nombre.strip().equalsIgnoreCase("")) {
 			// creamos una nueva actividad
 			ActividadComponent a = new Actividad(nombre, descripcion);
 			// agregamos el componente de color (decorator)
@@ -116,12 +115,11 @@ public class FusileroController extends SoldadoController {
 		pesoArma.setText(f.getPesoArma());
 		cede.setText(f.getCede());
 		rangoSoldado.setText(f.getClase());
-		topRango.setText(mayorRangoFusilero()-Integer.parseInt(f.getClase())+"");
-		SpinnerValueFactory<Integer> valueFactory= new SpinnerValueFactory.IntegerSpinnerValueFactory(1,999);	
+		topRango.setText(mayorRangoFusilero() - Integer.parseInt(f.getClase()) + "");
+		SpinnerValueFactory<Integer> valueFactory = new SpinnerValueFactory.IntegerSpinnerValueFactory(1, 999);
 		valueFactory.setValue(Integer.parseInt(f.getClase()));
 		rangoSpinner.setValueFactory(valueFactory);
-		
-		
+
 		// CARGAMOS LAS ACTIVIDADES
 		factoryActividad = new ActividadPaneFactory();
 		priorityBox.getItems().addAll(SistemaImp.getInstance().getActividadColores());
@@ -130,59 +128,63 @@ public class FusileroController extends SoldadoController {
 		String infoEntrenar = user.getEntrenamiento().getDatos();
 		TitledPane entrenarPane = factoryActividad.crearActividad(infoEntrenar);
 		agregarAccordion(entrenarPane);
- 		 
+
 	}
 
 	public void eliminarActividad() {
-		int index=SistemaImp.getInstance().getLoggedSoldado().getActividades().size();
-		if(index!=1) {
-			actividadesAccordion.getPanes().remove(index-1);
-			SistemaImp.getInstance().getLoggedSoldado().getActividades().remove(index-1);
-			
+		int index = SistemaImp.getInstance().getLoggedSoldado().getActividades().size();
+		if (index != 1) {
+			actividadesAccordion.getPanes().remove(index - 1);
+			SistemaImp.getInstance().getLoggedSoldado().getActividades().remove(index - 1);
+
 		}
- 
- 		 
+
 	}
 
 	public void agregarAccordion(TitledPane e) {
 
 		actividadesAccordion.getPanes().add(e);
 	}
+
 	public void volverMenu(ActionEvent e) throws IOException {
+		super.guardarArchivos();
 		super.homeButton(e);
 	}
+
 	private int mayorRangoFusilero() {
-		int mayor=0;
-		for(Soldado s : cedeFusilero.getSoldados()) {
-			if(s instanceof Fusilero) {
+		int mayor = 0;
+		for (Soldado s : cedeFusilero.getSoldados()) {
+			if (s instanceof Fusilero) {
 				Fusilero f = (Fusilero) s;
-				if(Integer.parseInt(f.getClase())>= mayor) {
-					mayor=Integer.parseInt(f.getClase());
+				if (Integer.parseInt(f.getClase()) >= mayor) {
+					mayor = Integer.parseInt(f.getClase());
 				}
-				
+
 			}
-			
+
 		}
 		return mayor;
-		
-		
+
 	}
-	
-	
+
 	public void actualizarRango() {
 		// seteamos la clase a un nuevo valor
-		f.setClase(rangoSpinner.getValue()+"");
+		f.setClase(rangoSpinner.getValue() + "");
 		// UI
 		rangoSoldado.setText(f.getClase());
 		// calculamos de nuevo la diferencia.
-		int diferencia=mayorRangoFusilero()-Integer.parseInt(f.getClase());
-		topRango.setText(diferencia+"");
-		if(diferencia==0) {
+		int diferencia = mayorRangoFusilero() - Integer.parseInt(f.getClase());
+		topRango.setText(diferencia + "");
+		if (diferencia == 0) {
 			// aqui podria aplicarse observer.
 			topRango.setText("Es el mayor.\nDiferencia 0");
-			new Alert(AlertType.INFORMATION, "El fusilero "+f.getNombre()+" es ahora con el mayor rango").showAndWait();
+			new Alert(AlertType.INFORMATION, "El fusilero " + f.getNombre() + " es ahora con el mayor rango")
+					.showAndWait();
 		}
-		
+
+	}
+	
+	public void guardarCambios() {
 		
 	}
 

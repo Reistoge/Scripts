@@ -26,4 +26,13 @@ public class Infante extends Soldado {
 		this.lugarQueVigila = lugarQueVigila;
 	}
 
+	@Override
+	public String notification() {
+		return this.nombre + "," + this.rut + "," + this.contraseña + "," + this.cede + "," + this.tipo + ","
+				+ this.rol + "," + this.lugarQueVigila +"\n";
+	 
+	}
+
+ 
+
 }

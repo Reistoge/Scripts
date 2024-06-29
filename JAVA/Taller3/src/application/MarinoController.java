@@ -151,6 +151,7 @@ public class MarinoController extends SoldadoController{
 		actividadesAccordion.getPanes().add(e);
 	}
 	public void volverMenu(ActionEvent e) throws IOException {
+		super.guardarArchivos();
 		super.homeButton(e);
 	}
 	public void cargarMenuCapitan() {
@@ -199,6 +200,9 @@ public class MarinoController extends SoldadoController{
 		cede.setText(m.getCede());
 		embarcacion.setText(m.getEmbarcacion());
 		puestoEmbarcacion.setText(m.getPuestoEmbarcacion());
+	}
+	public void guardarCambios() {
+		super.guardarArchivos();
 	}
 	 
 	

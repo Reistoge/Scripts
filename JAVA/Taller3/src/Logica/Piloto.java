@@ -35,4 +35,12 @@ public class Piloto extends Soldado {
 		this.alturaVuelo = alturaVuelo;
 	}
 
+	@Override
+	public String notification() {
+		return this.nombre + "," + this.rut + "," + this.contraseña + "," + this.cede + "," + this.tipo + ","
+				+ this.lugarEspionaje + "," + this.tipoNave + "," + this.alturaVuelo + "\n";
+	}
+
+	 
+
 }

@@ -2,6 +2,7 @@ package application;
 
 import java.io.IOException;
 
+import Logica.SistemaImp;
 import javafx.application.Platform;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
@@ -32,27 +33,31 @@ public class MainController {
 	private Scene scene;
 
 	public void homeButton(ActionEvent event) throws IOException {
-		Parent root = FXMLLoader.load(getClass().getResource("Menu2.fxml"));
+		Parent root = FXMLLoader.load(getClass().getResource("Menu.fxml"));
 		stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-		scene = new Scene(root, 500, 400);
+		scene = new Scene(root, 900, 700);
 		scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 		stage.setScene(scene);
 
 	}
 
 	public void goToUser(ActionEvent event, String tipoSoldado) throws IOException {
-		Parent root = FXMLLoader.load(getClass().getResource(tipoSoldado + ".fxml"));
-		stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-		scene = new Scene(root, 500, 400);
-		scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
-		stage.setScene(scene);
+		if(!tipoSoldado.equalsIgnoreCase("infante")) {
+			
+			Parent root = FXMLLoader.load(getClass().getResource(tipoSoldado + ".fxml"));
+			stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+			Scene scene = new Scene(root, 900, 700);
+			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
+			stage.setScene(scene);
+		}
 
 	}
 
 	public void goToSedes(ActionEvent event) throws IOException {
 		Parent root = FXMLLoader.load(getClass().getResource("Sedes.fxml"));
 		stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-		scene = new Scene(root, 500, 400);
+		scene = new Scene(root, 900	, 700);
+	 
 		scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 		stage.setScene(scene);
 
@@ -61,10 +66,13 @@ public class MainController {
 	public void goToInscribirse(ActionEvent event) throws IOException {
 		Parent root = FXMLLoader.load(getClass().getResource("Inscribirse.fxml"));
 		stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-		scene = new Scene(root, 500, 400);
+		scene = new Scene(root, 500, 700);
 		scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 		stage.setScene(scene);
 
+	}
+	public void guardarArchivos() {
+		SistemaImp.getInstance().guardarArchivos();
 	}
 
 }

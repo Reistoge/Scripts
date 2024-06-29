@@ -25,4 +25,10 @@ public class ColorDecorator extends ActividadDecorator {
 		this.color = color;
 	}
 
+	@Override
+	public String getDescripcion() {
+		// TODO Auto-generated method stub
+		return "";
+	}
+
 }

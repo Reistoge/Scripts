@@ -1,4 +1,4 @@
-arturo,21.333.222-1,qJtR49LsP,coquimbo,Fusilero,AK-47,1,36
+arturo,21.333.222-1,qJtR49LsP,coquimbo,Fusilero,AK-47,7,36
 juan,20.001.230-4,7Fm#ZgP3wU,coquimbo,Fusilero,Tanque-F31,4,1500
 arturo,74.323.122-k,$dN8@2hRyX,serena,Marino,Barco,Marinero
 juan,45.710.246-8,5T#WpH9sDx,serena,Marino,Barco,Capitan

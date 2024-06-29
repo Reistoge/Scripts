@@ -23,11 +23,9 @@ public class Main {
 		// setea el boton de cierre.
 		ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		// tamaño de la ventana.
-		ventana.setSize(300,400);
-		
+		ventana.setSize(300,400);		
 		// se crea una lista de figuras.
-		List<Figura> figuras = new ArrayList<>();
- 
+		List<Figura> figuras = new ArrayList<>(); 
 		// obtenemos la ventana y le añadimos un JPanel.
 		ventana.getContentPane().add(createGUI(ventana,figuras));
 		ventana.setVisible(true);
@@ -41,31 +39,31 @@ public class Main {
 		JButton button1= crearBoton1(ventana,figuras,panelVacio);
 		JButton button2= new JButton("Button 2");
 		JButton button3= new JButton("Button 3");
+		
 		// si los añado de forma distinta ??
 		botonera.add(button1);
 		botonera.add(button2);
 		botonera.add(button3);
 		mainPanel.add(botonera,BorderLayout.NORTH);
 		mainPanel.add(panelVacio,BorderLayout.CENTER);
-		
-		
 		return mainPanel;
 		
 		
 		
 	}
+	
 	private static JButton crearBoton1(JFrame ventana, List<Figura> figuras, JPanel panelCentral) {
 		
-			
 		JButton b = new JButton("Nuevo Cuadrado");
-		b.addActionListener(e->{
+		// esto es lo que hace el boton.
+		b.addActionListener( e ->{
+			
 			DatosCuadradoDialog d = new DatosCuadradoDialog(ventana);
 			boolean saveClicked = d.showDialog();
 			if(!saveClicked) return;
 			int[] numbers =d.getNumbers();
 			figuras.add(new Cuadrado(numbers[0],numbers[1],numbers[2]));
 			panelCentral.repaint();
-			
 			
 		});
 		return b;
@@ -74,6 +72,10 @@ public class Main {
 
 	
 }
+abstract class Figura{
+	public abstract void dibujar (Graphics g);
+}
+ 
 class MiPanel extends JPanel{
 	private List<Figura> figuras;
 	public MiPanel(List<Figura> figuras) {
@@ -87,10 +89,7 @@ class MiPanel extends JPanel{
 	}
 	
 }
-abstract class Figura{
-	public abstract void dibujar (Graphics g);
-}
- 
+
 class Cuadrado extends Figura{
 	private int x,y,lado;
 	public Cuadrado(int i, int j, int lado) {

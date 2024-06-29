@@ -17,7 +17,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<SplitPane dividerPositions="0.5" orientation="VERTICAL" prefHeight="500.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MarinoController">
+<SplitPane dividerPositions="0.5" minHeight="600.0" minWidth="900.0" orientation="VERTICAL" stylesheets="@application.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MarinoController">
 	<items>
 		<VBox spacing="10.0">
 			<children>
@@ -48,46 +48,76 @@
 										<RowConstraints minHeight="10.0" prefHeight="10.0" vgrow="SOMETIMES" />
 									</rowConstraints>
 									<children>
-										<Label text="Nombre">
+										<Label fx:id="l1" text="Nombre">
                                  <GridPane.margin>
                                     <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
-                                 </GridPane.margin></Label>
+                                 </GridPane.margin>
+                                 <font>
+                                    <Font name="Consolas" size="30.0" />
+                                 </font></Label>
 										<Label fx:id="nombre" text="String" GridPane.columnIndex="1">
                                  <GridPane.margin>
                                     <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
-                                 </GridPane.margin></Label>
-										<Label text="Rut" GridPane.rowIndex="1">
+                                 </GridPane.margin>
+                                 <font>
+                                    <Font name="Consolas" size="30.0" />
+                                 </font></Label>
+										<Label fx:id="l2" text="Rut" GridPane.rowIndex="1">
                                  <GridPane.margin>
                                     <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
-                                 </GridPane.margin></Label>
+                                 </GridPane.margin>
+                                 <font>
+                                    <Font name="Consolas" size="30.0" />
+                                 </font></Label>
 										<Label fx:id="rut" text="String" GridPane.columnIndex="1" GridPane.rowIndex="1">
                                  <GridPane.margin>
                                     <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
-                                 </GridPane.margin></Label>
-										<Label text="cede" GridPane.rowIndex="2">
+                                 </GridPane.margin>
+                                 <font>
+                                    <Font name="Consolas" size="30.0" />
+                                 </font></Label>
+										<Label fx:id="l3" text="cede" GridPane.rowIndex="2">
                                  <GridPane.margin>
                                     <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
-                                 </GridPane.margin></Label>
+                                 </GridPane.margin>
+                                 <font>
+                                    <Font name="Consolas" size="30.0" />
+                                 </font></Label>
 										<Label fx:id="cede" text="String" GridPane.columnIndex="1" GridPane.rowIndex="2">
                                  <GridPane.margin>
                                     <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
-                                 </GridPane.margin></Label>
-										<Label text="embarcacion" GridPane.rowIndex="3">
+                                 </GridPane.margin>
+                                 <font>
+                                    <Font name="Consolas" size="30.0" />
+                                 </font></Label>
+										<Label fx:id="l4" text="embarcacion" GridPane.rowIndex="3">
                                  <GridPane.margin>
                                     <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
-                                 </GridPane.margin></Label>
+                                 </GridPane.margin>
+                                 <font>
+                                    <Font name="Consolas" size="30.0" />
+                                 </font></Label>
 										<Label fx:id="embarcacion" text="String" GridPane.columnIndex="1" GridPane.rowIndex="3">
                                  <GridPane.margin>
                                     <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
-                                 </GridPane.margin></Label>
-										<Label text="puesto de embarcacion" GridPane.rowIndex="4">
+                                 </GridPane.margin>
+                                 <font>
+                                    <Font name="Consolas" size="30.0" />
+                                 </font></Label>
+										<Label fx:id="l5" text="puesto de embarcacion" GridPane.rowIndex="4">
                                  <GridPane.margin>
                                     <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
-                                 </GridPane.margin></Label>
+                                 </GridPane.margin>
+                                 <font>
+                                    <Font name="Consolas" size="30.0" />
+                                 </font></Label>
 										<Label fx:id="puestoEmbarcacion" text="String" GridPane.columnIndex="1" GridPane.rowIndex="4">
                                  <GridPane.margin>
                                     <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
-                                 </GridPane.margin></Label>
+                                 </GridPane.margin>
+                                 <font>
+                                    <Font name="Consolas" size="30.0" />
+                                 </font></Label>
 									</children>
 									<padding>
 										<Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />

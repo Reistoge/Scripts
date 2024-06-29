@@ -3,9 +3,12 @@ package Logica;
 import java.util.ArrayList;
 
 public class SoldadoFactory {
+	float maxFactorEntrenamiento;
+	float maxFactorCorrer;
 
 	public SoldadoFactory() {
-
+		maxFactorCorrer = 0;
+		maxFactorCorrer = 0;
 	}
 
 	public Soldado crearSoldado(String[] datosSoldado) {
@@ -32,15 +35,13 @@ public class SoldadoFactory {
 		} else if (tipo.equalsIgnoreCase("marino")) {
 			String tipoEmbarcacion = datosSoldado[5];
 			String puestoEmbarcacion = datosSoldado[6];
-			
+
 			Marino m = new Marino(nombre, rut, contraseña, cede, tipo);
-			
-			 
-			
+
 			m.setEmbarcacion(tipoEmbarcacion);
 			m.setPuestoEmbarcacion(puestoEmbarcacion);
 			agregarEntrenamiento(m);
-			 
+
 			return m;
 		} else if (tipo.equalsIgnoreCase("piloto")) {
 			String lugarEspionaje = datosSoldado[5];
@@ -68,29 +69,23 @@ public class SoldadoFactory {
 
 	}
 
-
 	private void agregarEntrenamiento(Soldado s) {
-		//System.out.println(s.getRut());
+		// System.out.println(s.getRut());
 		String rut = s.getRut();
 		String[] rutPartes = rut.split("\\.");
 
 		float primerosDosDigitos = Float.parseFloat(rutPartes[0]);
 		float penultimoDigito = Float.parseFloat(rutPartes[2].split("-")[0].charAt(2) + "");
 		float factorEntrenamiento = penultimoDigito * primerosDosDigitos;
-		// System.out.println("aplicando ecuacion de entrenamiento para "+s.getNombre()
-		// +" "+ s.getRut()+":");
-		// System.out.println(primerosDosDigitos+"*"+penultimoDigito+"="+factorEntrenamiento);
-		// System.out.println("aplicando ecuacion de correr");
+
 		float tercerDigito = Float.parseFloat(rutPartes[1].charAt(0) + "");
 		float cuartoDigito = Float.parseFloat(rutPartes[1].charAt(1) + "");
 		float factorCorrer = ((tercerDigito + cuartoDigito) * 100) / 9.8f;
-		// System.out.println("factor de correr: "+factorCorrer);
-		// 21.642.668-1
+		s.setFactorCorrer(factorCorrer);
+		s.setFactorEntrenamiento(factorCorrer);
+
 		ActividadComponent entrenamiento = new Actividad("Entrenar",
 				"Ecuacion entrenamiento: " + factorEntrenamiento + "\nEcuacion de correr: " + factorCorrer);
 		s.getActividades().add(entrenamiento);
-
 	}
- 
 }
-

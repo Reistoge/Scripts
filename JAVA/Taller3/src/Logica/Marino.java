@@ -35,6 +35,12 @@ public class Marino extends Soldado {
 	public void setMarineros(ArrayList<Marino> marineros) {
 		this.marineros = marineros;
 	}
+
+	@Override
+	public String notification() {
+		return this.nombre + "," + this.rut + "," + this.contraseña + "," + this.cede + "," + this.tipo + ","
+				+ this.embarcacion + "," + this.puestoEmbarcacion + "\n";
+	}
 	
 
 }

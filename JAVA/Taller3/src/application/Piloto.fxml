@@ -42,26 +42,53 @@
 										<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
 									</columnConstraints>
 									<rowConstraints>
-										<RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
-										<RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
-										<RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
-										<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-										<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-										<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+										<RowConstraints minHeight="10.0" prefHeight="10.0" vgrow="SOMETIMES" />
+										<RowConstraints minHeight="10.0" prefHeight="10.0" vgrow="SOMETIMES" />
+										<RowConstraints minHeight="10.0" prefHeight="10.0" vgrow="SOMETIMES" />
+										<RowConstraints minHeight="10.0" prefHeight="10.0" vgrow="SOMETIMES" />
+										<RowConstraints minHeight="10.0" prefHeight="10.0" vgrow="SOMETIMES" />
 									</rowConstraints>
 									<children>
-										<Label text="Nombre" />
-										<Label text="String" GridPane.columnIndex="1" />
-										<Label text="cede" GridPane.rowIndex="1" />
-										<Label text="String" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-										<Label text="rut" GridPane.rowIndex="2" />
-										<Label text="String" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-										<Label text="Lugar donde Espian" GridPane.rowIndex="3" />
-										<Label text="String" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-										<Label text="tipo de nave" GridPane.rowIndex="4" />
-										<Label text="String" GridPane.columnIndex="1" GridPane.rowIndex="4" />
-										<Label text="altura de vuelo" GridPane.rowIndex="5" />
-										<Label text="float" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+										<Label text="Nombre">
+                                 <GridPane.margin>
+                                    <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
+                                 </GridPane.margin></Label>
+										<Label fx:id="nombre" text="String" GridPane.columnIndex="1">
+                                 <GridPane.margin>
+                                    <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
+                                 </GridPane.margin></Label>
+										<Label text="cede" GridPane.rowIndex="1">
+                                 <GridPane.margin>
+                                    <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
+                                 </GridPane.margin></Label>
+										<Label fx:id="cede" text="String" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                 <GridPane.margin>
+                                    <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
+                                 </GridPane.margin></Label>
+										<Label text="rut" GridPane.rowIndex="2">
+                                 <GridPane.margin>
+                                    <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
+                                 </GridPane.margin></Label>
+										<Label fx:id="rut" text="String" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                 <GridPane.margin>
+                                    <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
+                                 </GridPane.margin></Label>
+										<Label text="tipo de nave" GridPane.rowIndex="3">
+                                 <GridPane.margin>
+                                    <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
+                                 </GridPane.margin></Label>
+										<Label fx:id="tipoNave" text="String" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                                 <GridPane.margin>
+                                    <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
+                                 </GridPane.margin></Label>
+										<Label text="altura de vuelo" GridPane.rowIndex="4">
+                                 <GridPane.margin>
+                                    <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
+                                 </GridPane.margin></Label>
+										<Label fx:id="alturaVuelo" text="float" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                                 <GridPane.margin>
+                                    <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
+                                 </GridPane.margin></Label>
 									</children>
 									<padding>
 										<Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
@@ -103,20 +130,26 @@
 												<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
 											</columnConstraints>
 											<rowConstraints>
-												<RowConstraints maxHeight="56.0" minHeight="10.0" prefHeight="56.0" vgrow="SOMETIMES" />
+												<RowConstraints maxHeight="50.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
 											</rowConstraints>
 											<children>
-												<Label text="Lugar actual de espionaje" />
-												<Label prefHeight="17.0" prefWidth="295.0" text="String" GridPane.columnIndex="1" />
+												<Label text="Lugar actual de espionaje">
+                                       <GridPane.margin>
+                                          <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
+                                       </GridPane.margin></Label>
+												<Label fx:id="lugarDondeEspia" prefHeight="17.0" prefWidth="295.0" text="String" GridPane.columnIndex="1">
+                                       <GridPane.margin>
+                                          <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
+                                       </GridPane.margin></Label>
 											</children>
 										</GridPane>
 										<Text strokeType="OUTSIDE" strokeWidth="0.0" text="Nuevo Lugar" />
-										<TextField prefWidth="350.0" VBox.vgrow="NEVER">
+										<TextField fx:id="nuevoLugarField" prefWidth="350.0" VBox.vgrow="NEVER">
 											<VBox.margin>
 												<Insets right="100.0" />
 											</VBox.margin>
 										</TextField>
-										<Button mnemonicParsing="false" text="Actualizar" />
+										<Button mnemonicParsing="false" onAction="#cambiarLugarEspionaje" text="Actualizar" />
 									</children>
 								</VBox>
 							</content>

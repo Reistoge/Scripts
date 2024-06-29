@@ -33,4 +33,11 @@ public class Fusilero extends Soldado {
 		this.pesoArma = pesoArma;
 	}
 
+	@Override
+	public String notification() {
+		return this.nombre + "," + this.rut + "," + this.contraseña + "," + this.cede + "," + this.tipo + ","
+				+ this.arma + "," + this.clase + "," + this.pesoArma + "\n";
+
+	}
+
 }
