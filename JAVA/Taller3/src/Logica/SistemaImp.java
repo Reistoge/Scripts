@@ -18,6 +18,8 @@ public class SistemaImp implements ISistema {
 	Soldado loggedSoldado;
 	Sede loggedSede;
 
+	String[] colores = new String[3];
+
 	private SistemaImp() {
 		soldados = new ArrayList<Soldado>();
 		 
@@ -39,29 +41,35 @@ public class SistemaImp implements ISistema {
 		return instance;
 	}
 
-	public boolean verifyUser(String user2, String pass2) {
-		// leer archivo .
-//		try {
-//			leerArchivos();
-//
-//		} catch (FileNotFoundException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
-		System.out.println("intentando buscar usuario\nNombre: " + user2 + "\nContraseña: " + pass2);
-		for (Soldado s : instance.soldados) {
-			if (s.getNombre().equals(user2) && s.getContraseña().equals(pass2)) {
-				// se verifica
-				SistemaImp.instance.setLoggedSoldado(s);
-				System.out.println("loggin con exito !");
-				System.out.println(instance.getLoggedSoldado().toString());
-				return true;
-			}
-		}
-		System.out.println("contraseña o usuario incorrecto");
-		return false;
-
+	public static void setInstance(SistemaImp instance) {
+		SistemaImp.instance = instance;
 	}
+
+	public boolean verifyUser(String user2, String pass2) {
+			// leer archivo .
+	//		try {
+	//			leerArchivos();
+	//
+	//		} catch (FileNotFoundException e) {
+	//			// TODO Auto-generated catch block
+	//			e.printStackTrace();
+	//		}
+			System.out.println("intentando buscar usuario\nNombre: " + user2 + "\nContraseña: " + pass2);
+			for (Soldado s : instance.soldados) {
+				if (s.getNombre().equals(user2) && s.getContraseña().equals(pass2)) {
+					// se verifica
+					SistemaImp.instance.setLoggedSoldado(s);
+					System.out.println("loggin con exito !");
+					System.out.println(instance.getLoggedSoldado().toString());
+					return true;
+				}
+			}
+			System.out.println("contraseña o usuario incorrecto");
+			return false;
+	
+		}
+
+ 
 
 	public void leerArchivos() throws FileNotFoundException {
 		// soldados= new ArrayList<Soldado>();
@@ -103,17 +111,13 @@ public class SistemaImp implements ISistema {
 		this.loggedSoldado = loggedSoldado;
 	}
 
-	public static void setInstance(SistemaImp instance) {
-		SistemaImp.instance = instance;
-	}
-
 	public String[] getActividadColores() {
 		// TODO Auto-generated method stub
 		return SistemaImp.instance.colores;
 	}
 
 	public void agregarActividad(ActividadComponent a) {
-		loggedSoldado.actividades.add(a);
+		loggedSoldado.actividades.add(a);	
 	}
 
 	public TxtManager getTxtManager() {
@@ -139,8 +143,6 @@ public class SistemaImp implements ISistema {
 	public void setColores(String[] colores) {
 		this.colores = colores;
 	}
-
-	String[] colores = new String[3];
 
 	public void agregarSoldado(Soldado s) {
 

@@ -61,21 +61,8 @@ public class TxtManager implements IObserver{
 		return null;
 	}
 
-	public String leerActividades() throws FileNotFoundException {
-		Scanner scan = new Scanner(new File("Soldados.txt"));
-		while (scan.hasNextLine()) {
-
-		}
-		return null;
-	}
-
-	public String escrbirActividades() throws FileNotFoundException {
-		Scanner scan = new Scanner(new File("Soldados.txt"));
-		while (scan.hasNextLine()) {
-
-		}
-		return null;
-	}
+ 
+ 
 	public void guardarArchivos() throws IOException {
 		FileWriter escritor= new FileWriter("Soldados.txt");
 		String txt="";

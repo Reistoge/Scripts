@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class ColorDecorator extends ActividadDecorator {
 	String color;
-
+	
 	public ColorDecorator(ActividadComponent c, String color) {
 		super(c);
 		this.color = color;

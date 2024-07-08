@@ -62,15 +62,7 @@ public class MainController {
 		stage.setScene(scene);
 
 	}
-
-	public void goToInscribirse(ActionEvent event) throws IOException {
-		Parent root = FXMLLoader.load(getClass().getResource("Inscribirse.fxml"));
-		stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-		scene = new Scene(root, 500, 700);
-		scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
-		stage.setScene(scene);
-
-	}
+ 
 	public void guardarArchivos() {
 		SistemaImp.getInstance().guardarArchivos();
 	}

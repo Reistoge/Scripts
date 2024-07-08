@@ -1,5 +1,7 @@
 package application;
-
+// Ferran Rojas Andreu 21.642668-1
+// Maximo Sarno 21853202-0
+// Vicente Melendez 21.661.220-5
 import java.io.FileNotFoundException;
 import java.util.List;
 
@@ -40,7 +42,7 @@ public class Main extends Application {
 		
 		SistemaImp.getInstance().leerArchivos();
 		
-		//lector.leerSoldados();
+		//lector.leerSoldados();     
 		 
 		launch(args);
 
