@@ -14,7 +14,7 @@ int main()
         cout<<vector1[i];
         if(i==n-1){
             cout<<vector1[i]<<endl;
-
+            // asdaSD
         }
         
     }

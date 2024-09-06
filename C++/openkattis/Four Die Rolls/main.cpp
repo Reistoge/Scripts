@@ -3,6 +3,9 @@
 using namespace std;
 void calculatePosibles(vector<int>v,double &ashley,double &brandon){
     
+    for(int i=0;i<v.size();i++){
+
+    }
 
 }
 int main(){

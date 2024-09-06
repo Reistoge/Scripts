@@ -1,14 +1,12 @@
-from pytube import YouTube
-#pip intstall pytube
-def download_video(link):
-    try:
-        yt = YouTube(link)
-        stream = yt.streams.get_highest_resolution()
-        stream.download()  # Downloads the video
-        print("Download completed successfully!")
-    except Exception as e:
-        print(f"An error occurred: {e}")
+import youtube_dl
 
-if __name__ == "__main__":
-    video_link = input("Enter the YouTube video URL: ")
-    download_video(video_link)
+def download_video(url):
+    ydl_opts = {
+        'format': 'best',
+        'outtmpl': '%(title)s.%(ext)s',
+    }
+    with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+        ydl.download([url])
+
+video_url = input("Enter the YouTube video URL: ")
+download_video(video_url)

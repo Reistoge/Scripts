@@ -1,15 +1,13 @@
 {
+    "C_Cpp.default.compilerPath": "C:\\msys64\\ucrt64\\bin\\gcc.exe",
     "files.associations": {
         "iostream": "cpp",
-        "*.tcc": "cpp",
-        "cmath": "cpp",
-        "list": "cpp",
-        "numbers": "cpp",
         "any": "cpp",
         "array": "cpp",
         "atomic": "cpp",
         "barrier": "cpp",
         "bit": "cpp",
+        "*.tcc": "cpp",
         "bitset": "cpp",
         "cctype": "cpp",
         "cfenv": "cpp",
@@ -17,6 +15,7 @@
         "chrono": "cpp",
         "cinttypes": "cpp",
         "clocale": "cpp",
+        "cmath": "cpp",
         "codecvt": "cpp",
         "compare": "cpp",
         "complex": "cpp",
@@ -37,6 +36,7 @@
         "cwctype": "cpp",
         "deque": "cpp",
         "forward_list": "cpp",
+        "list": "cpp",
         "map": "cpp",
         "set": "cpp",
         "string": "cpp",
@@ -72,6 +72,7 @@
         "limits": "cpp",
         "mutex": "cpp",
         "new": "cpp",
+        "numbers": "cpp",
         "ostream": "cpp",
         "ranges": "cpp",
         "scoped_allocator": "cpp",
@@ -91,6 +92,5 @@
         "typeinfo": "cpp",
         "valarray": "cpp",
         "variant": "cpp"
-    },
-    "C_Cpp.errorSquiggles": "disabled"
+    }
 }
