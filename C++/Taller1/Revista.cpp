@@ -6,12 +6,12 @@ Revista::Revista(
          bool _estado,
          int _numeroEdicion,
          std::string _mesPublicacion
-         ): MaterialBibliografico(
+         ) : MaterialBibliografico(
             _nombre,
             _isbn,
             _autor,
-            _estado),
-            numeroEdicion(_numeroEdicion),
-            mesPublicacion(_mesPublicacion) {};
+            _estado), 
+         numeroEdicion(_numeroEdicion),
+         mesPublicacion(_mesPublicacion) {};
 int Revista::getFechaPublicacion(){};
 std::string Revista::getMesPublicacion(){};

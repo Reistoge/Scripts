@@ -3,7 +3,7 @@ class MaterialBibliografico{
     protected:
         std::string nombre,isbn,autor;
         bool estado;
-        MaterialBibliografico(std::string _nombre, std::string _isbn,std::string _autor,bool _estado);
+        MaterialBibliografico(std::string _nombre, std::string _isbn, std::string _autor,bool _estado);
         virtual void mostrarInformacion();
         std::string getNombre();
         void setNombre(std::string value);

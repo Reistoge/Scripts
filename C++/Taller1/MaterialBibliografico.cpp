@@ -7,5 +7,5 @@ std::string MaterialBibliografico::getIsbn(){return this->isbn;};
 void MaterialBibliografico::setIsbn(std::string value){this->isbn=value;};
 std::string MaterialBibliografico::getAutor(){return this->autor;};
 void MaterialBibliografico::setAutor(std::string value){this->autor=value;};
-bool MaterialBibliografico:: getEstado(){return this-estado;};
+bool MaterialBibliografico :: getEstado(){return this->estado;};
 void MaterialBibliografico:: setEstado(bool value){this->estado=value;};

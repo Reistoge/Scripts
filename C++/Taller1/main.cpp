@@ -7,7 +7,7 @@ int main()
     //para compilar debes colocar desde m
     Sistema *sistema = new Sistema();
     Impresora *impr = new Impresora();
-
+    
     string input;
     while (input != "7")
     {
@@ -17,11 +17,14 @@ int main()
         {
             impr->showAgregarMaterial();
             // tomamos el input del nuevo material
-            
-            
             getline(cin, input);
 
-            sistema->agregarMaterial(input);
+            if(sistema->agregarMaterial(input)){
+                cout <<"Material "<< input<<" fue agregado correctamente" << endl;
+            }
+            else{
+                cout << "No se puede agregar el material " << input << endl;
+            }
         }
         else if (input == "2")
         {
