@@ -4,6 +4,7 @@
 class Impresora{
     public:
         void menu();
+        void imprimir(std::string l,bool saltar);
         void showAgregarMaterial();
         void showMostrarInformacion();
         void showBuscarMaterial();

@@ -6,15 +6,17 @@ class Libro : public MaterialBibliografico{
        std::string fechaPublicacion,resumen;
     public:
         Libro(
-         std::string _nombre,
-         std::string _isbn,
-         std::string _autor,
-         bool _estado,
-         std::string _fechaPublicacion,
-         std::string _resumen
+         std::string titulo_,
+         std::string isbn_,
+         std::string autor_,
+         std::string estado_,
+         std::string fechaPublicacion_,
+         std::string resumen_
          );
          
         std::string getFechaPublicacion();
         std::string getResumen();
+        std::string getInformacion();
+        void mostrarInformacion();
 
 };

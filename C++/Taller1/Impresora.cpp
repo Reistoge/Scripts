@@ -1,8 +1,9 @@
+
 #include "Impresora.h"
 
 void Impresora::menu()
 {
-    std::cout << std::string(100, '\n');
+     
     std::cout << "==============================\n"
               << "  Biblioteca - Menu Principal\n"
               << "==============================\n"
@@ -17,32 +18,43 @@ void Impresora::menu()
               << "\nSeleccione una opcion: \n";
 
 }
+void Impresora::imprimir(std::string l,bool saltar){
+    std::cout << l ;
+    if(saltar){
+        std::cout << std::endl;
+    }
+}
 void Impresora::showAgregarMaterial()
 {
     std::cout << std::string(100, '\n');
     std::cout << "1. Agregar Material a la Biblioteca\n"
               << "--------------------------------\n"
-              << "Material(Libro/Revista), titulo, autor, año de publicacion, número de páginas, parametros Extras : \n"
-              << "[Validar que no se exceda el tamaño máximo del array]\n"
+              << "Formato(Libro/Revista), nombre, isbn, autor, prestado (idUser/disponible) , parametros Extras : \n"
+              << "Por favor ingrese los datos solicitados separados por coma (,)\n"
+               
+              << "Ej1: Libro, El principito, 1-4028-9462-7, Antoine de Saint-Exupery, disponible, 06/04/1943, original y divertido \n"
+              << "Ej2: Revista, Club Nintendo, 978-1-4028-9462-6, Nintendo MX, 98234, 13, Agosto\n"
+              << "[Validar que no se exceda el tamanho maximo del array]\n"
               << "\n--------------------------------\n";
+    
 }
 void Impresora::showMostrarInformacion()
 {
     std::cout << std::string(100, '\n');
 
-    std::cout << "2. Mostrar Información de los Materiales\n"
-              << "--------------------------------\n"
-              << "[Lista de todos los materiales con su información detallada]\n"
-              << "\n--------------------------------\n";
+    std::cout << "2. Mostrar Informacion de los Materiales\n"
+              << "--------------------------------\n";
+              
 }
 void Impresora::showBuscarMaterial()
 {
     std::cout << std::string(100, '\n');
     std::cout << "3. Buscar Material\n"
               << "--------------------------------\n"
-              << "Criterio de búsqueda (Título/Autor), termino de búsqueda: \n"
+              << "Criterio de busqueda (Título/Autor), termino de busqueda: \n"
+              << "Por favor ingrese los datos solicitados separados por coma (,)\n"
               << " \n"
-              << "[Resultados de la búsqueda]\n"
+              << "[Resultados de la busqueda]\n"
               << "\n--------------------------------\n";
 }
 void Impresora::showPrestarMaterial()
@@ -50,7 +62,7 @@ void Impresora::showPrestarMaterial()
     std::cout << std::string(100, '\n');
     std::cout << "4. Prestar Material\n"
               << "--------------------------------\n"
-              << "Ingrese el ID del material a prestar: \n"
+              << "Ingrese el titulo del material a prestar: \n"
               << "Ingrese el ID del usuario: \n"
               << "[Actualizar el estado prestado del material y registrarlo en el array materialesPrestados del Usuario]\n"
               << "\n--------------------------------\n";
@@ -60,7 +72,7 @@ void Impresora::showDevolverMaterial()
     std::cout << std::string(100, '\n');
     std::cout << "5. Devolver Material\n"
               << "--------------------------------\n"
-              << "Ingrese el ID del material a devolver: \n"
+              << "Ingrese el titulo del material a devolver: \n"
               << "Ingrese el ID del usuario: \n"
               << "[Actualizar el estado del material]\n"
               << "\n--------------------------------\n";
