@@ -13,7 +13,7 @@ Revista::Revista(
             _autor,
             _estado), 
          numeroEdicion(_numeroEdicion),
-         mesPublicacion(_mesPublicacion) {};
+         mesPublicacion(_mesPublicacion) {this->tipo="Revista";};
 int Revista::getNumeroEdicion(){return this-> numeroEdicion;};
 std::string Revista::getMesPublicacion(){return this->mesPublicacion;};
 void Revista::setNumeroEdicion(int value){this->numeroEdicion =value;};
@@ -25,7 +25,10 @@ void Revista:: mostrarInformacion(){
 };
 std::string  Revista:: getInformacion(){
    std::string info = MaterialBibliografico::getInformacion();
-   info += "\nFecha de publicacion: " + std::to_string(numeroEdicion) + "\nMes de publicacion: " +mesPublicacion;
+   info += "\nNumero de edicion: " + std::to_string(numeroEdicion) + "\nMes de publicacion: " +mesPublicacion;
    return info;
  
 };
+std::string Revista::toString(){
+   return MaterialBibliografico::toString()+";"+std::to_string(numeroEdicion)+";"+mesPublicacion;
+}

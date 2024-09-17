@@ -1,4 +1,3 @@
-
 #include "Impresora.h"
 
 void Impresora::menu()
@@ -7,15 +6,15 @@ void Impresora::menu()
     std::cout << "==============================\n"
               << "  Biblioteca - Menu Principal\n"
               << "==============================\n"
-              << "1. Agregar Material a la Biblioteca\n"
-              << "2. Mostrar Informacion de los Materiales\n"
-              << "3. Buscar Material\n"
-              << "4. Prestar Material\n"
-              << "5. Devolver Material\n"
-              << "6. Gestion de Usuarios\n"
-              << "7. Salir\n"
+              << "  1. Agregar Material a la Biblioteca\n"
+              << "  2. Mostrar Informacion de los Materiales\n"
+              << "  3. Buscar Material\n"
+              << "  4. Prestar Material\n"
+              << "  5. Devolver Material\n"
+              << "  6. Gestion de Usuarios\n"
+              << "  7. Salir\n"
               << "==============================\n"
-              << "\nSeleccione una opcion: \n";
+              << "\nSeleccione una opcion: ";
 
 }
 void Impresora::imprimir(std::string l,bool saltar){
@@ -26,21 +25,25 @@ void Impresora::imprimir(std::string l,bool saltar){
 }
 void Impresora::showAgregarMaterial()
 {
-    std::cout << std::string(100, '\n');
-    std::cout << "1. Agregar Material a la Biblioteca\n"
-              << "--------------------------------\n"
-              << "Formato(Libro/Revista), nombre, isbn, autor, prestado (idUser/disponible) , parametros Extras : \n"
-              << "Por favor ingrese los datos solicitados separados por coma (,)\n"
-               
-              << "Ej1: Libro, El principito, 1-4028-9462-7, Antoine de Saint-Exupery, disponible, 06/04/1943, original y divertido \n"
-              << "Ej2: Revista, Club Nintendo, 978-1-4028-9462-6, Nintendo MX, 98234, 13, Agosto\n"
-              << "[Validar que no se exceda el tamanho maximo del array]\n"
-              << "\n--------------------------------\n";
-    
+    std::cout << std::string(10, '\n');
+    std::cout << "=============================================\n"
+            << "  Agregar Material a la Biblioteca\n"
+            << "=============================================\n"
+            << "Por favor ingrese los siguientes datos:\n"
+            << "  - Tipo de material (Libro/Revista)\n"
+            << "  - Titulo del material\n"
+            << "  - ISBN del material\n"
+            << "  - Autor del material\n"
+            << "  - Estado del material (disponible/idUser)\n"
+            << "  - Parametros extras\n"
+            << "Ejemplo: Libro;El principito;1-4028-9462-7;Antoine de Saint-Exupery;disponible;06/04/1943;original y divertido\n"
+            << "---------------------------------------------------------\n"
+            << "Ingrese los datos solicitados separados por punto coma (,)\n"
+            << "\n--------------------------------\n";
 }
 void Impresora::showMostrarInformacion()
 {
-    std::cout << std::string(100, '\n');
+    std::cout << std::string(10, '\n');
 
     std::cout << "2. Mostrar Informacion de los Materiales\n"
               << "--------------------------------\n";
@@ -48,78 +51,100 @@ void Impresora::showMostrarInformacion()
 }
 void Impresora::showBuscarMaterial()
 {
-    std::cout << std::string(100, '\n');
-    std::cout << "3. Buscar Material\n"
-              << "--------------------------------\n"
-              << "Criterio de busqueda (Título/Autor), termino de busqueda: \n"
-              << "Por favor ingrese los datos solicitados separados por coma (,)\n"
-              << " \n"
-              << "[Resultados de la busqueda]\n"
-              << "\n--------------------------------\n";
+std::cout << std::string(10, '\n');
+std::cout << "=============================================\n"
+          << "  Buscar Material\n"
+          << "=============================================\n"
+          << "Por favor ingrese los siguientes datos:\n"
+          << "  - Criterio de busqueda (Titulo/Autor)\n"
+          << "  - Termino de busqueda\n"
+          << "Ejemplo: Titulo;El principito\n"
+          << "---------------------------------------------------------\n"
+          << "Ingrese los datos solicitados separados por punto coma (;)\n"
+          << "\n--------------------------------\n";
 }
 void Impresora::showPrestarMaterial()
 {
-    std::cout << std::string(100, '\n');
-    std::cout << "4. Prestar Material\n"
-              << "--------------------------------\n"
-              << "Ingrese el titulo del material a prestar: \n"
-              << "Ingrese el ID del usuario: \n"
-              << "[Actualizar el estado prestado del material y registrarlo en el array materialesPrestados del Usuario]\n"
-              << "\n--------------------------------\n";
+    std::cout << std::string(10, '\n');
+    std::cout << "=============================================\n"
+            << "  Prestar Material\n"
+            << "=============================================\n"
+            << "Por favor ingrese los siguientes datos:\n"
+            << "  - ID del usuario\n"
+            << "  - Titulo del material\n"
+            << "Ejemplo: 1234;El principito\n"
+            << "---------------------------------------------------------\n"
+            << "Ingrese los datos solicitados separados por punto coma (;)\n"
+            << "\n--------------------------------\n";
 }
 void Impresora::showDevolverMaterial()
 {
-    std::cout << std::string(100, '\n');
-    std::cout << "5. Devolver Material\n"
-              << "--------------------------------\n"
-              << "Ingrese el titulo del material a devolver: \n"
-              << "Ingrese el ID del usuario: \n"
-              << "[Actualizar el estado del material]\n"
-              << "\n--------------------------------\n";
+    std::cout << std::string(10, '\n');
+    std::cout << "=============================================\n"
+            << "  Devolver Material\n"
+            << "=============================================\n"
+            << "Por favor ingrese los siguientes datos:\n"
+            << "  - ID del usuario\n"
+            << "  - Titulo del material\n"
+            << "Ejemplo: 12345;El principito\n"
+            << "---------------------------------------------------------\n"
+            << "Ingrese los datos solicitados separados por punto coma (;)\n"
+            << "\n--------------------------------\n";
 }
 void Impresora::showGestionUsuarios()
 {
-    std::cout << std::string(100, '\n');
-    std::cout << "6. Gestión de Usuarios\n"
+    std::cout << std::string(10, '\n');
+    std::cout << "6. Gestion de Usuarios\n"
               << "--------------------------------\n"
-              << "1. Crear Usuario\n"
-              << "2. Buscar Usuario\n"
-              << "3. Eliminar Usuario\n"
-              << "4. Volver al Menú Principal\n"
-              << "\nSeleccione una opción: \n"
+              << "  1. Crear Usuario\n"
+              << "  2. Buscar Usuario\n"
+              << "  3. Eliminar Usuario\n"
+              << "  4. Volver al Menu Principal\n"
+              << "\nSeleccione una opcion: \n"
               << "\n--------------------------------\n";
 }
 void Impresora::showCrearUsuario()
 {
-    std::cout << std::string(100, '\n');
-    std::cout << "1. Crear Usuario\n"
-              << "--------------------------------\n"
-              << "Ingrese el nombre del usuario: \n"
-              << "Ingrese el ID del usuario: \n"
-              << "[Asociar materiales prestados a usuarios específicos]\n"
-              << "\n--------------------------------\n";
+    std::cout << "=============================================\n"
+            << "  Crear Usuario\n"
+            << "=============================================\n"
+            << "Por favor ingrese los siguientes datos:\n"
+            << "  - ID del usuario\n"
+            << "  - Nombre del usuario\n"
+            << "Ejemplo: 1234;Juan\n"
+            << "---------------------------------------------------------\n"
+            << "Ingrese los datos solicitados separados por punto coma (;)\n"
+            << "\n--------------------------------\n";
 }
 void Impresora::showBuscarUsuario()
 {
-    std::cout << std::string(100, '\n');
-    std::cout << "2. Buscar Usuario\n"
-              << "--------------------------------\n"
-              << "Ingrese el ID del usuario: \n"
-              << "[Mostrar información del usuario y materiales prestados]\n"
-              << "\n--------------------------------\n";
+    std::cout << std::string(10, '\n');
+    std::cout << "=============================================\n"
+            << "  Buscar Usuario\n"
+            << "=============================================\n"
+            << "Por favor ingrese los siguientes datos:\n"
+            << "  - Criterio de busqueda (ID/Nombre)\n"
+            << "  - Termino de busqueda\n"
+            << "Ejemplo: ID;1234\n"
+            << "---------------------------------------------------------\n"
+            << "Ingrese los datos solicitados separados por punto coma (,)\n"
+            << "\n--------------------------------\n";
 }
 void Impresora::showEliminarUsuario()
 {
-    std::cout << std::string(100, '\n');
-    std::cout << "3. Eliminar Usuario\n"
-              << "--------------------------------\n"
-              << "Ingrese el ID del usuario: \n"
-              << "[Eliminar usuario y actualizar registros]\n"
-              << "\n--------------------------------\n";
+    std::cout << "=============================================\n"
+            << "  Eliminar Usuario\n"
+            << "=============================================\n"
+            << "Por favor ingrese los siguientes datos:\n"
+            << "  - ID del usuario\n"
+            << "Ejemplo: 1234\n"
+            << "---------------------------------------------------------\n"
+            << "Ingrese el ID del usuario: \n"
+            << "\n--------------------------------\n";
 }
 void Impresora::showVolverMenu()
 {
-    std::cout << std::string(100, '\n');
-    std::cout << "4. Volver al Menú Principal\n"
+    std::cout << std::string(10, '\n');
+    std::cout << "4. Volver al Menu Principal\n"
               << "--------------------------------\n";
-}
+};

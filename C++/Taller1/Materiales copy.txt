@@ -1,0 +1,5 @@
+Libro; Introduccion a la Programacion; 978-3-16-148410-0; John Doe; disponible; 2020-05-15; Un libro introductorio a la programacion
+Revista; Revista de Ciencia; 1234-5678; Jane Smith; 001; 32; Julio
+Libro; Estructuras de Datos; 978-1-234-56789-7; Alan Turing; 002; 2018-08-20; Aborda conceptos avanzados de estructuras de datos
+Revista; Tecnologia Hoy; 5678-1234; Alice Johnson; disponible; 15; Marzo
+Libro; Inteligencia Artificial; 978-0-12-345678-9; Andrew Ng; disponible; 2021-11-11; Exploracion de los fundamentos de la inteligencia artificial

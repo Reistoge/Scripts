@@ -2,6 +2,7 @@
 #include "MaterialBibliografico.h"
 #include <iostream>
 #define MAX_USUARIO 5
+class MaterialBibliografico;
 class Usuario
 {
 private:
@@ -20,9 +21,11 @@ public:
     void setId(std::string id_);
     MaterialBibliografico *getMaterialPrestado(int index);
     void setMaterialPrestado(MaterialBibliografico *material, int index);
-
+    std::string getInfo();
+    std::string  toString();
     void prestarMaterial(MaterialBibliografico *material);
     void devolverMaterial(MaterialBibliografico *material);
+    void  devolverMateriales();
     std::string getInfoPrestados();
     ~Usuario();
 };

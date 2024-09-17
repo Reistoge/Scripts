@@ -21,6 +21,7 @@ public:
     void setNumeroEdicion(int value) ; 
     void setMesPublicacion(std::string value);
     void mostrarInformacion();
-    std::string    getInformacion();
+    std::string   getInformacion();
+    std::string toString();
 
 };

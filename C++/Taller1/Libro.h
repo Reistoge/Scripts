@@ -18,5 +18,6 @@ class Libro : public MaterialBibliografico{
         std::string getResumen();
         std::string getInformacion();
         void mostrarInformacion();
+        std::string toString();
 
 };
